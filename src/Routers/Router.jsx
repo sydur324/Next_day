@@ -342,6 +342,67 @@ import NaturalBoard from "../Journals/Natural/NaturalBoard/NaturalBoard";
 import NaturalArcive from "../Journals/Natural/NaturalArcive/NaturalArcive";
 import PhilosophyLayout from "../Layout/PhilosophyLayout";
 import PhilosophyHome from "../Journals/Philosophy/PhilosophyHome/PhilosophyHome";
+import CompletedList from "../ListJournals/CompletedList/CompletedList";
+import BusinessGeneralLayout from "../Layout/BusinessGeneralLayout";
+import BusinessGeneralHome from "../Journals/BusinessGeneral/BusinessGeneralHome/BusinessGeneralHome";
+import BusinessGeneralIssue from "../Journals/BusinessGeneral/BusinessGeneralIssue/BusinessGeneralIssue";
+import BusinessGeneralScope from "../Journals/BusinessGeneral/BusinessGeneralScope/BusinessGeneralScope";
+import BusinessGeneralBoard from "../Journals/BusinessGeneral/BusinessGeneralBoard/BusinessGeneralBoard";
+import BusinessGeneralArcive from "../Journals/BusinessGeneral/BusinessGeneralArcive/BusinessGeneralArcive";
+import HumanitiesGeneralLayout from "../Layout/HumanitiesGeneralLayout";
+import HumanitiesGeneralHome from "../Journals/HumanitiesGeneral/HumanitiesGeneralHome/HumanitiesGeneralHome";
+import HumanitiesGeneralIssue from "../Journals/HumanitiesGeneral/HumanitiesGeneralIssue/HumanitiesGeneralIssue";
+import HumanitiesGeneralScope from "../Journals/HumanitiesGeneral/HumanitiesGeneralScope/HumanitiesGeneralScope";
+import HumanitiesGeneralBoard from "../Journals/HumanitiesGeneral/HumanitiesGeneralBoard/HumanitiesGeneralBoard";
+import HumanitiesGeneralArcive from "../Journals/HumanitiesGeneral/HumanitiesGeneralArcive/HumanitiesGeneralArcive";
+import TechnologyLayout from "../Layout/TechnologyLayout";
+import TechnologyHome from "../Journals/Technology/TechnologyHome/TechnologyHome";
+import TechnologyIssue from "../Journals/Technology/TechnologyIssue/TechnologyIssue";
+import TechnologyScope from "../Journals/Technology/TechnologyScope/TechnologyScope";
+import TechnologyBoard from "../Journals/Technology/TechnologyBoard/TechnologyBoard";
+import TechnologyArcive from "../Journals/Technology/TechnologyArcive/TechnologyArcive";
+import ContemporaryGeneralLayout from "../Layout/ContemporaryGeneralLayout";
+import ContemporaryGeneralHome from "../Journals/ContemporaryGeneral/ContemporaryGeneralHome/ContemporaryGeneralHome";
+import ContemporaryGeneralIssue from "../Journals/ContemporaryGeneral/ContemporaryGeneralIssue/ContemporaryGeneralIssue";
+import ContemporaryGeneralScope from "../Journals/ContemporaryGeneral/ContemporaryGeneralScope/ContemporaryGeneralScope";
+import ContemporaryGeneralBoard from "../Journals/ContemporaryGeneral/ContemporaryGeneralBoard/ContemporaryGeneralBoard";
+import ContemporaryGeneralArcive from "../Journals/ContemporaryGeneral/ContemporaryGeneralArcive/ContemporaryGeneralArcive";
+import BUTLayout from "../Layout/BUTLayout";
+import BUTHome from "../Journals/BUT/BUTHome/BUTHome";
+import BUTIssue from "../Journals/BUT/BUTIssue/BUTIssue";
+import BUTScope from "../Journals/BUT/BUTScope/BUTScope";
+import BUTBoard from "../Journals/BUT/BUTBoard/BUTBoard";
+import BUTArcive from "../Journals/BUT/BUTArcive/BUTArcive";
+import SocialGeneralLayout from "../Layout/SocialGeneralLayout";
+import SocialGeneralHome from "../Journals/SocialGeneral/SocialGeneralHome/SocialGeneralHome";
+import SocialGeneralIssue from "../Journals/SocialGeneral/SocialGeneralIssue/SocialGeneralIssue";
+import SocialGeneralScope from "../Journals/SocialGeneral/SocialGeneralScope/SocialGeneralScope";
+import SocialGeneralBoard from "../Journals/SocialGeneral/SocialGeneralBoard/SocialGeneralBoard";
+import SocialGeneralArcive from "../Journals/SocialGeneral/SocialGeneralArcive/SocialGeneralArcive";
+import EconomicPolicyLayout from "../Layout/EconomicPolicyLayout";
+import EconomicPolicyHome from "../Journals/EconomicPolicy/EconomicPolicyHome/EconomicPolicyHome";
+import EconomicPolicyIssue from "../Journals/EconomicPolicy/EconomicPolicyIssue/EconomicPolicyIssue";
+import EconomicPolicyScope from "../Journals/EconomicPolicy/EconomicPolicyScope/EconomicPolicyScope";
+import EconomicPolicyBoard from "../Journals/EconomicPolicy/EconomicPolicyBoard/EconomicPolicyBoard";
+import EconomicPolicyArcive from "../Journals/EconomicPolicy/EconomicPolicyArcive/EconomicPolicyArcive";
+import EducationPolicyLayout from "../Layout/EducationPolicyLayout";
+import EducationPolicyHome from "../Journals/EducationPolicy/EducationPolicyHome/EducationPolicyHome";
+import EducationPolicyIssue from "../Journals/EducationPolicy/EducationPolicyIssue/EducationPolicyIssue";
+import EducationPolicyScope from "../Journals/EducationPolicy/EducationPolicyScope/EducationPolicyScope";
+import EducationPolicyBoard from "../Journals/EducationPolicy/EducationPolicyBoard/EducationPolicyBoard";
+import EducationPolicyArcive from "../Journals/EducationPolicy/EducationPolicyArcive/EducationPolicyArcive";
+import LifeLayout from "../Layout/LifeLayout";
+import LifeHome from "../Journals/Life/LifeHome/LifeHome";
+import LifeIssue from "../Journals/Life/LifeIssue/LifeIssue";
+import LifeScope from "../Journals/Life/LifeScope/LifeScope";
+import LifeBoard from "../Journals/Life/LifeBoard/LifeBoard";
+import LifeArcive from "../Journals/Life/LifeArcive/LifeArcive";
+import LinguisticsCpiLayout from "../Layout/LinguisticsCpiLayout";
+import LinguisticsCpiHome from "../Journals/LinguisticsCpi/LinguisticsCpiHome/LinguisticsCpiHome";
+import LinguisticsCpiIssue from "../Journals/LinguisticsCpi/LinguisticsCpiIssue/LinguisticsCpiIssue";
+import LinguisticsCpiScope from "../Journals/LinguisticsCpi/LinguisticsCpiScope/LinguisticsCpiScope";
+import LinguisticsCpiBoard from "../Journals/LinguisticsCpi/LinguisticsCpiBoard/LinguisticsCpiBoard";
+import LinguisticsCpiArcive from "../Journals/LinguisticsCpi/LinguisticsCpiArcive/LinguisticsCpiArcive";
 
 
 export const router = createBrowserRouter([
@@ -356,6 +417,10 @@ export const router = createBrowserRouter([
             {
                 path: "/subjects",
                 element: <Subjects></Subjects>
+            },
+            {
+                path: "/compltedlist",
+                element: <CompletedList></CompletedList>
             },
             {
                 path: "/research",
@@ -1856,6 +1921,276 @@ export const router = createBrowserRouter([
                         path:"/ijpt",
                         element:<PhilosophyHome></PhilosophyHome>
                     }
+                ]
+            },
+
+            {
+                path:"/ijbss",
+                element:<BusinessGeneralLayout></BusinessGeneralLayout>,
+                children:[
+                    {
+                        path:"/ijbss",
+                        element:<BusinessGeneralHome></BusinessGeneralHome>
+                    },
+                    {
+                        path:"/ijbss/current-ijbss",
+                        element:<BusinessGeneralIssue></BusinessGeneralIssue>
+                    },
+                    {
+                        path:"/ijbss/scope-ijbss",
+                        element:<BusinessGeneralScope></BusinessGeneralScope>
+                    },
+                    {
+                        path:"/ijbss/editorial-board",
+                        element:<BusinessGeneralBoard></BusinessGeneralBoard>
+                    },
+                    {
+                        path:"/ijbss/archive-ijbss",
+                        element:<BusinessGeneralArcive></BusinessGeneralArcive>
+                    },
+                ]
+            },
+
+            {
+                path:"/ijhss",
+                element:<HumanitiesGeneralLayout></HumanitiesGeneralLayout>,
+                children:[
+                    {
+                        path:"/ijhss",
+                        element:<HumanitiesGeneralHome></HumanitiesGeneralHome>
+                    },
+                    {
+                        path:"/ijhss/current-ijhss",
+                        element:<HumanitiesGeneralIssue></HumanitiesGeneralIssue>
+                    },
+                    {
+                        path:"/ijhss/scope-ijhss",
+                        element:<HumanitiesGeneralScope></HumanitiesGeneralScope>
+                    },
+                    {
+                        path:"/ijhss/editorial-board",
+                        element:<HumanitiesGeneralBoard></HumanitiesGeneralBoard>
+                    },
+                    {
+                        path:"/ijhss/archive-ijhss",
+                        element:<HumanitiesGeneralArcive></HumanitiesGeneralArcive>
+                    },
+                ]
+            },
+
+            {
+                path:"/ijast",
+                element:<TechnologyLayout></TechnologyLayout>,
+                children:[
+                    {
+                        path:"/ijast",
+                        element:<TechnologyHome></TechnologyHome>
+                    },
+                    {
+                        path:"/ijast/current-ijast",
+                        element:<TechnologyIssue></TechnologyIssue>
+                    },
+                    {
+                        path:"/ijast/scope-ijast",
+                        element:<TechnologyScope></TechnologyScope>
+                    },
+                    {
+                        path:"/ijast/editorial-board",
+                        element:<TechnologyBoard></TechnologyBoard>
+                    },
+                    {
+                        path:"/ijast/archive-ijast",
+                        element:<TechnologyArcive></TechnologyArcive>
+                    },
+                ]
+            },
+
+            {
+                path:"/aijcr",
+                element:<ContemporaryGeneralLayout></ContemporaryGeneralLayout>,
+                children:[
+                    {
+                        path:"/aijcr",
+                        element:<ContemporaryGeneralHome></ContemporaryGeneralHome>
+                    },
+                    {
+                        path:"/aijcr/current-aijcr",
+                        element:<ContemporaryGeneralIssue></ContemporaryGeneralIssue>
+                    },
+                    {
+                        path:"/aijcr/scope-aijcr",
+                        element:<ContemporaryGeneralScope></ContemporaryGeneralScope>
+                    },
+                    {
+                        path:"/aijcr/editorial-board",
+                        element:<ContemporaryGeneralBoard></ContemporaryGeneralBoard>
+                    },
+                    {
+                        path:"/aijcr/archive-aijcr",
+                        element:<ContemporaryGeneralArcive></ContemporaryGeneralArcive>
+                    },
+                ]
+            },
+
+            {
+                path:"/ijbht",
+                element:<BUTLayout></BUTLayout>,
+                children:[
+                    {
+                        path:"/ijbht",
+                        element:<BUTHome></BUTHome>
+                    },
+                    {
+                        path:"/ijbht/current-ijbht",
+                        element:<BUTIssue></BUTIssue>
+                    },
+                    {
+                        path:"/ijbht/scope-ijbht",
+                        element:<BUTScope></BUTScope>
+                    },
+                    {
+                        path:"/ijbht/editorial-board",
+                        element:<BUTBoard></BUTBoard>
+                    },
+                    {
+                        path:"/ijbht/archive-ijbht",
+                        element:<BUTArcive></BUTArcive>
+                    },
+                ]
+            },
+
+            {
+                path:"/aijss",
+                element:<SocialGeneralLayout></SocialGeneralLayout>,
+                children:[
+                    {
+                        path:"/aijss",
+                        element:<SocialGeneralHome></SocialGeneralHome>
+                    },
+                    {
+                        path:"/aijss/current-aijss",
+                        element:<SocialGeneralIssue></SocialGeneralIssue>
+                    },
+                    {
+                        path:"/aijss/scope-aijss",
+                        element:<SocialGeneralScope></SocialGeneralScope>
+                    },
+                    {
+                        path:"/aijss/editorial-board",
+                        element:<SocialGeneralBoard></SocialGeneralBoard>
+                    },
+                    {
+                        path:"/aijss/archive-aijss",
+                        element:<SocialGeneralArcive></SocialGeneralArcive>
+                    },
+                ]
+            },
+
+            {
+                path:"/jbep",
+                element:<EconomicPolicyLayout></EconomicPolicyLayout>,
+                children:[
+                    {
+                        path:"/jbep",
+                        element:<EconomicPolicyHome></EconomicPolicyHome>
+                    },
+                    {
+                        path:"/jbep/current-jbep",
+                        element:<EconomicPolicyIssue></EconomicPolicyIssue>
+                    },
+                    {
+                        path:"/jbep/scope-jbep",
+                        element:<EconomicPolicyScope></EconomicPolicyScope>
+                    },
+                    {
+                        path:"/jbep/editorial-board",
+                        element:<EconomicPolicyBoard></EconomicPolicyBoard>
+                    },
+                    {
+                        path:"/jbep/archive-jbep",
+                        element:<EconomicPolicyArcive></EconomicPolicyArcive>
+                    },
+                ]
+            },
+
+            {
+                path:"/jesp",
+                element:<EducationPolicyLayout></EducationPolicyLayout>,
+                children:[
+                    {
+                        path:"/jesp",
+                        element:<EducationPolicyHome></EducationPolicyHome>
+                    },
+                    {
+                        path:"/jesp/current-jesp",
+                        element:<EducationPolicyIssue></EducationPolicyIssue>
+                    },
+                    {
+                        path:"/jesp/scope-jesp",
+                        element:<EducationPolicyScope></EducationPolicyScope>
+                    },
+                    {
+                        path:"/jesp/editorial-board",
+                        element:<EducationPolicyBoard></EducationPolicyBoard>
+                    },
+                    {
+                        path:"/jesp/archive-jesp",
+                        element:<EducationPolicyArcive></EducationPolicyArcive>
+                    },
+                ]
+            },
+
+            {
+                path:"/jals",
+                element:<LifeLayout></LifeLayout>,
+                children:[
+                    {
+                        path:"/jals",
+                        element:<LifeHome></LifeHome>
+                    },
+                    {
+                        path:"/jals/current-jals",
+                        element:<LifeIssue></LifeIssue>
+                    },
+                    {
+                        path:"/jals/scope-jals",
+                        element:<LifeScope></LifeScope>
+                    },
+                    {
+                        path:"/jals/editorial-board",
+                        element:<LifeBoard></LifeBoard>
+                    },
+                    {
+                        path:"/jals/archive-jals",
+                        element:<LifeArcive></LifeArcive>
+                    },
+                ]
+            },
+
+            {
+                path:"/ijllnet",
+                element:<LinguisticsCpiLayout></LinguisticsCpiLayout>,
+                children:[
+                    {
+                        path:"/ijllnet",
+                        element:<LinguisticsCpiHome></LinguisticsCpiHome>
+                    },
+                    {
+                        path:"/ijllnet/current-ijllnet",
+                        element:<LinguisticsCpiIssue></LinguisticsCpiIssue>
+                    },
+                    {
+                        path:"/ijllnet/scope-ijllnet",
+                        element:<LinguisticsCpiScope></LinguisticsCpiScope>
+                    },
+                    {
+                        path:"/ijllnet/editorial-board",
+                        element:<LinguisticsCpiBoard></LinguisticsCpiBoard>
+                    },
+                    {
+                        path:"/ijllnet/archive-ijllnet",
+                        element:<LinguisticsCpiArcive></LinguisticsCpiArcive>
+                    },
                 ]
             }
            

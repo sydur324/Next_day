@@ -10,11 +10,11 @@ const Navbar = () => {
     const navLink = [
         { id: 1, name: "Home", to: "/" },
         {
-            id: 2, name: "Journals", to: "/subjects",
+            id: 2, name: "Journals", to: "",
             subNav: true,
             subNavItems: [
-                { id: 1, name: "Journals by Subjects", to: "/subjects" },
-                { id: 2, name: "Complete List of Journals", to: "/research" }
+                { id: 1, name: "Journals by Subjects", to: "" },
+                { id: 2, name: "Complete List of Journals", to: "" }
             ]
 
         },
