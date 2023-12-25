@@ -1,0 +1,16 @@
+import InternationalArticles from "../../../Articles/InternationalArticles/InternationalArticles";
+
+
+const InternationalIssue = () => {
+    return (
+        <div className="w-full">
+            <h2 className="text-xl font-bold text-[#91000D] aimsscope">Current Issue</h2>
+            <div className="my-8">
+                <InternationalArticles></InternationalArticles>
+            </div>
+        </div>
+
+    );
+};
+
+export default InternationalIssue;
