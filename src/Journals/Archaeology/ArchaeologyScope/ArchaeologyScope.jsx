@@ -7,59 +7,56 @@ const ArchaeologyScope = () => {
             <h2 className="text-xl font-bold text-[#91000D]">Aims & Scope</h2>
 
             <div className="flex items-center py-8 gap-24">
-                <div className="space-y-2 text-[#0a2158e4]">
-                    <p>Cultural Anthropology</p>
-                    <p>Anthropology of Human Society</p>
-                    <p>physical Anthropology</p>
-                    <p>Human Evolution</p>
-                    <p>Quantitative Methods in Anthropology</p>
-                    <p>Anthropology of Religion</p>
-                    <p>Historical Archaeology</p>
-                    <p>American Indians</p>
-                    <p>North American Archaeology</p>
-                    <p>Applied Anthropology</p>
-                    <p>Archaeology: Writing Intensive</p>
-                    <p>Archaeology and the Law</p>
-                    <p>Mesoamerica Before Cortez</p>
-                    <p>physical Anthropology</p>
-                    <p>primate Conservation</p>
-                    <p>primate Ecology & Sociality</p>
-                    <p>Medical Anthropology</p>
-                    <p>Forensic Anthropology</p>
-                    <p>Human Osteology</p>
-                    <p>Marriage & Family Cross-Culturally</p>
-                    <p>Kinship and Marriage</p>
-                    <p>History and Theory of Anthropology</p>
-                    <p>Kinship and Social Structure</p>
-                    <p>practicum in Archeology</p>
-                </div>
-
-                <div className="space-y-2 text-[#0a2158e4]">
-                    <p>Field Methods in Archaeology</p>
-                    <p>Archaeological Materials Analysis</p>
-                    <p>Cultural Anthropology</p>
-                    <p>Business Anthropology</p>
-                    <p>Language and Culture</p>
-                    <p>Race, Sex and Human Evolution</p>
-                    <p>Ancient Civilizations and Societies</p>
-                    <p>Exploring Archaeology</p>
-                    <p>Archaeology in Film</p>
-                    <p>principles of Archaeology</p>
-                    <p>Archaeology of Africa and Eurasia</p>
-                    <p>Archaeology of the America</p>
-                    <p>problems in Archaeology</p>
-                    <p>Archaeological Field Recording Techniques</p>
-                    <p>Archaeology of Human Origins</p>
-                    <p>The Archaeology of Landscapes</p>
-                    <p>Zooarchaeology</p>
-                    <p>Geoarchaeology</p>
-                    <p>Archaeological GIS</p>
-                    <p>Quantitative Archaeological Analytic Techniques</p>
-                    <p>Archaeological Theory</p>
-                    <p>Dating Methods in Archaeology</p>
-                    <p>Meta-archaeology</p>
-                    <p>Teaching Archaeology</p>
-                </div>
+                <p>
+                    Cultural Anthropology,
+                    Anthropology of Human Society,
+                    Physical Anthropology,
+                    Human Evolution,
+                    Quantitative Methods in Anthropology,
+                    Anthropology of Religion,
+                    Historical Archaeology,
+                    American Indians,
+                    North American Archaeology,
+                    Applied Anthropology,
+                    Archaeology: Writing Intensive,
+                    Archaeology and the Law,
+                    Mesoamerica Before Cortez,
+                    Physical Anthropology,
+                    Primate Conservation,
+                    Primate Ecology & Sociality,
+                    Medical Anthropology,
+                    Forensic Anthropology,
+                    Human Osteology,
+                    Marriage & Family Cross-Culturally,
+                    Kinship and Marriage,
+                    History and Theory of Anthropology,
+                    Kinship and Social Structure,
+                    Practicum in Archeology,
+                    Field Methods in Archaeology,
+                    Archaeological Materials Analysis,
+                    Cultural Anthropology,
+                    Business Anthropology,
+                    Language and Culture,
+                    Race, Sex and Human Evolution,
+                    Ancient Civilizations and Societies,
+                    Exploring Archaeology,
+                    Archaeology in Film,
+                    Principles of Archaeology,
+                    Archaeology of Africa and Eurasia,
+                    Archaeology of the America,
+                    Problems in Archaeology,
+                    Archaeological Field Recording Techniques,
+                    Archaeology of Human Origins,
+                    The Archaeology of Landscapes,
+                    Zooarchaeology,
+                    Geoarchaeology,
+                    Archaeological GIS,
+                    Quantitative Archaeological Analytic Techniques,
+                    Archaeological Theory,
+                    Dating Methods in Archaeology,
+                    Meta-archaeology,
+                    Teaching Archaeology.
+                </p>
             </div>
 
             <div className='py-2'>

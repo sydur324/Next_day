@@ -22,7 +22,7 @@ const Polices = () => {
                         onClick={() => toggleTab(1)}
                         className={toggle === 1 ? "tabs active-tabs px-2 py-2" : "px-2 py-2 text-white bg-green-400 tabs"}
 
-                    >E-Publication FirstTM</button>
+                    >E-Publication First<sup>TM</sup></button>
 
                     <button
                         onClick={() => toggleTab(2)}

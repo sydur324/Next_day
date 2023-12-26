@@ -8,10 +8,12 @@ import { useState } from 'react';
 import HumanitiesDrop from '../../Utilities/HumanitiesDrop/HumanitiesDrop';
 import ScienceDrop from '../../Utilities/SocialDrop/ScienceDrop';
 import SocialScienceDrop from '../../Utilities/SocialScienceDrop/SocialScienceDrop';
+import TechnologyDrop from '../../Utilities/TechnologyDrop/TechnologyDrop';
+import AgricultureDrop from '../../Utilities/AgricultureDrop/AgricultureDrop';
 const Subjects = () => {
     const leftSubjects = [
         { id: 1, name: "Accounting", to: "/Ijatnet", img: "https://i.ibb.co/YLF6Hx6/New-Project.jpg" },
-        { id: 2, name: "Agriculture", to: "/jaes", img: "https://i.ibb.co/YLF6Hx6/New-Project.jpg" },
+        { id: 2, name: "Agriculture (General)", to: "/jaes", img: "https://i.ibb.co/YLF6Hx6/New-Project.jpg" },
         { id: 3, name: "Archaeology", to: "/jaa", img: "https://i.ibb.co/YLF6Hx6/New-Project.jpg" },
         { id: 4, name: "Art and Art History", to: "/ijaah", img: "https://i.ibb.co/YLF6Hx6/New-Project.jpg" },
         { id: 6, name: "Bank Management", to: "/jfbm", img: "https://i.ibb.co/YLF6Hx6/New-Project.jpg" },
@@ -38,20 +40,20 @@ const Subjects = () => {
         { id: 26, name: "Linguistics", to: "/ijlc", img: "https://i.ibb.co/YLF6Hx6/New-Project.jpg" },
         { id: 27, name: "Management", to: "/jmpp", img: "https://i.ibb.co/YLF6Hx6/New-Project.jpg" },
         { id: 28, name: "Marketing Management", to: "/jmm", img: "https://i.ibb.co/YLF6Hx6/New-Project.jpg" },
-        { id: 29, name: "Medicine and Pharmacy", to: "/ijmp", img: "https://i.ibb.co/YLF6Hx6/New-Project.jpg" },
-        { id: 30, name: "Music", to: "/ijmpa", img: "https://i.ibb.co/YLF6Hx6/New-Project.jpg" },
-        { id: 31, name: "Nursing", to: "/ijn", img: "https://i.ibb.co/YLF6Hx6/New-Project.jpg" },
-        { id: 32, name: "Performing Arts", to: "/ijmpa", img: "https://i.ibb.co/YLF6Hx6/New-Project.jpg" },
-        { id: 33, name: "Physical Education", to: "/jpesm", img: "https://i.ibb.co/YLF6Hx6/New-Project.jpg" },
-        { id: 34, name: "Policy Studies", to: "/jasps", img: "https://i.ibb.co/YLF6Hx6/New-Project.jpg" },
-        { id: 35, name: "Politics", to: "/jppg", img: "https://i.ibb.co/YLF6Hx6/New-Project.jpg" },
-        { id: 36, name: "Public Administration", to: "/ppar", img: "https://i.ibb.co/YLF6Hx6/New-Project.jpg" },
-        { id: 37, name: "Small Business", to: "/jsbed", img: "https://i.ibb.co/YLF6Hx6/New-Project.jpg" },
-        { id: 38, name: "Social Welfare", to: "/jswhr", img: "https://i.ibb.co/YLF6Hx6/New-Project.jpg" },
-        { id: 39, name: "Sociology", to: "/jssw", img: "https://i.ibb.co/YLF6Hx6/New-Project.jpg" },
-        { id: 40, name: "Statistics", to: "/arms", img: "https://i.ibb.co/YLF6Hx6/New-Project.jpg" },
-        { id: 41, name: "Taxation", to: "/Ijatnet", img: "https://i.ibb.co/YLF6Hx6/New-Project.jpg" },
-        { id: 42, name: "Technology (General) ", to: "", img: "https://i.ibb.co/YLF6Hx6/New-Project.jpg" },
+        { id: 29, name: "Multidiscipline", to: "/aijcr", img: "https://i.ibb.co/YLF6Hx6/New-Project.jpg" },
+        { id: 30, name: "Medicine and Pharmacy", to: "/ijmp", img: "https://i.ibb.co/YLF6Hx6/New-Project.jpg" },
+        { id: 31, name: "Music", to: "/ijmpa", img: "https://i.ibb.co/YLF6Hx6/New-Project.jpg" },
+        { id: 32, name: "Nursing", to: "/ijn", img: "https://i.ibb.co/YLF6Hx6/New-Project.jpg" },
+        { id: 33, name: "Performing Arts", to: "/ijmpa", img: "https://i.ibb.co/YLF6Hx6/New-Project.jpg" },
+        { id: 34, name: "Physical Education", to: "/jpesm", img: "https://i.ibb.co/YLF6Hx6/New-Project.jpg" },
+        { id: 35, name: "Policy Studies", to: "/jasps", img: "https://i.ibb.co/YLF6Hx6/New-Project.jpg" },
+        { id: 36, name: "Politics", to: "/jppg", img: "https://i.ibb.co/YLF6Hx6/New-Project.jpg" },
+        { id: 37, name: "Public Administration", to: "/ppar", img: "https://i.ibb.co/YLF6Hx6/New-Project.jpg" },
+        { id: 38, name: "Small Business", to: "/jsbed", img: "https://i.ibb.co/YLF6Hx6/New-Project.jpg" },
+        { id: 39, name: "Social Welfare", to: "/jswhr", img: "https://i.ibb.co/YLF6Hx6/New-Project.jpg" },
+        { id: 40, name: "Sociology", to: "/jssw", img: "https://i.ibb.co/YLF6Hx6/New-Project.jpg" },
+        { id: 41, name: "Statistics", to: "/arms", img: "https://i.ibb.co/YLF6Hx6/New-Project.jpg" },
+        { id: 42, name: "Taxation", to: "/Ijatnet", img: "https://i.ibb.co/YLF6Hx6/New-Project.jpg" },
         { id: 43, name: "Tourism and Hospitality Management", to: "/jthm", img: "https://i.ibb.co/YLF6Hx6/New-Project.jpg" },
     ]
 
@@ -98,13 +100,16 @@ const Subjects = () => {
         { id: 40, name: "Sports Management", to: "/jpesm", img: "https://i.ibb.co/YLF6Hx6/New-Project.jpg" },
         { id: 41, name: "Strategic Management", to: "/jpesm", img: "https://i.ibb.co/YLF6Hx6/New-Project.jpg" },
         { id: 42, name: "Theology", to: "/ijpt", img: "https://i.ibb.co/YLF6Hx6/New-Project.jpg" },
-        { id: 43, name: "Women's Studies", to: "/ijgws", img: "https://i.ibb.co/YLF6Hx6/New-Project.jpg" },
+        { id: 43, name: "Technology (General)", to: "", img: "https://i.ibb.co/YLF6Hx6/New-Project.jpg" },
+        { id: 44, name: "Women's Studies", to: "/ijgws", img: "https://i.ibb.co/YLF6Hx6/New-Project.jpg" },
     ]
 
     const [fixedDrop, setFixedDrop] = useState(false)
     const [humanitiesDrop, setHumanitiesDrop] = useState(false)
     const [scienceDrop, setScienceDrop] = useState(false)
     const [socailDrop, setSocailDrop] = useState(false)
+    const [technologyDrop, setTechnologyDrop] = useState(false)
+    const [agricultureDrop, setAgricultureDrop] = useState(false)
     return (
         <div className="my-24">
             <PageTitle title="Journals By Subjects"></PageTitle>
@@ -131,18 +136,40 @@ const Subjects = () => {
                         <div className='lg:w-2/3'>
                             <div className='space-y-2'>
                                 {
-                                    leftSubjects.map((subject) => <li className='list-none' key={subject.id}>
-                                        <Link to={subject.to}>
+                                    leftSubjects.map((subject) => {
+                                        if (subject.name === "Agriculture (General)") {
+                                            return (
+                                                <li className='list-none duration-300 cursor-pointer' onClick={() => setAgricultureDrop(!agricultureDrop)} key={subject.id}>
 
-                                            <div className='flex items-center lg:justify-end gap-3'>
-                                                <p className='font-medium text-[#072159d5] hover:text-[#91000D] duration-300'>{subject.name}</p>
-                                                <div className='w-[5%]'>
-                                                    <img className='border-2 w-full p-1' src={subject.img} alt="" />
-                                                </div>
 
-                                            </div>
-                                        </Link>
-                                    </li>)
+                                                    <div className='flex items-center lg:justify-end gap-3'>
+                                                        
+                                                        <p className='font-medium text-[#072159] hover:text-[#91000cb5] duration-300'>{subject.name}</p>
+                                                        <div className='w-[5%]'>
+                                                            <img className='border-2 w-full p-1' src={subject.img} alt="" />
+                                                        </div>
+                                                    </div>
+
+                                                    {agricultureDrop && <AgricultureDrop></AgricultureDrop>}
+                                                </li>
+                                            )
+                                        }
+
+                                        return (
+                                            <li className='list-none' key={subject.id}>
+                                                <Link to={subject.to}>
+
+                                                    <div className='flex items-center lg:justify-end gap-3'>
+                                                        <p className='font-medium text-[#072159d5] hover:text-[#91000D] duration-300'>{subject.name}</p>
+                                                        <div className='w-[5%]'>
+                                                            <img className='border-2 w-full p-1' src={subject.img} alt="" />
+                                                        </div>
+
+                                                    </div>
+                                                </Link>
+                                            </li>
+                                        )
+                                    })
                                 }
                             </div>
                         </div>
@@ -222,7 +249,22 @@ const Subjects = () => {
                                             )
                                         }
 
+                                        else if (subject.name === "Technology (General)") {
+                                            return (
+                                                <li className='list-none duration-300 cursor-pointer' onClick={() => setTechnologyDrop(!technologyDrop)} key={subject.id}>
 
+
+                                                    <div className='flex items-center lg:justify-start gap-2'>
+                                                        <div className='w-[5%]'>
+                                                            <img className='border-2 w-full p-1' src={subject.img} alt="" />
+                                                        </div>
+                                                        <p className='font-medium text-[#91000cb5] hover:text-[#072159] duration-300'>{subject.name}</p>
+                                                    </div>
+
+                                                    {technologyDrop && <TechnologyDrop></TechnologyDrop>}
+                                                </li>
+                                            )
+                                        }
 
                                         return (
                                             <li className='list-none' key={subject.id}>

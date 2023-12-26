@@ -19,58 +19,68 @@ const HomeJournal = () => {
 
             <div className='grid lg:grid-cols-2 gap-4 my-4 cursor-pointer'>
 
-                <div className='text-center group'>
-                    <div className='overflow-hidden'>
-                        <img className='group-hover:scale-105 duration-500' src={music} alt="" />
-                    </div>
-                    <div className='py-4'>
-                        <p className='text-[#91000D] font-medium'>Music & Arts</p>
-                        <h2 className='text-[#04205A] font-bold py-1 music-title'>INTERNATIONAL JOURNAL OF MUSIC AND PERFORMING ARTS</h2>
-                    </div>
-                </div>
-
-                <div className='grid lg:grid-cols-2 gap-4'>
-
-                    <div className='border p-6 flex flex-col justify-center items-center text-center group'>
-                        <div className='overflow-hidden'>
-                            <img className='group-hover:scale-105 duration-500' src={science} alt="" />
-                        </div>
-                        <div className='py-4'>
-                            <p className='text-[#91000D] font-medium'> Science and Technology</p>
-                            <h2 className='text-[#04205A] font-bold py-1 music-title'>JOURNAL OF COMPUTER SCIENCE AND INFORMATION TECHNOLOGY</h2>
-                        </div>
-                    </div>
-
-
-                    <div className='border p-6 flex flex-col justify-center items-center text-center group'>
-                        <div className='overflow-hidden'>
-                            <img className='group-hover:scale-105 duration-500' src={art} alt="" />
-                        </div>
-                        <div className='py-4'>
-                            <p className='text-[#91000D] font-medium'>Art and Art History</p>
-                            <h2 className='text-[#04205A] font-bold py-1 music-title'>INTERNATIONAL JOURNAL OF ART AND ART HISTORY</h2>
-                        </div>
-                    </div>
-
-
-                    <div className='border p-6 flex flex-col justify-center items-center text-center group'>
-                        <div className='overflow-hidden'>
-                            <img className='group-hover:scale-105 duration-500' src={hospital} alt="" />
-                        </div>
-                        <div className='py-4'>
-                            <p className='text-[#91000D] font-medium'>Medicine and Pharmacy</p>
-                            <h2 className='text-[#04205A] font-bold py-1 music-title'>INTERNATIONAL JOURNAL OF MEDICINE AND PHARMACY</h2>
-                        </div>
-                    </div>
-
-                    <div className='border p-6 flex flex-col justify-center items-center text-center group'>
+                <Link to='/ijmpa'>
+                    <div className='text-center group'>
                         <div className='overflow-hidden'>
                             <img className='group-hover:scale-105 duration-500' src={music} alt="" />
                         </div>
                         <div className='py-4'>
-                            <p className='text-[#91000D] font-medium'>Engineering & Architecture</p>
-                            <h2 className='text-[#04205A] font-bold py-1 music-title'>JOURNAL OF ENGINEERING AND ARCHITECTURE</h2>
+                            <p className='text-[#91000D] font-medium'>Music & Arts</p>
+                            <h2 className='text-[#04205A] font-bold py-1 music-title'>INTERNATIONAL JOURNAL OF MUSIC AND PERFORMING ARTS</h2>
                         </div>
+                    </div>
+                </Link>
+
+                <div className='grid lg:grid-cols-2 gap-4'>
+
+                    <div className='border p-6 flex flex-col justify-center items-center text-center group'>
+                        <Link to='/jcsit'>
+                            <div className='overflow-hidden'>
+                                <img className='group-hover:scale-105 duration-500' src={science} alt="" />
+                            </div>
+                            <div className='py-4'>
+                                <p className='text-[#91000D] font-medium'> Science and Technology</p>
+                                <h2 className='text-[#04205A] font-bold py-1 music-title'>JOURNAL OF COMPUTER SCIENCE AND INFORMATION TECHNOLOGY</h2>
+                            </div>
+                        </Link>
+                    </div>
+
+
+                    <div className='border p-6 flex flex-col justify-center items-center text-center group'>
+                        <Link to='/ijaah'>
+                            <div className='overflow-hidden'>
+                                <img className='group-hover:scale-105 duration-500' src={art} alt="" />
+                            </div>
+                            <div className='py-4'>
+                                <p className='text-[#91000D] font-medium'>Art and Art History</p>
+                                <h2 className='text-[#04205A] font-bold py-1 music-title'>INTERNATIONAL JOURNAL OF ART AND ART HISTORY</h2>
+                            </div>
+                        </Link>
+                    </div>
+
+
+                    <div className='border p-6 flex flex-col justify-center items-center text-center group'>
+                        <Link to='/ijmp'>
+                            <div className='overflow-hidden'>
+                                <img className='group-hover:scale-105 duration-500' src={hospital} alt="" />
+                            </div>
+                            <div className='py-4'>
+                                <p className='text-[#91000D] font-medium'>Medicine and Pharmacy</p>
+                                <h2 className='text-[#04205A] font-bold py-1 music-title'>INTERNATIONAL JOURNAL OF MEDICINE AND PHARMACY</h2>
+                            </div>
+                        </Link>
+                    </div>
+
+                    <div className='border p-6 flex flex-col justify-center items-center text-center group'>
+                        <Link to='/jea'>
+                            <div className='overflow-hidden'>
+                                <img className='group-hover:scale-105 duration-500' src={music} alt="" />
+                            </div>
+                            <div className='py-4'>
+                                <p className='text-[#91000D] font-medium'>Engineering & Architecture</p>
+                                <h2 className='text-[#04205A] font-bold py-1 music-title'>JOURNAL OF ENGINEERING AND ARCHITECTURE</h2>
+                            </div>
+                        </Link>
                     </div>
 
                     <div>

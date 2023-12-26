@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const Submission = () => {
     return (
         <div className="">
@@ -12,15 +14,14 @@ const Submission = () => {
                     <p className="py-2">
                         Mention the name of the journal in which you are interested to publish
                         your paper as ARIPD follows central
-                        submission policy for all journals i.e. same e-mail <span className="text-[#91000D] hover:text-[#0A2258] duration-300 cursor-pointer">(editor@aripd.net)</span>
-                        for submission in any ARIPD journal.
+                        submission policy for all journals i.e. same e-mail <span className="text-[#91000D] hover:text-[#0A2258] duration-300 cursor-pointer">(editor@aripd.net)</span> for submission in any ARIPD journal.
                     </p>
                 </div>
 
                 <div>
                     <h2 className="font-medium text-[#0A2258] text-lg py-2">Manuscript Preparation Guidelines</h2>
                     <p>
-                        The authors(s) must follow the <span className="text-[#91000D] hover:text-[#0A2258] duration-300 cursor-pointer">Manuscript Preparation Guidelines</span> in preparing the manuscript before submission.
+                        The authors(s) must follow the <span className="text-[#91000D] hover:text-[#0A2258] duration-300 cursor-pointer"><Link to='/information/resources'>Manuscript Preparation Guidelines</Link></span> in preparing the manuscript before submission.
                     </p>
                 </div>
 
@@ -132,6 +133,47 @@ const Submission = () => {
                                 one month after print publication.
                             </p>
                         </div>
+
+                        <div>
+                            <h2 className="text-[#91000D] font-semibold py-2">Publication Fee</h2>
+                            <p>
+                                The publication processing fee for a research paper is 300 USD.
+                                The author/corresponding author will get one print copy. However,
+                                the author may order for additional print copy. The charge for each
+                                additional print copy is 50 USD. The publication fee is charged only
+                                for accepted paper. The author/corresponding author has to pay the publication
+                                as per the method determined by the executive editor. The author will get official
+                                receipt of publication fee with proper seal and signature.
+                            </p>
+                        </div>
+
+
+                        <div>
+                            <h2 className="text-[#91000D] font-semibold py-2">Copyright</h2>
+                            <p>
+                                Copyrights for articles published in the journal are retained by the authors,
+                                with first publication rights granted to the journal. The journal/publisher
+                                is not responsible for subsequent uses of the work. It is the author's
+                                responsibility to bring an infringement action if so desired by the author.
+                            </p>
+                        </div>
+
+
+                        <div>
+                            <h2 className="text-[#91000D] font-semibold py-2">Plagiarism Policy</h2>
+                            <p>
+                                The editorial board is very strict regarding plagiarism.
+                                The journal believes that taking the ideas and work of others
+                                without giving them credit is unfair and dishonest.
+                                Copying even one sentence from someone else's manuscript,
+                                or even one of your own that has previously been published,
+                                without proper citation is considered plagiarism-use your own words instead.
+                                The editorial board retains the absolute authority to reject the review process of a
+                                submitted manuscript if it subject to minor or major plagiarism and even may
+                                cancel the publication upon the complaint of victim(s) of plagiarism.
+                            </p>
+                        </div>
+
 
                     </div>
                 </div>

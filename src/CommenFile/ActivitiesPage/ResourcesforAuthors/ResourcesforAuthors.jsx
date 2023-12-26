@@ -14,13 +14,13 @@ const ResourcesforAuthors = () => {
 
                 <div className="my-4 text-[#8D0012] space-y-2 cursor-pointer">
 
-                    <p className="hover:text-[#0D2357] duration-300">Author Guidelines</p>
-                    <p className="hover:text-[#0D2357] duration-300">Submission Policy</p>
-                    <p className="hover:text-[#0D2357] duration-300">APA Style (6th Edition)</p>
-                    <p className="hover:text-[#0D2357] duration-300">How to review a book</p>
-                    <p className="hover:text-[#0D2357] duration-300">How to write a good research paper</p>
-                    <p className="hover:text-[#0D2357] duration-300">Google Language Translator</p>
-                    <p className="hover:text-[#0D2357] duration-300">Tips to become a good researcher</p>
+                    <p className="hover:text-[#0D2357] duration-300"><Link to='/information/resources'>Author Guidelines</Link></p>
+                    <p className="hover:text-[#0D2357] duration-300"><Link to='/information/resources'>Submission Policy</Link></p>
+                    <p className="hover:text-[#0D2357] duration-300"><Link to='/information/resources'>APA Style (6th Edition)</Link></p>
+                    <p className="hover:text-[#0D2357] duration-300"><Link to='/information/resources'>How to review a book</Link></p>
+                    <p className="hover:text-[#0D2357] duration-300"><Link to='/information/resources'>How to write a good research paper</Link></p>
+                    <p className="hover:text-[#0D2357] duration-300"><Link to='/information/resources'>Google Language Translator</Link></p>
+                    <p className="hover:text-[#0D2357] duration-300"><Link to='/information/resources'>Tips to become a good researcher</Link></p>
                 </div>
             </div>
         </div>

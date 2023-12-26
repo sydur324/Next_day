@@ -6,73 +6,69 @@ const JaesScope = () => {
             <h2 className="text-xl font-bold text-[#91000D]">Aims & Scope</h2>
 
             <div className="flex items-center py-8 gap-24">
-                <div className="space-y-2 text-[#0a2158e4]">
-                    <p>Basic Agriculture</p>
-                    <p>Fruit Production</p>
-                    <p>Animal Science</p>
-                    <p>Introduction to Animal Nutrition</p>
-                    <p>Soil Science</p>
-                    <p>Meat and Meat Processing</p>
-                    <p>Landscaping</p>
-                    <p>General Horticulture</p>
-                    <p>Marketing Agricultural Products</p>
-                    <p>Poultry Science</p>
-                    <p>GEconomic Entomology</p>
-                    <p>Plant Pathology</p>
-                    <p>Farm Management</p>
-                    <p>Vegetable Gardening</p>
-                    <p>Livestock Selection and Breeding</p>
-                    <p>Fundamentals of Crop Production</p>
-                    <p>Horticultural Plant Materials</p>
-                    <p>Agriculture and Natural Resources Machinery</p>
-                    <p>Agricultural and Natural Resources Power</p>
-                    <p>Entomology</p>
-                    <p>Problems in Agriculture and Natural Resources</p>
-                    <p>Sustainable Agriculture</p>
-                    <p>Beef and Sheep Production</p>
-                    <p>Methods of Teaching Agriculture</p>
-                    <p>Plant Cell and Tissue Culture</p>
-                    <p>Principles of Weed Science</p>
-                    
-                </div>
-
-                <div className="space-y-2 text-[#0a2158e4]">
-                    <p>Food Distribution Management</p>
-                    <p>Ecosystems</p>
-                    <p>Forage Crop Production and Management</p>
-                    <p>Beef Production and Management</p>
-                    <p>Pork Production and Management</p>
-                    <p>Co-Op Agriculture and Natural Resources</p>
-                    <p>Agro Industry</p>
-                    <p>Agricultural Economics</p>
-                    <p>Environmental Policy</p>
-                    <p>Environmental Ethics</p>
-                    <p>Environmental Impact Assessment</p>
-                    <p>Environmental Education</p>
-                    <p>Toxicology</p>
-                    <p>Natural History</p>
-                    <p>General Occupational Safety and Health</p>
-                    <p>Environmental Law and Practice</p>
-                    <p>Natural Environment and Business</p>
-                    <p>Natural Resources and International Politics</p>
-                    <p>Ecological Field Methods</p>
-                    <p>Strategies for Sustainable Environmental Development</p>
-                    <p>Water Resource Analysis</p>
-                    <p>Ecology</p>
-                    <p>Marine Environments</p>
-                    <p>Climate Change</p>
-                    <p>Energy and Environment</p>
-                    <p>Waste Management</p>
-                    
-                </div>
+                <p>
+                    Basic Agriculture,
+                    Fruit Production,
+                    Animal Science,
+                    Introduction to Animal Nutrition,
+                    Soil Science,
+                    Meat and Meat Processing,
+                    Landscaping,
+                    General Horticulture,
+                    Marketing Agricultural Products,
+                    Poultry Science,
+                    Economic Entomology,
+                    Plant Pathology,
+                    Farm Management,
+                    Vegetable Gardening,
+                    Livestock Selection and Breeding,
+                    Fundamentals of Crop Production,
+                    Horticultural Plant Materials,
+                    Agriculture and Natural Resources Machinery,
+                    Agricultural and Natural Resources Power,
+                    Entomology,
+                    Problems in Agriculture and Natural Resources,
+                    Sustainable Agriculture,
+                    Beef and Sheep Production,
+                    Methods of Teaching Agriculture,
+                    Plant Cell and Tissue Culture,
+                    Principles of Weed Science,
+                    Plant Propagation and Greenhouse Management,
+                    Food Distribution Management,
+                    Ecosystems,
+                    Forage Crop Production and Management,
+                    Beef Production and Management,
+                    Pork Production and Management,
+                    Co-Op Agriculture and Natural Resources,
+                    Agro Industry,
+                    Agricultural Economics,
+                    Environmental Policy,
+                    Environmental Ethics,
+                    Environmental Impact Assessment,
+                    Environmental Education,
+                    Toxicology,
+                    Natural History,
+                    General Occupational Safety and Health,
+                    Environmental Law and Practice,
+                    Natural Environment and Business,
+                    Natural Resources and International Politics,
+                    Ecological Field Methods,
+                    Strategies for Sustainable Environmental Development,
+                    Water Resource Analysis,
+                    Ecology,
+                    Marine Environments,
+                    Climate Change,
+                    Energy and Environment,
+                    Waste Management.
+                </p>
             </div>
 
             <div className='py-2'>
-                    <h2 className='font-medium text-[#91000D] py-2'>Current Issue:</h2>
-                    <div>
-                         <JaesArticles></JaesArticles>
-                    </div>
+                <h2 className='font-medium text-[#91000D] py-2'>Current Issue:</h2>
+                <div>
+                    <JaesArticles></JaesArticles>
                 </div>
+            </div>
         </div>
     );
 };

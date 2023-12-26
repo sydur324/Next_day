@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+import wordFile from '../../../assets/form/ijat-Reviewer-Application-Form.pdf'
 const NativeLanguage = () => {
     return (
         <div className="my-8">
@@ -12,8 +14,8 @@ const NativeLanguage = () => {
                         in different languages (See below).
                     </p>
                     <div className="my-2 space-y-1 text-[#8D0012]">
-                        <p className="hover:text-[#0D2357] duration-300 cursor-pointer">Journal of Foreign Languages, Cultures & Civilizations</p>
-                        <p className="hover:text-[#0D2357] duration-300 cursor-pointer">International Multilingual Journal of Contemporary Research</p>
+                        <p className="hover:text-[#0D2357] duration-300 cursor-pointer"><Link to='/jflcc'>Journal of Foreign Languages, Cultures & Civilizations</Link></p>
+                        <p className="hover:text-[#0D2357] duration-300 cursor-pointer"><Link to='/imjcr'>International Multilingual Journal of Contemporary Research</Link></p>
                     </div>
 
                     <p>
@@ -59,6 +61,11 @@ const NativeLanguage = () => {
                             publication ethics, a strong commitment for scheduled
                             publication are the key features of the journal. View the complete list of journals by subject.
                         </p>
+
+                        <div className='flex items-center space-x-2 py-2'>
+                        <p>Download the: </p>
+                        <a href={wordFile} target="download" className='text-[#91000D]'>Application form for Reviewer</a>
+                        </div>
                     </div>
                 </div>
 

@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import completedListes from '../../../../public/completedList.json'
 
 const CallForPapers = () => {
@@ -6,8 +7,10 @@ const CallForPapers = () => {
             <h2 className="font-bold text-[#0D2357] aimsscope">Call for Papers</h2>
             <div className="my-6 text-[#262626e2] space-y-3">
                 <p>
-                    Founded in June 2011, the <span className="text-[#91000D] hover:text-[#0D2357] duration-300 cursor-pointer">American Research Institute for Policy
-                        Development</span> serves as a focal point for academicians, professionals,
+                    Founded in June 2011, the <Link>
+                        <span className="text-[#91000D] hover:text-[#0D2357] duration-300 cursor-pointer">American Research Institute for Policy
+                            Development</span>
+                    </Link> serves as a focal point for academicians, professionals,
                     graduate and undergraduate students,
                     fellows, and associates pursuing research throughout the world.
                 </p>
@@ -48,10 +51,10 @@ const CallForPapers = () => {
                     editor@aripd.net , the executive editor will decide the journal for her/his paper.
                 </p>
 
-                <h2 className="font-bold text-[#0D2357] aimsscope">The complete list of the journals</h2>
+                {/* <h2 className="font-bold text-[#0D2357] aimsscope">The complete list of the journals</h2> */}
             </div>
 
-            <div className="my-8">
+            {/* <div className="my-8">
                 <div className="w-full">
                     <table className="space-y-4 w-full">
                         <thead className="w-full">
@@ -66,18 +69,18 @@ const CallForPapers = () => {
                         <tbody className=" w-full text-sm border my-4">
                             {
                                 completedListes.map(completedList => <tr key={completedList.id} className=" my-4">
-                                <td className="border px-10 py-2">{completedList.field}</td>
-                                <td className="border px-2 text-[#91000D] cursor-pointer hover:text-[#072159] duration-300">{completedList.journal}</td>
-                                <td className="border px-2">{completedList.submissionDeadline}</td>
-                                <td className="border px-2">{completedList.publicationDate}</td>
-                                <td className="border px-2">{completedList.volumeIssue}</td>
-                            </tr>)
+                                    <td className="border px-10 py-2">{completedList.field}</td>
+                                    <td className="border px-2 text-[#91000D] cursor-pointer hover:text-[#072159] duration-300">{completedList.journal}</td>
+                                    <td className="border px-2">{completedList.submissionDeadline}</td>
+                                    <td className="border px-2">{completedList.publicationDate}</td>
+                                    <td className="border px-2">{completedList.volumeIssue}</td>
+                                </tr>)
                             }
-                            
+
                         </tbody>
                     </table>
                 </div>
-            </div>
+            </div> */}
 
         </div>
     );

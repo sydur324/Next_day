@@ -33,7 +33,7 @@ const Subscribe = () => {
                         </div>
 
                         <div className="py-2 px-4 border relative group">
-                        <p className="bg-[#91000D] group-hover:bg-[#072159] duration-300 text-[#fff] px-2 py-2 font-semibold inline-block absolute top-0 left-0">$ 30</p>
+                        <p className="bg-[#91000D] group-hover:bg-[#072159] duration-300 text-[#fff] px-2 py-2 font-semibold inline-block absolute top-0 left-0">$ 50</p>
                             <h2 className="px-10 group-hover:text-[#91000D] duration-300">Single Issue Price</h2>
                         </div>
 
