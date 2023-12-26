@@ -3,6 +3,11 @@ import './Subjects.css'
 import { FiSearch } from "react-icons/fi";
 import PageTitle from '../../Utilities/PageTitle/PageTitle';
 import RoutingTop from '../../Utilities/PageTitle/RoutingTop/RoutingTop';
+import BussnessDropDown from '../../Utilities/BussnessDropDown/BussnessDropDown';
+import { useState } from 'react';
+import HumanitiesDrop from '../../Utilities/HumanitiesDrop/HumanitiesDrop';
+import ScienceDrop from '../../Utilities/SocialDrop/ScienceDrop';
+import SocialScienceDrop from '../../Utilities/SocialScienceDrop/SocialScienceDrop';
 const Subjects = () => {
     const leftSubjects = [
         { id: 1, name: "Accounting", to: "/Ijatnet", img: "https://i.ibb.co/YLF6Hx6/New-Project.jpg" },
@@ -46,7 +51,8 @@ const Subjects = () => {
         { id: 39, name: "Sociology", to: "/jssw", img: "https://i.ibb.co/YLF6Hx6/New-Project.jpg" },
         { id: 40, name: "Statistics", to: "/arms", img: "https://i.ibb.co/YLF6Hx6/New-Project.jpg" },
         { id: 41, name: "Taxation", to: "/Ijatnet", img: "https://i.ibb.co/YLF6Hx6/New-Project.jpg" },
-        { id: 41, name: "Tourism and Hospitality Management", to: "/jthm", img: "https://i.ibb.co/YLF6Hx6/New-Project.jpg" },
+        { id: 42, name: "Technology (General) ", to: "", img: "https://i.ibb.co/YLF6Hx6/New-Project.jpg" },
+        { id: 43, name: "Tourism and Hospitality Management", to: "/jthm", img: "https://i.ibb.co/YLF6Hx6/New-Project.jpg" },
     ]
 
     const rightSubjects = [
@@ -56,7 +62,7 @@ const Subjects = () => {
         { id: 4, name: "Astronomy", to: "/ijpa", img: "https://i.ibb.co/YLF6Hx6/New-Project.jpg" },
         { id: 6, name: "Behavioral Science", to: "/jpbs", img: "https://i.ibb.co/YLF6Hx6/New-Project.jpg" },
         { id: 7, name: "Biology", to: "/aijb", img: "https://i.ibb.co/YLF6Hx6/New-Project.jpg" },
-        { id: 8, name: "Business Law", to: "/jble", img: "https://i.ibb.co/YLF6Hx6/New-Project.jpg" },
+        { id: 8, name: "Business(General)", to: "", img: "https://i.ibb.co/YLF6Hx6/New-Project.jpg", },
         { id: 9, name: "Communication", to: "/ijlc", img: "https://i.ibb.co/YLF6Hx6/New-Project.jpg" },
         { id: 10, name: "Contemporary Business", to: "/rcbr", img: "https://i.ibb.co/YLF6Hx6/New-Project.jpg" },
         { id: 11, name: "Cross-Cultural Studies", to: "/jflcc", img: "https://i.ibb.co/YLF6Hx6/New-Project.jpg" },
@@ -69,7 +75,7 @@ const Subjects = () => {
         { id: 18, name: "Governance", to: "/jppg", img: "https://i.ibb.co/YLF6Hx6/New-Project.jpg" },
         { id: 19, name: "Health Sciences", to: "/ijhs", img: "https://i.ibb.co/YLF6Hx6/New-Project.jpg" },
         { id: 20, name: "Human Development", to: "/jehd", img: "https://i.ibb.co/YLF6Hx6/New-Project.jpg" },
-        { id: 21, name: "Humanities", to: "/rah", img: "https://i.ibb.co/YLF6Hx6/New-Project.jpg" },
+        { id: 21, name: "Humanities (General)", to: "/rah", img: "https://i.ibb.co/YLF6Hx6/New-Project.jpg" },
         { id: 22, name: "International Business", to: "/jibe", img: "https://i.ibb.co/YLF6Hx6/New-Project.jpg" },
         { id: 23, name: "Islamic Banking and Finance", to: "/jibf", img: "https://i.ibb.co/YLF6Hx6/New-Project.jpg" },
         { id: 24, name: "Journalism and Mass Communication", to: "/rjmc", img: "https://i.ibb.co/YLF6Hx6/New-Project.jpg" },
@@ -86,13 +92,19 @@ const Subjects = () => {
         { id: 34, name: "Political Science", to: "/rhps", img: "https://i.ibb.co/YLF6Hx6/New-Project.jpg" },
         { id: 35, name: "Psychology", to: "/jpbs", img: "https://i.ibb.co/YLF6Hx6/New-Project.jpg" },
         { id: 36, name: "Public Policy", to: "/ppar", img: "https://i.ibb.co/YLF6Hx6/New-Project.jpg" },
-        { id: 37, name: "Social Science", to: "/jsspi", img: "https://i.ibb.co/YLF6Hx6/New-Project.jpg" },
-        { id: 38, name: "Social Work", to: "/jssw", img: "https://i.ibb.co/YLF6Hx6/New-Project.jpg" },
-        { id: 39, name: "Sports Management", to: "/jpesm", img: "https://i.ibb.co/YLF6Hx6/New-Project.jpg" },
-        { id: 40, name: "Strategic Management", to: "/jpesm", img: "https://i.ibb.co/YLF6Hx6/New-Project.jpg" },
-        { id: 41, name: "Theology", to: "/ijpt", img: "https://i.ibb.co/YLF6Hx6/New-Project.jpg" },
-        { id: 41, name: "Women's Studies", to: "/ijgws", img: "https://i.ibb.co/YLF6Hx6/New-Project.jpg" },
+        { id: 37, name: "Science (General)", to: "", img: "https://i.ibb.co/YLF6Hx6/New-Project.jpg" },
+        { id: 38, name: "Social Science (General)", to: "", img: "https://i.ibb.co/YLF6Hx6/New-Project.jpg" },
+        { id: 39, name: "Social Work", to: "/jssw", img: "https://i.ibb.co/YLF6Hx6/New-Project.jpg" },
+        { id: 40, name: "Sports Management", to: "/jpesm", img: "https://i.ibb.co/YLF6Hx6/New-Project.jpg" },
+        { id: 41, name: "Strategic Management", to: "/jpesm", img: "https://i.ibb.co/YLF6Hx6/New-Project.jpg" },
+        { id: 42, name: "Theology", to: "/ijpt", img: "https://i.ibb.co/YLF6Hx6/New-Project.jpg" },
+        { id: 43, name: "Women's Studies", to: "/ijgws", img: "https://i.ibb.co/YLF6Hx6/New-Project.jpg" },
     ]
+
+    const [fixedDrop, setFixedDrop] = useState(false)
+    const [humanitiesDrop, setHumanitiesDrop] = useState(false)
+    const [scienceDrop, setScienceDrop] = useState(false)
+    const [socailDrop, setSocailDrop] = useState(false)
     return (
         <div className="my-24">
             <PageTitle title="Journals By Subjects"></PageTitle>
@@ -138,18 +150,99 @@ const Subjects = () => {
                         <div className='lg:w-2/3'>
                             <div className='space-y-2'>
                                 {
-                                    rightSubjects.map((subject) => <li className='list-none' key={subject.id}>
-                                        <Link to={subject.to}>
+                                    rightSubjects.map((subject) => {
+                                        if (subject.name === "Business(General)") {
+                                            return (
+                                                <li className='list-none duration-300 cursor-pointer' onClick={() => setFixedDrop(!fixedDrop)} key={subject.id}>
 
-                                            <div className='flex items-center lg:justify-start gap-2'>
-                                                <div className='w-[5%]'>
-                                                    <img className='border-2 w-full p-1' src={subject.img} alt="" />
-                                                </div>
-                                                <p className='font-medium text-[#91000cb5] hover:text-[#072159] duration-300'>{subject.name}</p>
-                                            </div>
-                                        </Link>
-                                    </li>)
-                                }
+
+                                                    <div className='flex items-center lg:justify-start gap-2'>
+                                                        <div className='w-[5%]'>
+                                                            <img className='border-2 w-full p-1' src={subject.img} alt="" />
+                                                        </div>
+                                                        <p className='font-medium text-[#91000cb5] hover:text-[#072159] duration-300'>{subject.name}</p>
+                                                    </div>
+
+                                                    {fixedDrop && <BussnessDropDown></BussnessDropDown>}
+                                                </li>
+                                            )
+                                        }
+
+                                        else if (subject.name === "Humanities (General)") {
+                                            return (
+                                                <li className='list-none duration-300 cursor-pointer' onClick={() => setHumanitiesDrop(!humanitiesDrop)} key={subject.id}>
+
+
+                                                    <div className='flex items-center lg:justify-start gap-2'>
+                                                        <div className='w-[5%]'>
+                                                            <img className='border-2 w-full p-1' src={subject.img} alt="" />
+                                                        </div>
+                                                        <p className='font-medium text-[#91000cb5] hover:text-[#072159] duration-300'>{subject.name}</p>
+                                                    </div>
+
+                                                    {humanitiesDrop && <HumanitiesDrop></HumanitiesDrop>}
+                                                </li>
+                                            )
+                                        }
+
+
+                                        else if (subject.name === "Science (General)") {
+                                            return (
+                                                <li className='list-none duration-300 cursor-pointer' onClick={() => setScienceDrop(!scienceDrop)} key={subject.id}>
+
+
+                                                    <div className='flex items-center lg:justify-start gap-2'>
+                                                        <div className='w-[5%]'>
+                                                            <img className='border-2 w-full p-1' src={subject.img} alt="" />
+                                                        </div>
+                                                        <p className='font-medium text-[#91000cb5] hover:text-[#072159] duration-300'>{subject.name}</p>
+                                                    </div>
+
+                                                    {scienceDrop && <ScienceDrop></ScienceDrop>}
+                                                </li>
+                                            )
+                                        }
+
+
+
+                                        else if (subject.name === "Social Science (General)") {
+                                            return (
+                                                <li className='list-none duration-300 cursor-pointer' onClick={() => setSocailDrop(!socailDrop)} key={subject.id}>
+
+
+                                                    <div className='flex items-center lg:justify-start gap-2'>
+                                                        <div className='w-[5%]'>
+                                                            <img className='border-2 w-full p-1' src={subject.img} alt="" />
+                                                        </div>
+                                                        <p className='font-medium text-[#91000cb5] hover:text-[#072159] duration-300'>{subject.name}</p>
+                                                    </div>
+
+                                                    {socailDrop && <SocialScienceDrop></SocialScienceDrop>}
+                                                </li>
+                                            )
+                                        }
+
+
+
+                                        return (
+                                            <li className='list-none' key={subject.id}>
+                                                <Link to={subject.to}>
+
+                                                    <div className='flex items-center lg:justify-start gap-2'>
+                                                        <div className='w-[5%]'>
+                                                            <img className='border-2 w-full p-1' src={subject.img} alt="" />
+                                                        </div>
+                                                        <p className='font-medium text-[#91000cb5] hover:text-[#072159] duration-300'>{subject.name}</p>
+                                                    </div>
+                                                </Link>
+
+                                            </li>)
+
+                                    }
+
+
+
+                                    )}
                             </div>
                         </div>
 
