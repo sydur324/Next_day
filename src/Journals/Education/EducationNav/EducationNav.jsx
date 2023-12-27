@@ -15,7 +15,7 @@ const EducationNav = () => {
         { id: 12, name: "Subscription", to: "/information/subcription" },
         { id: 13, name: "Information", to: "/information/information" },
         { id: 14, name: "Index", to: "/information/index" },
-        { id: 15, name: "Archive", to: "/jehd/archive-jeds" },
+        { id: 15, name: "Archive", to: "/jehd/archive-jed" },
     ]
     return (
         <div className="border lg:w-1/3">

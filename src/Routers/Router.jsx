@@ -403,6 +403,17 @@ import LinguisticsCpiIssue from "../Journals/LinguisticsCpi/LinguisticsCpiIssue/
 import LinguisticsCpiScope from "../Journals/LinguisticsCpi/LinguisticsCpiScope/LinguisticsCpiScope";
 import LinguisticsCpiBoard from "../Journals/LinguisticsCpi/LinguisticsCpiBoard/LinguisticsCpiBoard";
 import LinguisticsCpiArcive from "../Journals/LinguisticsCpi/LinguisticsCpiArcive/LinguisticsCpiArcive";
+import PeaceLayout from "../Layout/PeaceLayout";
+import PeaceHome from "../Journals/Peace/PeaceHome/PeaceHome";
+import PeaceIssue from "../Journals/Peace/PeaceIssue/PeaceIssue";
+import PeaceScope from "../Journals/Peace/PeaceScope/PeaceScope";
+import PeaceBoard from "../Journals/Peace/PeaceBoard/PeaceBoard";
+import PeaceArcive from "../Journals/Peace/PeaceArcive/PeaceArcive";
+import PhilosophyIssue from "../Journals/Philosophy/PhilosophyIssue/PhilosophyIssue";
+import PhilosophyScope from "../Journals/Philosophy/PhilosophyScope/PhilosophyScope";
+import PhilosophyBoard from "../Journals/Philosophy/PhilosophyBoard/PhilosophyBoard";
+import PhilosophyArcive from "../Journals/Philosophy/PhilosophyArcive/PhilosophyArcive";
+import ForeignBoard from "../Journals/Foreign/ForeignBoard/ForeignBoard";
 
 
 export const router = createBrowserRouter([
@@ -908,7 +919,7 @@ export const router = createBrowserRouter([
                         element:<EducationBoard></EducationBoard>
                     },
                     {
-                        path:"/jehd/archive-jeds",
+                        path:"/jehd/archive-jed",
                         element:<EducationArcive></EducationArcive>
                     },
                 ]
@@ -1010,6 +1021,10 @@ export const router = createBrowserRouter([
                     {
                         path:"/jirfp/scope-jirfp",
                         element:<ForeignScope></ForeignScope>
+                    },
+                    {
+                        path:"/jirfp/editorial-board",
+                        element:<ForeignBoard></ForeignBoard>
                     },
                     {
                         path:"/jirfp/archive-jirfp",
@@ -1920,7 +1935,23 @@ export const router = createBrowserRouter([
                     {
                         path:"/ijpt",
                         element:<PhilosophyHome></PhilosophyHome>
-                    }
+                    },
+                    {
+                        path:"/ijpt/current-ijpt",
+                        element:<PhilosophyIssue></PhilosophyIssue>
+                    },
+                    {
+                        path:"/ijpt/scope-ijpt",
+                        element:<PhilosophyScope></PhilosophyScope>
+                    },
+                    {
+                        path:"/ijpt/editorial-board",
+                        element:<PhilosophyBoard></PhilosophyBoard>
+                    },
+                    {
+                        path:"/ijpt/archive-ijpt",
+                        element:<PhilosophyArcive></PhilosophyArcive>
+                    },
                 ]
             },
 
@@ -2190,6 +2221,33 @@ export const router = createBrowserRouter([
                     {
                         path:"/ijllnet/archive-ijllnet",
                         element:<LinguisticsCpiArcive></LinguisticsCpiArcive>
+                    },
+                ]
+            },
+
+            {
+                path:"/jgpc",
+                element:<PeaceLayout></PeaceLayout>,
+                children:[
+                    {
+                        path:"/jgpc",
+                        element:<PeaceHome></PeaceHome>
+                    },
+                    {
+                        path:"/jgpc/current-jgpc",
+                        element:<PeaceIssue></PeaceIssue>
+                    },
+                    {
+                        path:"/jgpc/scope-jgpc",
+                        element:<PeaceScope></PeaceScope>
+                    },
+                    {
+                        path:"/jgpc/editorial-board",
+                        element:<PeaceBoard></PeaceBoard>
+                    },
+                    {
+                        path:"/jgpc/archive-jgpc",
+                        element:<PeaceArcive></PeaceArcive>
                     },
                 ]
             }

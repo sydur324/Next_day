@@ -4,7 +4,7 @@ import ArticleBox from "../ArticleBox/ArticleBox";
 
 const ManagementArticles = () => {
     const [articles] = useArticles()
-    const agricultureArticles = articles.filter((article) => article.category === 'Management Information System')
+    const agricultureArticles = articles.filter((article) => article.category === 'Management')
     return (
         <div className="">
             <div>

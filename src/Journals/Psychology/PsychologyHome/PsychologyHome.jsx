@@ -19,16 +19,16 @@ const PsychologyHome = () => {
                 <p>
                     <span className='font-medium text-[#91000D]'>Journal of Psychology & Behavioral Science</span>  is an interdisciplinary international journal that publishes empirical research and theoretical articles in applied areas of psychology and behavioral science. In addition, interdisciplinary research that integrates psychology and other fields is also solicited (e.g., psychology and law, psychology and consumer behavior, psychology and religion). It contains articles pertaining to theoretical integration of ideas, epistemology of social and biological sciences, and original empirical research articles of general scientific value. All research articles in this journal have undergone initial editorial screen and rigorous peer review.
                 </p>
-
-                <p className='py-4'>
-                    <span className='font-medium text-[#91000D]'>Journal of Psychology & Behavioral Science</span>  provides a forum
-                    for the publication of high quality
-                    accounting research manuscripts. The journal attempts to assist in the understanding of
-                    the present and potential ability of accounting to aid in the recording and
-                    interpretation of international economic transactions and taxation practices.
-                    The journal recognizes that international accounting is influenced by a
-                    variety of forces i.e. governmental, political and economical.
-                </p>
+                
+                <div className='my-2'>
+                    <h2 className='font-medium text-[#91000D] py-2'>E-Publication First<sup>TM</sup></h2>
+                    <p>
+                        E-Publication First<sup>TM</sup> is a feature offered through our journal platform. It allows PDF
+                        version of manuscripts that have been peer reviewed and accepted, to be hosted online prior to their
+                        inclusion in a final printed journal. Readers can freely access or cite the article. The accepted papers
+                        are published online within one week after the completion of all necessary publishing steps.
+                    </p>
+                </div>
 
                 <div>
                     <h2 className='font-medium text-[#91000D] py-2'>DOI®number</h2>

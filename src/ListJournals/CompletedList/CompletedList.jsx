@@ -11,7 +11,7 @@ const CompletedList = () => {
         { id: 5, name: "Journal of Geography and Earth Sciences", to: "/jges", img: "https://i.ibb.co/YLF6Hx6/New-Project.jpg" },
         { id: 6, name: "Review of History and Political Science", to: "/rhps", img: "https://i.ibb.co/YLF6Hx6/New-Project.jpg" },
         { id: 7, name: "Journal of Power, Politics & Governance", to: "/jppg", img: "https://i.ibb.co/YLF6Hx6/New-Project.jpg" },
-        { id: 8, name: "Journal of Psychology and Behavioral Science", to: "/jfbm", img: "https://i.ibb.co/YLF6Hx6/New-Project.jpg" },
+        { id: 8, name: "Journal of Psychology and Behavioral Science", to: "/jpbs", img: "https://i.ibb.co/YLF6Hx6/New-Project.jpg" },
         { id: 9, name: "Review of Journalism and Mass Communication", to: "/jcb", img: "https://i.ibb.co/YLF6Hx6/New-Project.jpg" },
         { id: 10, name: "International Journal of Language and Literature", to: "/ijllnet", img: "https://i.ibb.co/YLF6Hx6/New-Project.jpg" },
         { id: 11, name: "International Journal of Linguistics and Communication", to: "/ijlc", img: "https://i.ibb.co/YLF6Hx6/New-Project.jpg" },

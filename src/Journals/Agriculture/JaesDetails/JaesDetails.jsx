@@ -13,7 +13,7 @@ const JaesDetails = () => {
                         <h2 className='journal_box_title'>Journal of Agriculture and Environmental Sciences</h2>
                         <div className='py-2'>
                             <p className='font-medium text-[#91000cae]'>Editor-in-Chief:</p>
-                            <p>Ministry of Agriculture, Indonesian Agency for Agricultural Research and Development (IAARD)</p>
+                            <p></p>
                         </div>
 
                         <div className='py-2 space-y-2'>

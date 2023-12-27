@@ -25,6 +25,16 @@ const TourismHome = () => {
                     <span className='font-medium text-[#91000D]'>Journal of Tourism and Hospitality Management</span> The journal comprises of articles are relevant to both academics and practitioners, and are the results of anonymous reviews by at least two referees chosen by the editor for their specialist knowledge. The blind peer review and editorial policies are largely contributed by the 'tourism forum' of American Association of International Researchers.
                 </p>
 
+                <div className='my-2'>
+                    <h2 className='font-medium text-[#91000D] py-2'>E-Publication First<sup>TM</sup></h2>
+                    <p>
+                        E-Publication First<sup>TM</sup> is a feature offered through our journal platform. It allows PDF
+                        version of manuscripts that have been peer reviewed and accepted, to be hosted online prior to their
+                        inclusion in a final printed journal. Readers can freely access or cite the article. The accepted papers
+                        are published online within one week after the completion of all necessary publishing steps.
+                    </p>
+                </div>
+
                 <div>
                     <h2 className='font-medium text-[#91000D] py-2'>DOI®number</h2>
                     <p>

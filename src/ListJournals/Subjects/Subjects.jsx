@@ -88,7 +88,7 @@ const Subjects = () => {
         { id: 28, name: "Mathematics", to: "/arms", img: "https://i.ibb.co/YLF6Hx6/New-Project.jpg" },
         { id: 29, name: "Multilanguage Journal", to: "/imjcr", img: "https://i.ibb.co/YLF6Hx6/New-Project.jpg" },
         { id: 30, name: "Natural Sciences", to: "/jns", img: "https://i.ibb.co/YLF6Hx6/New-Project.jpg" },
-        { id: 31, name: "Peace and Conflict", to: "", img: "https://i.ibb.co/YLF6Hx6/New-Project.jpg" },
+        { id: 31, name: "Peace and Conflict", to: "/jgpc", img: "https://i.ibb.co/YLF6Hx6/New-Project.jpg" },
         { id: 32, name: "Philosophy", to: "/ijpt", img: "https://i.ibb.co/YLF6Hx6/New-Project.jpg" },
         { id: 33, name: "Physics", to: "/ijpa", img: "https://i.ibb.co/YLF6Hx6/New-Project.jpg" },
         { id: 34, name: "Political Science", to: "/rhps", img: "https://i.ibb.co/YLF6Hx6/New-Project.jpg" },

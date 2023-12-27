@@ -1,4 +1,4 @@
-import img from '../../../assets/img/Accountin.png'
+import img from '../../../assets/img/JournalofPhysicalEducationandSportsManagement.png'
 
 const SportsDetails = () => {
     return (

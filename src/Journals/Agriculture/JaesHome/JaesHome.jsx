@@ -1,4 +1,4 @@
-import JaesActivites from '../JaesActivites/JaesActivites';
+import JaesArticles from '../../../Articles/JaesArticles/JaesArticles';
 import './JaesHome.css'
 const JaesHome = () => {
     return (
@@ -17,28 +17,19 @@ const JaesHome = () => {
 
             <div className='py-6 '>
                 <p>
-                    <span className='font-medium text-[#91000D]'>Journal of Agriculture and Environmental Sciences</span>  is a double blind
-                    peer reviewed
-                    journal that publishes original research papers using analytical, empirical,
-                    experimental, and field study methods in all areas of accounting research.
-                    The journal publishes original scholarly papers across the whole spectrum of
-                    accounting and taxation. The contributions are welcomed across a wide range of
-                    research methodologies (e.g. analytical, archival, experimental, survey and
-                    qualitative case methods). Each paper will be judged according to international
-                    standards within its topic area, the originality of its contribution,
-                    its relevance to development of the subject and its quality of exposition.
-                    All papers are subject to a minimum of double blind refereeing.
+                    <span className='font-medium text-[#91000D]'>Journal of Agriculture and Environmental Sciences</span>  is a refereed international journal. The journal publishes papers concerned with the advance of agriculture and environmental science throughout the world. It publishes original scientific work related to strategic and applied studies in all aspects of agricultural science as well as reviews of scientific topics of current agricultural relevance. All manuscripts are initially screened on their topic suitability and linguistic quality. The journal is also devoted to publish original, peer-reviewed research papers on main aspects of environmental sciences
                 </p>
 
-                <p className='py-4'>
-                    <span className='font-medium text-[#91000D]'>Journal of Agriculture and Environmental Sciences</span>  provides a forum
-                    for the publication of high quality
-                    accounting research manuscripts. The journal attempts to assist in the understanding of
-                    the present and potential ability of accounting to aid in the recording and
-                    interpretation of international economic transactions and taxation practices.
-                    The journal recognizes that international accounting is influenced by a
-                    variety of forces i.e. governmental, political and economical.
-                </p>
+
+                <div>
+                    <h2 className='font-medium text-[#91000D] py-2'>E-Publication First<sup>TM</sup></h2>
+                    <p>
+                        E-Publication First<sup>TM</sup> is a feature offered through our journal platform. It allows PDF
+                        version of manuscripts that have been peer reviewed and accepted, to be hosted online prior to their
+                        inclusion in a final printed journal. Readers can freely access or cite the article. The accepted papers
+                        are published online within one week after the completion of all necessary publishing steps.
+                    </p>
+                </div>
 
                 <div>
                     <h2 className='font-medium text-[#91000D] py-2'>DOI®number</h2>
@@ -62,7 +53,7 @@ const JaesHome = () => {
                 <div className='py-2'>
                     <h2 className='font-medium text-[#91000D] py-2'>Current Issue:</h2>
                     <div>
-                         <JaesActivites></JaesActivites>
+                         <JaesArticles></JaesArticles>
                     </div>
                 </div>
             </div>

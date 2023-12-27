@@ -1,4 +1,5 @@
 
+import BankManagementArticle from '../../../Articles/BankManagementArticle/BankManagementArticle';
 import './BankManagementHome.css'
 const BankManagementHome = () => {
     return (
@@ -38,6 +39,16 @@ const BankManagementHome = () => {
                     blind peer review policy.
                 </p>
 
+                <div className='my-2'>
+                    <h2 className='font-medium text-[#91000D] py-2'>E-Publication First<sup>TM</sup></h2>
+                    <p>
+                        E-Publication First<sup>TM</sup> is a feature offered through our journal platform. It allows PDF
+                        version of manuscripts that have been peer reviewed and accepted, to be hosted online prior to their
+                        inclusion in a final printed journal. Readers can freely access or cite the article. The accepted papers
+                        are published online within one week after the completion of all necessary publishing steps.
+                    </p>
+                </div>
+
                 <div>
                     <h2 className='font-medium text-[#91000D] py-2'>DOI®number</h2>
                     <p>
@@ -60,7 +71,7 @@ const BankManagementHome = () => {
                 <div className='py-2'>
                     <h2 className='font-medium text-[#91000D] py-2'>Current Issue:</h2>
                     <div>
-                        
+                        <BankManagementArticle></BankManagementArticle>
                     </div>
                 </div>
             </div>

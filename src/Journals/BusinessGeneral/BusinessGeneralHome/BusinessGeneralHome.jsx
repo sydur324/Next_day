@@ -22,8 +22,18 @@ const BusinessGeneralHome = () => {
                 </p>
 
                 <p className='py-4'>
-                    <span className='font-medium text-[#91000D]'>International Journal of Business and Social Science</span>  The journal publishes research papers in the fields of management, marketing, finance, economics, banking, accounting, human resources management, international business, hotel and tourism, entrepreneurship development, business ethics, international relations, law, development studies, population studies, political science, history, journalism and mass communication, corporate governance, cross-cultural studies, public administration, psychology, philosophy, sociology, women studies, religious studies, social welfare, anthropology, linguistics, education and so on.
+                   The journal publishes research papers in the fields of management, marketing, finance, economics, banking, accounting, human resources management, international business, hotel and tourism, entrepreneurship development, business ethics, international relations, law, development studies, population studies, political science, history, journalism and mass communication, corporate governance, cross-cultural studies, public administration, psychology, philosophy, sociology, women studies, religious studies, social welfare, anthropology, linguistics, education and so on.
                 </p>
+
+                <div className='my-2'>
+                    <h2 className='font-medium text-[#91000D] py-2'>E-Publication First<sup>TM</sup></h2>
+                    <p>
+                        E-Publication First<sup>TM</sup> is a feature offered through our journal platform. It allows PDF
+                        version of manuscripts that have been peer reviewed and accepted, to be hosted online prior to their
+                        inclusion in a final printed journal. Readers can freely access or cite the article. The accepted papers
+                        are published online within one week after the completion of all necessary publishing steps.
+                    </p>
+                </div>
 
                 <div>
                     <h2 className='font-medium text-[#91000D] py-2'>DOI®number</h2>

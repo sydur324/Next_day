@@ -25,6 +25,8 @@ const BUTHome = () => {
                     <span className='font-medium text-[#91000D]'>International Journal of Business, Humanities and Technology</span>  The journal publishes research papers in the fields of management, business law, public responsibility and ethics, marketing theory and applications, business finance and investment, general business research, business and economics education, international business and economics, tourism and hospitality management, production/operations management, organizational behavior and theory, strategic management policy, social issues and public policy, management organization, statistics and econometrics, personnel and industrial relations, gender studies, cross cultural studies, entrepreneurship development, linguistics, library science, media studies, methodology, philosophy, political science, population Studies, psychology, public administration, sociology, social welfare, technology and innovation, case studies , management information systems, information technology and so on.
                 </p>
 
+                
+
                 <div>
                     <h2 className='font-medium text-[#91000D] py-2'>DOI®number</h2>
                     <p>

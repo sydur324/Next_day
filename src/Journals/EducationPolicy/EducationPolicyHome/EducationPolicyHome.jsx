@@ -27,6 +27,17 @@ const EducationPolicyHome = () => {
                  <p>Education: Elementary Education, Secondary Education, Health Promotion, Minor Education Studies, Special Education, Nutrition Education, Bilingual Education, International Training And Education, Learning Disabilities, Teaching, Peace And Conflict Resolution, Curriculum And Instruction, Experiential Learning, Social Justice And Urban Education, Psychology Of Education, Technology In Education, Gender And Cultural Diversity In School, Comparative And International Education, Cultural Factors In Higher Education, Education And Social Change, Children's Literature, Language And Literacy Learning, Education And Public Policy, Leadership Skills, Classroom Management, Legal Issues In Education, Student Teaching, and so on.</p>
                 <p className='py-4'>Social Policy: Human Rights, Social Work, Social Welfare, Gender, Women’s Studies, Religion, Welfare State, Social Security, Unemployment Insurance, Environmental Policy, Economic Policy, Human Behavior, Pensions, Health Care, Social Housing, Social Care, Child Protection, Social Exclusion, Education Policy, Crime and Criminal Justice and so on.</p>
                 <div>
+
+                <div className='my-2'>
+                    <h2 className='font-medium text-[#91000D] py-2'>E-Publication First<sup>TM</sup></h2>
+                    <p>
+                        E-Publication First<sup>TM</sup> is a feature offered through our journal platform. It allows PDF
+                        version of manuscripts that have been peer reviewed and accepted, to be hosted online prior to their
+                        inclusion in a final printed journal. Readers can freely access or cite the article. The accepted papers
+                        are published online within one week after the completion of all necessary publishing steps.
+                    </p>
+                </div>
+                
                     <h2 className='font-medium text-[#91000D] py-2'>DOI®number</h2>
                     <p>
                         Each paper published in <span className='font-semibold'>Journal of Education & Social Policy (JESP)</span> is assigned a DOI®number,

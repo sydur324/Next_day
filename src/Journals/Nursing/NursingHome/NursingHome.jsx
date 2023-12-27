@@ -5,7 +5,7 @@ const NursingHome = () => {
     return (
         <div className='w-full'>
             <div className='NursingHome_bg text-white px-4 py-4'>
-                <h2 className='font-bold text-lg py-2'>International Journal of Accounting and Taxation</h2>
+                <h2 className='font-bold text-lg py-2'>International Journal of Nursing</h2>
                 <div className='flex items-center space-x-2 text-sm'>
                     <p>ISSN:</p>
                     <p>2373-7662 (Print Version) / 2373-7670 (Electronic Version)</p>
@@ -37,6 +37,16 @@ const NursingHome = () => {
                     peer-reviewed articles of interest to the international health care community since
                     its inception. The journal follows double-blind peer review process.
                 </p>
+
+                <div className='my-2'>
+                    <h2 className='font-medium text-[#91000D] py-2'>E-Publication First<sup>TM</sup></h2>
+                    <p>
+                        E-Publication First<sup>TM</sup> is a feature offered through our journal platform. It allows PDF
+                        version of manuscripts that have been peer reviewed and accepted, to be hosted online prior to their
+                        inclusion in a final printed journal. Readers can freely access or cite the article. The accepted papers
+                        are published online within one week after the completion of all necessary publishing steps.
+                    </p>
+                </div>
 
                 <div>
                     <h2 className='font-medium text-[#91000D] py-2'>DOI®number</h2>

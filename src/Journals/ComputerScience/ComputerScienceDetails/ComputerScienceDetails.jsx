@@ -24,7 +24,7 @@ const ComputerScienceDetails = () => {
 
                             <div className='flex flex-wrap xl:flex-nowrap lg:flex-nowrap md:flex-nowrap items-center lg:space-x-2 gap-1'>
                                 <p className='font-medium text-[#91000cae]'>ISSN:</p>
-                                <p>2334-2366 (Print Version)</p>
+                                <p>2334-2374 (Electronic Version)</p>
                             </div>
                         </div>
 
