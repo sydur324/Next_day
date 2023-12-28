@@ -1,5 +1,5 @@
 
-import CultureArticles from '../../../Articles/CultureArticles/CultureArticles';
+import NaturalArticles from '../../../Articles/NaturalArticles/NaturalArticles';
 import './NaturalHome.css'
 const NaturalHome = () => {
     return (
@@ -18,7 +18,7 @@ const NaturalHome = () => {
 
             <div className='py-6 '>
                 <p>
-                    <span className='font-medium text-[#91000D]'>Journal of Islamic Studies and Culture</span>  is an international peer-reviewed journal that focuses on every aspects of fundamental and applied sciences research. The journal seeks to publish experimental, computational and theoretical studies of fundamental and applied sciences, engineering, and technology and health sciences. The journal is devoted to related sciences and publishes articles from around the world presenting results of major research from all earth sciences. All research articles in this journal have undergone initial editorial screen and rigorous peer review.
+                    <span className='font-medium text-[#91000D]'>Journal of Natural Sciences</span>  is an international peer-reviewed journal that focuses on every aspects of fundamental and applied sciences research. The journal seeks to publish experimental, computational and theoretical studies of fundamental and applied sciences, engineering, and technology and health sciences. The journal is devoted to related sciences and publishes articles from around the world presenting results of major research from all earth sciences. All research articles in this journal have undergone initial editorial screen and rigorous peer review.
                 </p>
 
                 <div className='py-4'>
@@ -36,7 +36,7 @@ const NaturalHome = () => {
                 <div>
                     <h2 className='font-medium text-[#91000D] py-2'>DOI®number</h2>
                     <p>
-                        Each paper published in <span className='font-semibold'>Journal of Islamic Studies and Culture</span> is assigned a DOI®number,
+                        Each paper published in <span className='font-semibold'>Journal of Natural Sciences</span> is assigned a DOI®number,
                         which appears beneath the author's affiliation in the published paper. Click <a className='hover:text-[#072159] text-[#91000D] duration-300 cursor-pointer font-medium px-1' href='https://www.doi.org/' target='_blank'>https://www.doi.org/</a> to know what
                         is DOI (Digital Object Identifier)? Click <a className='hover:text-[#072159] text-[#91000D] duration-300 cursor-pointer font-medium px-1' href='https://www.crossref.org/'>https://www.crossref.org/</a> to retrieve Digital Object Identifiers
                         (DOIs) for journal articles, books, and chapters.
@@ -55,7 +55,7 @@ const NaturalHome = () => {
                 <div className='py-2'>
                     <h2 className='font-medium text-[#91000D] py-2'>Current Issue:</h2>
                     <div>
-                        <CultureArticles></CultureArticles>
+                        <NaturalArticles></NaturalArticles>
                     </div>
                 </div>
             </div>

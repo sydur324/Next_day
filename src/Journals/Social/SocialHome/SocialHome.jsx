@@ -1,5 +1,6 @@
 
-import CultureArticles from '../../../Articles/CultureArticles/CultureArticles';
+
+import SocialArticles from '../../../Articles/SocialArticles/SocialArticles';
 import './SocialHome.css'
 const SocialHome = () => {
     return (
@@ -55,7 +56,7 @@ const SocialHome = () => {
                 <div className='py-2'>
                     <h2 className='font-medium text-[#91000D] py-2'>Current Issue:</h2>
                     <div>
-                        <CultureArticles></CultureArticles>
+                        <SocialArticles></SocialArticles>
                     </div>
                 </div>
             </div>

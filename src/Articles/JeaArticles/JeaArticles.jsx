@@ -5,7 +5,7 @@ import ArticleBox from "../ArticleBox/ArticleBox";
 
 const JeaArticles = () => {
     const [articles] = useArticles()
-    const engineeringArticles = articles.filter((article) => article.category === 'Engineering')
+    const engineeringArticles = articles.filter((article) => article.category === 'Architectures')
     return (
         <div className="">
             <div>

@@ -2,7 +2,8 @@ import { Link } from "react-router-dom";
 
 const HumanitiesDrop = () => {
     const business = [
-        { id: 1, name: "Journal of Business Law and Ethics", to: "/jble", img: "https://i.ibb.co/YLF6Hx6/New-Project.jpg" },
+      
+        { id: 1, name: "Review of Arts and Humanities", to: "/rah", img: "https://i.ibb.co/YLF6Hx6/New-Project.jpg" },
         { id: 2, name: "Business Research Review", to: "", img: "https://i.ibb.co/YLF6Hx6/New-Project.jpg" },
     ]
     return (

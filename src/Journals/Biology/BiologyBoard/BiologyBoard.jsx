@@ -2,7 +2,7 @@ import useEditorials from "../../../Hooks/useEditorials";
 
 const BiologyBoard = () => {
     const [editorials] = useEditorials()
-    const accountingEditoris = editorials.filter((editorial) => editorial.category === 'Accounting')
+    const accountingEditoris = editorials.filter((editorial) => editorial.category === 'Biology')
     return (
         <div className="w-full">
             <h2 className="text-xl font-bold text-[#91000D] aimsscope">Editorial Boad</h2>

@@ -1,3 +1,4 @@
+import SocialArticles from "../../../Articles/SocialArticles/SocialArticles";
 
 
 const SocialScope = () => {
@@ -51,7 +52,7 @@ const SocialScope = () => {
             <div className='py-2'>
                 <h2 className='font-medium text-[#91000D] py-2'>Current Issue:</h2>
                 <div>
-
+                    <SocialArticles></SocialArticles>
                 </div>
             </div>
         </div>

@@ -24,7 +24,7 @@ const SociologyDetails = () => {
 
                             <div className='flex flex-wrap xl:flex-nowrap lg:flex-nowrap md:flex-nowrap items-center lg:space-x-2 gap-1'>
                                 <p className='font-medium text-[#91000cae]'>ISSN:</p>
-                                <p>2333-5807 (Print Version)</p>
+                                <p>2333-5815 (Electronic Version)</p>
                             </div>
                         </div>
 

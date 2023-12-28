@@ -1,4 +1,4 @@
-import img from '../../../assets/img/Linguisticsand.png'
+import img from '../../../assets/img/InternationalReviewofArtsandHumanities.png'
 
 const HumanitiesDetails = () => {
     return (

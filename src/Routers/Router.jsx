@@ -414,6 +414,17 @@ import PhilosophyScope from "../Journals/Philosophy/PhilosophyScope/PhilosophySc
 import PhilosophyBoard from "../Journals/Philosophy/PhilosophyBoard/PhilosophyBoard";
 import PhilosophyArcive from "../Journals/Philosophy/PhilosophyArcive/PhilosophyArcive";
 import ForeignBoard from "../Journals/Foreign/ForeignBoard/ForeignBoard";
+import StrategicLayout from "../Layout/StrategicLayout";
+import StrategicHome from "../Journals/Strategic/StrategicHome/StrategicHome";
+import StrategicIssue from "../Journals/Strategic/StrategicIssue/StrategicIssue";
+import StrategicScope from "../Journals/Strategic/StrategicScope/StrategicScope";
+import StrategicBoard from "../Journals/Strategic/StrategicBoard/StrategicBoard";
+import StrategicArcive from "../Journals/Strategic/StrategicArcive/StrategicArcive";
+import LibraryLayout from "../Layout/LibraryLayout";
+import LibraryHome from "../Journals/Library/LibraryHome/LibraryHome";
+import LibraryIssue from "../Journals/Library/LibraryIssue/LibraryIssue";
+import LibraryScope from "../Journals/Library/LibraryScope/LibraryScope";
+import LibraryBoard from "../Journals/Library/LibraryBoard/LibraryBoard";
 
 
 export const router = createBrowserRouter([
@@ -2248,6 +2259,56 @@ export const router = createBrowserRouter([
                     {
                         path:"/jgpc/archive-jgpc",
                         element:<PeaceArcive></PeaceArcive>
+                    },
+                ]
+            },
+
+            {
+                path:"/smq",
+                element:<StrategicLayout></StrategicLayout>,
+                children:[
+                    {
+                        path:"/smq",
+                        element:<StrategicHome></StrategicHome>
+                    },
+                    {
+                        path:"/smq/current-smq",
+                        element:<StrategicIssue></StrategicIssue>
+                    },
+                    {
+                        path:"/smq/scope-smq",
+                        element:<StrategicScope></StrategicScope>
+                    },
+                    {
+                        path:"/smq/editorial-board",
+                        element:<StrategicBoard></StrategicBoard>
+                    },
+                    {
+                        path:"/smq/archive-smq",
+                        element:<StrategicArcive></StrategicArcive>
+                    },
+                ]
+            },
+
+            {
+                path:"/jlis",
+                element:<LibraryLayout></LibraryLayout>,
+                children:[
+                    {
+                        path:"/jlis",
+                        element:<LibraryHome></LibraryHome> 
+                    },
+                    {
+                        path:"/jlis/current-jlis",
+                        element:<LibraryIssue></LibraryIssue>
+                    },
+                    {
+                        path:"/jlis/scope-jlis",
+                        element:<LibraryScope></LibraryScope>
+                    },
+                    {
+                        path:"/jlis/editorial-board",
+                        element:<LibraryBoard></LibraryBoard>
                     },
                 ]
             }

@@ -1,11 +1,12 @@
-import CultureArticles from "../../../Articles/CultureArticles/CultureArticles";
+
+import SocialArticles from "../../../Articles/SocialArticles/SocialArticles";
 
 const SocialIssue = () => {
     return (
         <div className="w-full">
             <h2 className="text-xl font-bold text-[#91000D] aimsscope">Current Issue</h2>
             <div className="my-8">
-                <CultureArticles></CultureArticles>
+                <SocialArticles></SocialArticles>
             </div>
         </div>
 

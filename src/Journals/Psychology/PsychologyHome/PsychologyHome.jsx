@@ -1,4 +1,5 @@
 
+import PsychologyArticles from '../../../Articles/PsychologyArticles/PsychologyArticles';
 import './PsychologyHome.css'
 const PsychologyHome = () => {
     return (
@@ -52,7 +53,7 @@ const PsychologyHome = () => {
                 <div className='py-2'>
                     <h2 className='font-medium text-[#91000D] py-2'>Current Issue:</h2>
                     <div>
-                         
+                         <PsychologyArticles></PsychologyArticles>
                     </div>
                 </div>
             </div>
