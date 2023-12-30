@@ -1,3 +1,4 @@
+import BUTArticles from "../../../Articles/BUTArticles/BUTArticles";
 import IjatArticles from "../../../Articles/IjatArticles/IjatArticles";
 
 const BUTScope = () => {
@@ -25,7 +26,7 @@ const BUTScope = () => {
             <div className='py-2'>
                 <h2 className='font-medium text-[#91000D] py-2'>Current Issue:</h2>
                 <div>
-                    <IjatArticles></IjatArticles>
+                    <BUTArticles></BUTArticles>
                 </div>
             </div>
         </div>

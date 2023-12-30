@@ -13,7 +13,8 @@ const EducationPolicyDetails = () => {
                         <h2 className='journal_box_title'>Journal of Education & Social Policy</h2>
                         <div className='py-2'>
                             <p className='font-medium text-[#91000cae]'>Editor-in-Chief:</p>
-                            <p></p>
+                            <p>Jain Kwon, PhD</p>
+                            <p>The University of Georgia,USA</p>
                         </div>
 
                         <div className='py-2 space-y-2'>

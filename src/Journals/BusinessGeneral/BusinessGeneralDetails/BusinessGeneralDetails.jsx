@@ -12,8 +12,9 @@ const BusinessGeneralDetails = () => {
                     <div>
                         <h2 className='journal_box_title'>International Journal of Business and Social Science</h2>
                         <div className='py-2'>
-                            <p className='font-medium text-[#91000cae]'>Editor-in-Chief:</p>
-                            <p></p>
+                            <p className='font-medium text-[#91000cae]'>Editor-in-Chief: </p>
+                            <p>Frank Tian Xie, Ph.D.</p>
+                            <p>School of Business Administration <br></br>University of South Carolina Aiken United States</p>
                         </div>
 
                         <div className='py-2 space-y-2'>

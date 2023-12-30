@@ -13,7 +13,8 @@ const TechnologyDetails = () => {
                         <h2 className='journal_box_title'>International Journal of Applied Science and Technology</h2>
                         <div className='py-2'>
                             <p className='font-medium text-[#91000cae]'>Editor-in-Chief:</p>
-                            <p></p>
+                            <p>Dr. Nan Hu</p>
+                            <p>Maryville University of St. Louis, <br></br>United States</p>
                         </div>
 
                         <div className='py-2 space-y-2'>

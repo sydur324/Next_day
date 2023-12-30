@@ -56,7 +56,7 @@ const Navbar = () => {
                                     <NavLink to="/"><a href="">Home</a></NavLink>
                                 </li>
                                 <li className="hover:text-[#950007] duration-300 relative journals">
-                                    <NavLink to="/subjects"><a href="">Journals</a></NavLink>
+                                    <NavLink to=""><a href="">Journals</a></NavLink>
                                     <div className="subJournals">
                                         <Dropdown></Dropdown>
                                     </div>

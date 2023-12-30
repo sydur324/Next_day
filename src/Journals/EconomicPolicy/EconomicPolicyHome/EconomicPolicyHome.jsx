@@ -1,4 +1,4 @@
-import IjatArticles from '../../../Articles/IjatArticles/IjatArticles';
+import EconomicPolicyArticles from '../../../Articles/EconomicPolicyArticles/EconomicPolicyArticles';
 import './EconomicPolicyHome.css'
 const EconomicPolicyHome = () => {
     return (
@@ -21,7 +21,7 @@ const EconomicPolicyHome = () => {
                 </p>
 
                 <p className='py-4'>
-                    <span className='font-medium text-[#91000D]'>Journal of Business & Economic Policy</span> The journal publishes research papers in the all the fields of business and economics such as management, marketing, finance, economics, banking, accounting, human resources management, international business, hotel and tourism, entrepreneurship development, business ethics, international trade policy, international trade law, development studies, population studies, culture and business, corporate governance, cross-cultural studies, social business, corporate social responsibility, industrial psychology, and so on.
+                    The journal publishes research papers in the all the fields of business and economics such as management, marketing, finance, economics, banking, accounting, human resources management, international business, hotel and tourism, entrepreneurship development, business ethics, international trade policy, international trade law, development studies, population studies, culture and business, corporate governance, cross-cultural studies, social business, corporate social responsibility, industrial psychology, and so on.
                 </p>
 
                 <p className='py-3 text-[#91000D]'>The journal is published in both print and online.</p>
@@ -32,7 +32,7 @@ const EconomicPolicyHome = () => {
                     <p>
                         Each paper published in <span className='font-semibold'>Journal of Business & Economic Policy</span> is assigned a DOI®number,
                         which appears beneath the author's affiliation in the published paper. Click <a className='hover:text-[#072159] text-[#91000D] duration-300 cursor-pointer font-medium px-1' href='https://www.doi.org/' target='_blank'>https://www.doi.org/</a> to know what
-                        is DOI (Digital Object Identifier)? Click <a className='hover:text-[#072159] text-[#91000D] duration-300 cursor-pointer font-medium px-1' href='https://www.crossref.org/'>https://www.crossref.org/</a> to retrieve Digital Object Identifiers
+                        is DOI (Digital Object Identifier)? Click <a className='hover:text-[#072159] text-[#91000D] duration-300 cursor-pointer font-medium px-1' href='https://www.crossref.org/' target='_blank'>https://www.crossref.org/</a> to retrieve Digital Object Identifiers
                         (DOIs) for journal articles, books, and chapters.
                     </p>
                 </div>
@@ -49,7 +49,7 @@ const EconomicPolicyHome = () => {
                 <div className='py-2'>
                     <h2 className='font-medium text-[#91000D] py-2'>Current Issue:</h2>
                     <div>
-                         <IjatArticles></IjatArticles>
+                         <EconomicPolicyArticles></EconomicPolicyArticles>
                     </div>
                 </div>
             </div>

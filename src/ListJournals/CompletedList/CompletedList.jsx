@@ -12,10 +12,10 @@ const CompletedList = () => {
         { id: 6, name: "Review of History and Political Science", to: "/rhps", img: "https://i.ibb.co/YLF6Hx6/New-Project.jpg" },
         { id: 7, name: "Journal of Power, Politics & Governance", to: "/jppg", img: "https://i.ibb.co/YLF6Hx6/New-Project.jpg" },
         { id: 8, name: "Journal of Psychology and Behavioral Science", to: "/jpbs", img: "https://i.ibb.co/YLF6Hx6/New-Project.jpg" },
-        { id: 9, name: "Review of Journalism and Mass Communication", to: "/jcb", img: "https://i.ibb.co/YLF6Hx6/New-Project.jpg" },
-        { id: 10, name: "International Journal of Language and Literature", to: "/ijllnet", img: "https://i.ibb.co/YLF6Hx6/New-Project.jpg" },
+        { id: 9, name: "Review of Journalism and Mass Communication", to: "/rjmc", img: "https://i.ibb.co/YLF6Hx6/New-Project.jpg" },
+        { id: 10, name: "International Journal of Language and Linguistics", to: "/ijllnet", img: "https://i.ibb.co/YLF6Hx6/New-Project.jpg" },
         { id: 11, name: "International Journal of Linguistics and Communication", to: "/ijlc", img: "https://i.ibb.co/YLF6Hx6/New-Project.jpg" },
-        { id: 12, name: "Journal of Foreign Languages, Cultures & Civilizations", to: "/jcsit", img: "https://i.ibb.co/YLF6Hx6/New-Project.jpg" },
+        { id: 12, name: "Journal of Foreign Languages, Cultures & Civilizations", to: "/jflcc", img: "https://i.ibb.co/YLF6Hx6/New-Project.jpg" },
         { id: 13, name: "International Journal of Philosophy and Theology", to: "/ijpt", img: "https://i.ibb.co/YLF6Hx6/New-Project.jpg" },
         { id: 14, name: "Journal of Islamic Studies and Culture", to: "/jisc", img: "https://i.ibb.co/YLF6Hx6/New-Project.jpg" },
         { id: 15, name: "Journal of Education and Human Development", to: "/jehd", img: "https://i.ibb.co/YLF6Hx6/New-Project.jpg" },
@@ -25,19 +25,19 @@ const CompletedList = () => {
         { id: 18, name: "Journal of Social Welfare and Human Rights", to: "/jswhr", img: "https://i.ibb.co/YLF6Hx6/New-Project.jpg" },
         { id: 19, name: "Public Policy and Administration Review", to: "/ppar", img: "https://i.ibb.co/YLF6Hx6/New-Project.jpg" },
         { id: 20, name: "Journal of Global Peace and Conflict", to: "/jges", img: "https://i.ibb.co/YLF6Hx6/New-Project.jpg" },
-        { id: 21, name: "Journal of International Relations and Foreign Policy", to: "//jirfp", img: "https://i.ibb.co/YLF6Hx6/New-Project.jpg" },
+        { id: 21, name: "Journal of International Relations and Foreign Policy", to: "/jirfp", img: "https://i.ibb.co/YLF6Hx6/New-Project.jpg" },
         { id: 22, name: "International Journal of Gender and Womens Studies", to: "/ijgws", img: "https://i.ibb.co/YLF6Hx6/New-Project.jpg" },
         { id: 23, name: "Review of Arts and Humanities", to: "/rah", img: "https://i.ibb.co/YLF6Hx6/New-Project.jpg" },
         { id: 24, name: "International Journal of Art and Art History", to: "/ijaah", img: "https://i.ibb.co/YLF6Hx6/New-Project.jpg" },
         { id: 25, name: "International Journal of Music and Performing Arts", to: "/ijmpa", img: "https://i.ibb.co/YLF6Hx6/New-Project.jpg" },
         { id: 26, name: "International Multilingual Journal of Contemporary Research", to: "/imjcr", img: "https://i.ibb.co/YLF6Hx6/New-Project.jpg" },
         { id: 27, name: "Journal of Law and Criminal Justice", to: "/jlcj", img: "https://i.ibb.co/YLF6Hx6/New-Project.jpg" },
-        { id: 28, name: "Journal of Library and Information Sciences", to: "/jlcj", img: "https://i.ibb.co/YLF6Hx6/New-Project.jpg" },
+        { id: 28, name: "Journal of Library and Information Sciences", to: "/jlis", img: "https://i.ibb.co/YLF6Hx6/New-Project.jpg" },
 
     ]
 
     const middleSubjects = [
-        { id: 1, name: "International Journal of Business and Social Science", to: "/jlcj", img: "https://i.ibb.co/YLF6Hx6/New-Project.jpg" },
+        { id: 1, name: "International Journal of Business and Social Science", to: "/ijbss", img: "https://i.ibb.co/YLF6Hx6/New-Project.jpg" },
         { id: 2, name: "Journal of Business & Economic Policy", to: "/jbep", img: "https://i.ibb.co/YLF6Hx6/New-Project.jpg" },
         { id: 3, name: "Journal of Management Policies and Practices", to: "/jmpp", img: "https://i.ibb.co/YLF6Hx6/New-Project.jpg" },
         { id: 4, name: "Journal of Economics and Development Studies", to: "/jeds", img: "https://i.ibb.co/YLF6Hx6/New-Project.jpg" },
@@ -52,8 +52,8 @@ const CompletedList = () => {
         { id: 13, name: "Journal of International Business and Economics", to: "/jibe", img: "https://i.ibb.co/YLF6Hx6/New-Project.jpg" },
         { id: 14, name: "Journal of Islamic Banking and Finance", to: "/jibf", img: "https://i.ibb.co/YLF6Hx6/New-Project.jpg" },
         { id: 15, name: "Journal of Tourism and Hospitality Management", to: "/jthm", img: "https://i.ibb.co/YLF6Hx6/New-Project.jpg" },
-        { id: 16, name: "Strategic Management Quarterly", to: "/jaes", img: "https://i.ibb.co/YLF6Hx6/New-Project.jpg" },
-        { id: 17, name: "Journal of Management Information System and E-commerce", to: "/jaes", img: "https://i.ibb.co/YLF6Hx6/New-Project.jpg" },
+        { id: 16, name: "Strategic Management Quarterly", to: "/smq", img: "https://i.ibb.co/YLF6Hx6/New-Project.jpg" },
+        { id: 17, name: "Journal of Management Information System and E-commerce", to: "/jmise", img: "https://i.ibb.co/YLF6Hx6/New-Project.jpg" },
 
 
     ]
@@ -72,7 +72,7 @@ const CompletedList = () => {
         { id: 12, name: "Journal of Chemistry and Biochemistry", to: "/jcb", img: "https://i.ibb.co/YLF6Hx6/New-Project.jpg" },
         { id: 13, name: "Journal of Physical Education and Sports Management", to: "/jpesm", img: "https://i.ibb.co/YLF6Hx6/New-Project.jpg" },
         { id: 14, name: "International Journal of Health Sciences", to: "/ijhs", img: "https://i.ibb.co/YLF6Hx6/New-Project.jpg" },
-        { id: 15, name: "International Journal of Business, Humanities and Technology", to: "/BUTHome", img: "https://i.ibb.co/YLF6Hx6/New-Project.jpg" },
+        { id: 15, name: "International Journal of Business, Humanities and Technology", to: "/ijbht", img: "https://i.ibb.co/YLF6Hx6/New-Project.jpg" },
     ]
 
     const multidisciplineSubjects = [
@@ -81,7 +81,7 @@ const CompletedList = () => {
        
     ]
     const MultilanguageSubjects = [
-        { id: 1, name: "International Multilingual Journal of Contemporary Research", to: "/jmise", img: "https://i.ibb.co/YLF6Hx6/New-Project.jpg" },
+        { id: 1, name: "International Multilingual Journal of Contemporary Research", to: "/imjcr", img: "https://i.ibb.co/YLF6Hx6/New-Project.jpg" },
         { id: 2, name: "Journal of Foreign Languages, Cultures & Civilizations", to: "/jflcc", img: "https://i.ibb.co/YLF6Hx6/New-Project.jpg" },
        
     ]

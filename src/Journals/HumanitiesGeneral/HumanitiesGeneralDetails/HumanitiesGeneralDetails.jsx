@@ -13,7 +13,8 @@ const HumanitiesGeneralDetails = () => {
                         <h2 className='journal_box_title'>International Journal of Humanities and Social Science</h2>
                         <div className='py-2'>
                             <p className='font-medium text-[#91000cae]'>Editor-in-Chief:</p>
-                            <p></p>
+                            <p>Dr. Maggie Leysath</p>
+                            <p>Stephen F. Austin State University, <br></br>United States</p>
                         </div>
 
                         <div className='py-2 space-y-2'>

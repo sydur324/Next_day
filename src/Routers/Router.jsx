@@ -425,6 +425,19 @@ import LibraryHome from "../Journals/Library/LibraryHome/LibraryHome";
 import LibraryIssue from "../Journals/Library/LibraryIssue/LibraryIssue";
 import LibraryScope from "../Journals/Library/LibraryScope/LibraryScope";
 import LibraryBoard from "../Journals/Library/LibraryBoard/LibraryBoard";
+import LibraryArcive from "../Journals/Library/LibraryArcive/LibraryArcive";
+import ScienceReviewLayout from "../Layout/ScienceReviewLayout";
+import ScienceReviewIssue from "../Journals/ScienceReview/ScienceReviewIssue/ScienceReviewIssue";
+import ScienceReviewHome from "../Journals/ScienceReview/ScienceReviewHome/ScienceReviewHome";
+import ScienceReviewScope from "../Journals/ScienceReview/ScienceReviewScope/ScienceReviewScope";
+import ScienceReviewBoard from "../Journals/ScienceReview/ScienceReviewBoard/ScienceReviewBoard";
+import ScienceReviewArcive from "../Journals/ScienceReview/ScienceReviewArcive/ScienceReviewArcive";
+import BusinessReviewsLayout from "../Layout/BusinessReviewsLayout";
+import BusinessReviewsHome from "../Journals/BusinessReviews/BusinessReviewsHome/BusinessReviewsHome";
+import BusinessReviewsIssue from "../Journals/BusinessReviews/BusinessReviewsIssue/BusinessReviewsIssue";
+import BusinessReviewsScope from "../Journals/BusinessReviews/BusinessReviewsScope/BusinessReviewsScope";
+import BusinessReviewsBoard from "../Journals/BusinessReviews/BusinessReviewsBoard/BusinessReviewsBoard";
+import BusinessReviewsArcive from "../Journals/BusinessReviews/BusinessReviewsArcive/BusinessReviewsArcive";
 
 
 export const router = createBrowserRouter([
@@ -2309,6 +2322,64 @@ export const router = createBrowserRouter([
                     {
                         path:"/jlis/editorial-board",
                         element:<LibraryBoard></LibraryBoard>
+                    },
+                    {
+                        path:"/jlis/archive-jlis",
+                        element:<LibraryArcive></LibraryArcive>
+                    },
+                ]
+            },
+
+            {
+                path:"/ssr",
+                element:<ScienceReviewLayout></ScienceReviewLayout>,
+                children:[
+                    {
+                        path:"/ssr",
+                        element:<ScienceReviewHome></ScienceReviewHome>
+                    },
+                    {
+                        path:"/ssr/current-ssr",
+                        element:<ScienceReviewIssue></ScienceReviewIssue>
+                    },
+                    {
+                        path:"/ssr/scope-ssr",
+                        element:<ScienceReviewScope></ScienceReviewScope>
+                    },
+                    {
+                        path:"/ssr/editorial-board",
+                        element:<ScienceReviewBoard></ScienceReviewBoard>
+                    },
+                    {
+                        path:"/ssr/archive-ssr",
+                        element:<ScienceReviewArcive></ScienceReviewArcive>
+                    },
+                ]
+            },
+
+            {
+                path:"/brr",
+                element:<BusinessReviewsLayout></BusinessReviewsLayout>,
+                children:[
+                    {
+                        path:"/brr",
+                        element:<BusinessReviewsHome></BusinessReviewsHome>
+                    },
+                    {
+                        path:"/brr/current-brr",
+                        element:<BusinessReviewsIssue></BusinessReviewsIssue>
+                    },
+                    {
+                        path:"/brr/scope-brr",
+                        element:<BusinessReviewsScope></BusinessReviewsScope>
+                    },
+                    {
+                        path:"/brr/editorial-board",
+                        element:<BusinessReviewsBoard></BusinessReviewsBoard>
+                    },
+                    {
+                        path:"/brr/archive-brr",
+                        element:<BusinessReviewsArcive></BusinessReviewsArcive>
                     },
                 ]
             }

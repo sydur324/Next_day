@@ -2,9 +2,9 @@ import { Link } from "react-router-dom";
 
 const SocialScienceDrop = () => {
     const business = [
-        { id: 1, name: "Social Science Review ", to: "", img: "https://i.ibb.co/YLF6Hx6/New-Project.jpg" },
+        { id: 1, name: "Social Science Review", to: "/ssr", img: "https://i.ibb.co/YLF6Hx6/New-Project.jpg" },
         { id: 2, name: "Journal of Social Science for Policy Implications", to: "/jsspi", img: "https://i.ibb.co/YLF6Hx6/New-Project.jpg" },
-        { id: 3, name: "International Journal of Business and Social Science", to: "/jlcj", img: "https://i.ibb.co/YLF6Hx6/New-Project.jpg" },
+        { id: 3, name: "International Journal of Business and Social Science", to: "/ijbss", img: "https://i.ibb.co/YLF6Hx6/New-Project.jpg" },
         { id: 4, name: "International Journal of Humanities and Social Science", to: "/ijhss", img: "https://i.ibb.co/YLF6Hx6/New-Project.jpg" },
         { id: 5, name: "American International Journal of Social Science", to: "/aijss", img: "https://i.ibb.co/YLF6Hx6/New-Project.jpg" },
     ]

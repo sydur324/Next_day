@@ -1,4 +1,4 @@
-import BiochemistryArticles from "../../../Articles/BiochemistryArticles/BiochemistryArticles";
+import BUTArticles from "../../../Articles/BUTArticles/BUTArticles";
 
 
 
@@ -7,7 +7,7 @@ const BUTIssue = () => {
         <div className="w-full">
             <h2 className="text-xl font-bold text-[#91000D] aimsscope">Current Issue</h2>
             <div className="my-8">
-                <BiochemistryArticles></BiochemistryArticles>
+                <BUTArticles></BUTArticles>
             </div>
         </div>
 

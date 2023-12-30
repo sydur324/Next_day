@@ -1,4 +1,5 @@
-import IjatArticles from '../../../Articles/IjatArticles/IjatArticles';
+
+import BUTArticles from '../../../Articles/BUTArticles/BUTArticles';
 import './BUTHome.css'
 const BUTHome = () => {
     return (
@@ -22,7 +23,7 @@ const BUTHome = () => {
                 </p>
 
                 <p className='py-4'>
-                    <span className='font-medium text-[#91000D]'>International Journal of Business, Humanities and Technology</span>  The journal publishes research papers in the fields of management, business law, public responsibility and ethics, marketing theory and applications, business finance and investment, general business research, business and economics education, international business and economics, tourism and hospitality management, production/operations management, organizational behavior and theory, strategic management policy, social issues and public policy, management organization, statistics and econometrics, personnel and industrial relations, gender studies, cross cultural studies, entrepreneurship development, linguistics, library science, media studies, methodology, philosophy, political science, population Studies, psychology, public administration, sociology, social welfare, technology and innovation, case studies , management information systems, information technology and so on.
+                   The journal publishes research papers in the fields of management, business law, public responsibility and ethics, marketing theory and applications, business finance and investment, general business research, business and economics education, international business and economics, tourism and hospitality management, production/operations management, organizational behavior and theory, strategic management policy, social issues and public policy, management organization, statistics and econometrics, personnel and industrial relations, gender studies, cross cultural studies, entrepreneurship development, linguistics, library science, media studies, methodology, philosophy, political science, population Studies, psychology, public administration, sociology, social welfare, technology and innovation, case studies , management information systems, information technology and so on.
                 </p>
 
                 
@@ -32,7 +33,7 @@ const BUTHome = () => {
                     <p>
                         Each paper published in <span className='font-semibold'>International Journal of Business, Humanities and Technology</span> is assigned a DOI®number,
                         which appears beneath the author's affiliation in the published paper. Click <a className='hover:text-[#072159] text-[#91000D] duration-300 cursor-pointer font-medium px-1' href='https://www.doi.org/' target='_blank'>https://www.doi.org/</a> to know what
-                        is DOI (Digital Object Identifier)? Click <a className='hover:text-[#072159] text-[#91000D] duration-300 cursor-pointer font-medium px-1' href='https://www.crossref.org/'>https://www.crossref.org/</a> to retrieve Digital Object Identifiers
+                        is DOI (Digital Object Identifier)? Click <a className='hover:text-[#072159] text-[#91000D] duration-300 cursor-pointer font-medium px-1' href='https://www.crossref.org/' target='_blank'>https://www.crossref.org/</a> to retrieve Digital Object Identifiers
                         (DOIs) for journal articles, books, and chapters.
                     </p>
                 </div>
@@ -49,7 +50,7 @@ const BUTHome = () => {
                 <div className='py-2'>
                     <h2 className='font-medium text-[#91000D] py-2'>Current Issue:</h2>
                     <div>
-                         <IjatArticles></IjatArticles>
+                         <BUTArticles></BUTArticles>
                     </div>
                 </div>
             </div>

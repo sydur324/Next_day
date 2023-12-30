@@ -1,4 +1,4 @@
-import IjatArticles from "../../../Articles/IjatArticles/IjatArticles";
+import EconomicPolicyArticles from "../../../Articles/EconomicPolicyArticles/EconomicPolicyArticles";
 
 const EconomicPolicyScope = () => {
     return (
@@ -23,7 +23,7 @@ const EconomicPolicyScope = () => {
             <div className='py-2'>
                 <h2 className='font-medium text-[#91000D] py-2'>Current Issue:</h2>
                 <div>
-                    <IjatArticles></IjatArticles>
+                    <EconomicPolicyArticles></EconomicPolicyArticles>
                 </div>
             </div>
         </div>

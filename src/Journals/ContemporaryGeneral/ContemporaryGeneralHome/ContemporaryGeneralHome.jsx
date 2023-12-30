@@ -1,4 +1,5 @@
-import IjatArticles from '../../../Articles/IjatArticles/IjatArticles';
+import ContemporaryGeneralArticles from '../../../Articles/ContemporaryGeneralArticles/ContemporaryGeneralArticles';
+
 import './ContemporaryGeneralHome.css'
 const ContemporaryGeneralHome = () => {
     return (
@@ -52,7 +53,7 @@ const ContemporaryGeneralHome = () => {
                     <p>
                         Each paper published in <span className='font-semibold'>American International Journal of Contemporary Research</span> is assigned a DOI®number,
                         which appears beneath the author's affiliation in the published paper. Click <a className='hover:text-[#072159] text-[#91000D] duration-300 cursor-pointer font-medium px-1' href='https://www.doi.org/' target='_blank'>https://www.doi.org/</a> to know what
-                        is DOI (Digital Object Identifier)? Click <a className='hover:text-[#072159] text-[#91000D] duration-300 cursor-pointer font-medium px-1' href='https://www.crossref.org/'>https://www.crossref.org/</a> to retrieve Digital Object Identifiers
+                        is DOI (Digital Object Identifier)? Click <a className='hover:text-[#072159] text-[#91000D] duration-300 cursor-pointer font-medium px-1' href='https://www.crossref.org/' target='_blank'>https://www.crossref.org/</a> to retrieve Digital Object Identifiers
                         (DOIs) for journal articles, books, and chapters.
                     </p>
                 </div>
@@ -69,7 +70,7 @@ const ContemporaryGeneralHome = () => {
                 <div className='py-2'>
                     <h2 className='font-medium text-[#91000D] py-2'>Current Issue:</h2>
                     <div>
-                        <IjatArticles></IjatArticles>
+                        <ContemporaryGeneralArticles></ContemporaryGeneralArticles>
                     </div>
                 </div>
             </div>

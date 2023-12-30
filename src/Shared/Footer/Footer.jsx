@@ -32,7 +32,7 @@ const Footer = () => {
                     </div>
 
                     <div className="py-4 text-[#fff]">
-                        <h2 className="font-medium tracking-wider  py-4">INFORMATION FOR</h2>
+                        <h2 className="font-medium tracking-wider  py-4">Information Policies</h2>
 
                         <div className="text-sm space-y-2 text-[#ffffffb1] cursor-pointer">
                             <p className="hover:text-[#91000D] cursor-pointer duration-300"><Link to='/Ijatnet/policies'>E-Publication First<sup>TM</sup></Link></p>
@@ -47,19 +47,18 @@ const Footer = () => {
                     </div>
 
                     <div className="py-4 text-[#fff]">
-                        <h2 className="font-medium tracking-wider  py-4">Journals List</h2>
+                        <h2 className="font-medium tracking-wider  py-4">Information For</h2>
 
                         <div className="text-sm space-y-2 text-[#ffffffb1] cursor-pointer">
-                            <p className="hover:text-[#91000D] cursor-pointer duration-300">Public Policy</p>
-                            <p className="hover:text-[#91000D] cursor-pointer duration-300">Social Science</p>
-                            <p className="hover:text-[#91000D] cursor-pointer duration-300">Women's Studies</p>
-                            <p className="hover:text-[#91000D] cursor-pointer duration-300">Humanities</p>
-                            <p className="hover:text-[#91000D] cursor-pointer duration-300">Communication</p>
-                            <p className="hover:text-[#91000D] cursor-pointer duration-300">Environmental Sciences</p>
-                            <p className="hover:text-[#91000D] cursor-pointer duration-300">Foreign Languages</p>
-                            <p className="hover:text-[#91000D] cursor-pointer duration-300">Health Sciences</p>
-                            <p className="hover:text-[#91000D] cursor-pointer duration-300">Human Rights</p>
-                            <p className="text-[#91000D] hover:scale-95 cursor-pointer duration-300">Browse More</p>
+                            <p className="hover:text-[#91000D] cursor-pointer duration-300"><Link to='/information/submission'>Submission</Link></p>
+                            <p className="hover:text-[#91000D] cursor-pointer duration-300"><Link to='/information/resources'>Resources</Link></p>
+                            <p className="hover:text-[#91000D] cursor-pointer duration-300"><Link to='/information/policies'>Journal Policies</Link></p>
+                            <p className="hover:text-[#91000D] cursor-pointer duration-300"><Link to='/information/usefull_link'>Useful Links</Link></p>
+                            <p className="hover:text-[#91000D] cursor-pointer duration-300"><Link to=''>Latest Activities</Link></p>
+                            <p className="hover:text-[#91000D] cursor-pointer duration-300"><Link to=''>Subscription</Link></p>
+                            <p className="hover:text-[#91000D] cursor-pointer duration-300"><Link to=''>Information</Link></p>
+                            <p className="hover:text-[#91000D] cursor-pointer duration-300"><Link to=''>Index</Link></p>
+                            <p className="text-[#91000D] cursor-pointer duration-300"><Link to='/subjects'>Browse More</Link></p>
                         </div>
                     </div>
 

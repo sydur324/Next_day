@@ -13,7 +13,8 @@ const LifeDetails = () => {
                         <h2 className='journal_box_title'>Journal of Agriculture & Life Sciences</h2>
                         <div className='py-2'>
                             <p className='font-medium text-[#91000cae]'>Editor-in-Chief:</p>
-                            <p></p>
+                            <p>Dr. Fang Wang</p>
+                            <p>University of Colorado Boulder, <br></br> United States of America</p>
                         </div>
 
                         <div className='py-2 space-y-2'>

@@ -1,4 +1,5 @@
-import BiochemistryArticles from "../../../Articles/BiochemistryArticles/BiochemistryArticles";
+import ContemporaryGeneralArticles from "../../../Articles/ContemporaryGeneralArticles/ContemporaryGeneralArticles";
+
 
 
 
@@ -7,7 +8,7 @@ const ContemporaryGeneralIssue = () => {
         <div className="w-full">
             <h2 className="text-xl font-bold text-[#91000D] aimsscope">Current Issue</h2>
             <div className="my-8">
-                <BiochemistryArticles></BiochemistryArticles>
+                <ContemporaryGeneralArticles></ContemporaryGeneralArticles>
             </div>
         </div>
 

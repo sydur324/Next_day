@@ -3,10 +3,10 @@ import { Link } from "react-router-dom";
 const BussnessDropDown = () => {
     const business = [
         { id: 1, name: "Journal of Business Law and Ethics", to: "/jble", img: "https://i.ibb.co/YLF6Hx6/New-Project.jpg" },
-        { id: 2, name: "Business Research Review ", to: "", img: "https://i.ibb.co/YLF6Hx6/New-Project.jpg" },
-        { id: 3, name: "International Journal of Business, Humanities and Technology", to: "/BUTHome", img: "https://i.ibb.co/YLF6Hx6/New-Project.jpg" },
-        { id: 4, name: "International Journal of Business and Social Science", to: "/ijaah", img: "https://i.ibb.co/YLF6Hx6/New-Project.jpg" },
-        { id: 5, name: "Journal of Business & Economic Policy", to: "/ijbss", img: "https://i.ibb.co/YLF6Hx6/New-Project.jpg" },
+        { id: 2, name: "Business Research Review ", to: "/brr", img: "https://i.ibb.co/YLF6Hx6/New-Project.jpg" },
+        { id: 3, name: "International Journal of Business, Humanities and Technology", to: "/ijbht", img: "https://i.ibb.co/YLF6Hx6/New-Project.jpg" },
+        { id: 4, name: "International Journal of Business and Social Science", to: "/ijbss", img: "https://i.ibb.co/YLF6Hx6/New-Project.jpg" },
+        { id: 5, name: "Journal of Business & Economic Policy", to: "/jbep", img: "https://i.ibb.co/YLF6Hx6/New-Project.jpg" },
     ]
     return (
         <div className="w-full  bg-[#3d79fc]  border my-4 p-5">
