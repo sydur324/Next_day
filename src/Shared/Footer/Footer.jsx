@@ -54,10 +54,10 @@ const Footer = () => {
                             <p className="hover:text-[#91000D] cursor-pointer duration-300"><Link to='/information/resources'>Resources</Link></p>
                             <p className="hover:text-[#91000D] cursor-pointer duration-300"><Link to='/information/policies'>Journal Policies</Link></p>
                             <p className="hover:text-[#91000D] cursor-pointer duration-300"><Link to='/information/usefull_link'>Useful Links</Link></p>
-                            <p className="hover:text-[#91000D] cursor-pointer duration-300"><Link to=''>Latest Activities</Link></p>
-                            <p className="hover:text-[#91000D] cursor-pointer duration-300"><Link to=''>Subscription</Link></p>
-                            <p className="hover:text-[#91000D] cursor-pointer duration-300"><Link to=''>Information</Link></p>
-                            <p className="hover:text-[#91000D] cursor-pointer duration-300"><Link to=''>Index</Link></p>
+                            <p className="hover:text-[#91000D] cursor-pointer duration-300"><Link to='/information/latest_activities'>Latest Activities</Link></p>
+                            <p className="hover:text-[#91000D] cursor-pointer duration-300"><Link to='/information/subcription'>Subscription</Link></p>
+                            <p className="hover:text-[#91000D] cursor-pointer duration-300"><Link to='/information/information'>Information</Link></p>
+                            <p className="hover:text-[#91000D] cursor-pointer duration-300"><Link to='/information/index'>Index</Link></p>
                             <p className="text-[#91000D] cursor-pointer duration-300"><Link to='/subjects'>Browse More</Link></p>
                         </div>
                     </div>

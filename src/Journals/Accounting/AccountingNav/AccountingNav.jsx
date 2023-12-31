@@ -18,7 +18,7 @@ const AccountingNav = () => {
         { id: 15, name: "Archive", to: "/Ijatnet/archive-ijat" },
     ]
     return (
-        <div className="border lg:w-1/3">
+        <div className="border lg:w-1/3 ">
             <div className="bg-[#072159] border-b text-[#fff] text-center font-bold text-lg py-6">
                 <h2 >Journal Menu</h2>
             </div>

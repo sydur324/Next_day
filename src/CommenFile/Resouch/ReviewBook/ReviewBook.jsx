@@ -219,17 +219,17 @@ const ReviewBook = () => {
                                  <div className="my-2 space-y-3 text-[#262626ee]">
                                        <div className="space-y-1">
                                           <p>How to Write a Book Review. Stauffer Library.</p>
-                                          <a className="text-[#91000D] hover:text-[#072159] duration-200" href="http://library.uwaterloo.ca/libguides/1-12.html">http://library.uwaterloo.ca/libguides/1-12.html</a>
+                                          <a className="text-[#91000D] hover:text-[#072159] duration-200" href="http://library.uwaterloo.ca/libguides/1-12.html" target="_blank">http://library.uwaterloo.ca/libguides/1-12.html</a>
                                        </div>
 
                                        <div className="space-y-1">
                                           <p>How to Write a Book Review. Dalhousie University Libraries.</p>
-                                          <a className="text-[#91000D] hover:text-[#072159] duration-200" href="http://www.library.dal.ca/How/Guides/BookReview/">http://www.library.dal.ca/How/Guides/BookReview/</a>
+                                          <a className="text-[#91000D] hover:text-[#072159] duration-200" href="http://www.library.dal.ca/How/Guides/BookReview/" target="_blank">http://www.library.dal.ca/How/Guides/BookReview/</a>
                                        </div>
 
                                        <div className="space-y-1">
                                           <p>Writing Book Reports & Book Reviews. Internet Public Library.</p>
-                                          <a className="text-[#91000D] hover:text-[#072159] duration-200" href="http://www.ipl.org/div/farq/bookreportFARQ.html">http://www.ipl.org/div/farq/bookreportFARQ.html</a>
+                                          <a className="text-[#91000D] hover:text-[#072159] duration-200" href="http://www.ipl.org/div/farq/bookreportFARQ.html" target="_blank">http://www.ipl.org/div/farq/bookreportFARQ.html</a>
                                        </div>
                                  </div>
                             </div>

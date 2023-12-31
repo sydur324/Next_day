@@ -13,8 +13,9 @@ const AccountingLayout = () => {
             <div className="flex px-20 my-8 gap-8">
                 <ArticleRoutingTop>
                     <AccountingNav></AccountingNav>
-                    </ArticleRoutingTop>
                     <Outlet></Outlet>
+                    </ArticleRoutingTop>
+                    
                
 
             </div>

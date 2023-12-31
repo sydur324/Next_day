@@ -10,7 +10,7 @@ const ForeignLagArciveTab = () => {
         setToggle(index)
     }
     const [archives] = useArchives()
-    const accountingArcives = archives.filter((archive) => archive.category === 'History')
+    const accountingArcives = archives.filter((archive) => archive.category === 'Cross-Cultural Studies')
     const accountingYeares1 = accountingArcives.filter((year) => year.year === '2023')
     const accountingYeares2 = accountingArcives.filter((year) => year.year === '2022')
     const accountingYeares3 = accountingArcives.filter((year) => year.year === '2021')

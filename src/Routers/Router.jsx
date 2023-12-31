@@ -438,6 +438,8 @@ import BusinessReviewsIssue from "../Journals/BusinessReviews/BusinessReviewsIss
 import BusinessReviewsScope from "../Journals/BusinessReviews/BusinessReviewsScope/BusinessReviewsScope";
 import BusinessReviewsBoard from "../Journals/BusinessReviews/BusinessReviewsBoard/BusinessReviewsBoard";
 import BusinessReviewsArcive from "../Journals/BusinessReviews/BusinessReviewsArcive/BusinessReviewsArcive";
+import EconomicsArcive from "../Journals/Economics/EconomicsArcive/EconomicsArcive";
+import JaesArcive from "../Journals/Agriculture/JaesArcive/JaesArcive";
 
 
 export const router = createBrowserRouter([
@@ -642,6 +644,10 @@ export const router = createBrowserRouter([
                     {
                         path:"/jaes/submission",
                         element:<JaesSubmission></JaesSubmission>
+                    },
+                    {
+                        path:"/jaes/archive-ijat",
+                        element:<JaesArcive></JaesArcive>
                     },
                 ]
             },
@@ -918,6 +924,10 @@ export const router = createBrowserRouter([
                     {
                         path:"/jeds/editorial-board",
                         element:<EconomicsBoard></EconomicsBoard>
+                    },
+                    {
+                        path:"/jeds/archive-jeds",
+                        element:<EconomicsArcive></EconomicsArcive>
                     },
                 ]
             },

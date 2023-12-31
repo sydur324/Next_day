@@ -1,4 +1,5 @@
-import ArciveTab from "../../../Arcrive/ArciveTab/ArciveTab";
+import ArchaeologyAriciveTab from "../../../Arcrive/ArchaeologyAriciveTab/ArchaeologyAriciveTab";
+
 
 const ArchaeologyAricive = () => {
 
@@ -7,7 +8,7 @@ const ArchaeologyAricive = () => {
         <div className="w-full">
             <h2 className="text-xl font-bold text-[#91000D] aimsscope">Archive</h2>
             <div className="my-8">
-                <ArciveTab></ArciveTab>
+                <ArchaeologyAriciveTab></ArchaeologyAriciveTab>
             </div>
         </div>
     );

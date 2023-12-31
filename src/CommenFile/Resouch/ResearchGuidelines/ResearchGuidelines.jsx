@@ -186,7 +186,7 @@ const ResearchGuidelines = () => {
                          <h2 className='font-bold text-[#0D2357] '>Courtesy:</h2>
                          <p className='py-1'>Georgetown University</p>
                          <p>3700 O St NW Washington, DC 20057, United States</p>
-                         <a href='https://library.georgetown.edu/tutorials/research-guides/15-steps' className='text-[#890015]'><span className='text-[#0D2357]'>Ref:</span> http://www.library.georgetown.edu/tutorials/research-guides/15-steps</a>
+                         <a href='https://library.georgetown.edu/tutorials/research-guides/15-steps' target='_blank' className='text-[#890015]'><span className='text-[#0D2357]'>Ref:</span> http://www.library.georgetown.edu/tutorials/research-guides/15-steps</a>
                     </div>
                 </div>
 

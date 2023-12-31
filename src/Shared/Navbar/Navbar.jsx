@@ -9,15 +9,7 @@ import Dropdown from "../Dropdown/Dropdown";
 const Navbar = () => {
     const navLink = [
         { id: 1, name: "Home", to: "/" },
-        {
-            id: 2, name: "Journals", to: "",
-            subNav: true,
-            subNavItems: [
-                { id: 1, name: "Journals by Subjects", to: "" },
-                { id: 2, name: "Complete List of Journals", to: "" }
-            ]
-
-        },
+        { id: 2, name: "Journals",},
         { id: 3, name: "Research", to: "/research" },
 
         { id: 4, name: "About Us", to: "/about" },
