@@ -5,9 +5,9 @@ const ArticleBox = ({ articles }) => {
     return (
         <div className="w-full">
             <div>
-                <div className="flex items-center text-lg  space-x-1  font-medium text-center   py-1">
-                    <p><span>volume:</span>{articles.volume},</p>
-                    <p><span>issue:</span>{articles.issue},</p>
+                <div className="flex items-center text-lg  space-x-1  font-medium text-center justify-center py-1">
+                    <p className="capitalize"><span></span>{articles.volume}</p>
+                    <p className="capitalize"><span></span>{articles.issue}</p>
                     <p>{articles.month}</p>
                     <p>{articles.year}</p>
                 </div>
@@ -16,16 +16,16 @@ const ArticleBox = ({ articles }) => {
                     <p className="text-[#262626d2] py-1">{articles.author}</p>
                     <div className="flex xl:flex-nowrap lg:flex-nowrap md:flex-nowrap flex-wrap lg:space-x-2 py-1 items-center">
                         <p className="text-[#91000D]">{articles.journal}</p>
-                        <p className="text-sm">{articles.serial}</p>
+                        <p className="">{articles.serial}</p>
                     </div>
                     <div className="flex flex-wrap items-center lg:space-x-12">
 
-                        <div className="flex items-center space-x-2">
-                            <p className="font-bold">DOI:</p>
+                        <div className="flex items-center">
+                            <p className="font-bold"></p>
                             <p className="text-[#09567c] hover:text-[#91000D] duration-200 cursor-pointer">{articles.doi}</p>
                         </div>
-                        <div className="flex items-center space-x-2">
-                            <p className="font-bold">URL:</p>
+                        <div className="flex items-center">
+                            <p className="font-bold"></p>
                             <p className="text-[#09567c] hover:text-[#91000D] duration-200 cursor-pointer">{articles.doiURL}</p>
                         </div>
 
