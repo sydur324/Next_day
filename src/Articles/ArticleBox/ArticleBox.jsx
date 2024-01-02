@@ -9,7 +9,7 @@ const ArticleBox = ({ articles }) => {
                     <p className="capitalize"><span></span>{articles.volume}</p>
                     <p className="capitalize"><span></span>{articles.issue}</p>
                     <p>{articles.month}</p>
-                    <p>{articles.year}</p>
+                    <p>{articles.years}</p>
                 </div>
                 <div className="my-4">
                     <h2 className="font-medium text-[#072159]">{articles.title}</h2>
