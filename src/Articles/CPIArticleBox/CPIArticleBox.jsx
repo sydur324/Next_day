@@ -5,7 +5,7 @@ const CPIArticleBox = ({ articles }) => {
     return (
         <div className="w-full">
             <div>
-                <div className="flex items-center text-lg  space-x-1  font-medium text-center   py-1">
+                <div className="flex items-center text-lg  space-x-1  font-medium text-center justify-center py-1">
                     <p className="capitalize"><span></span>{articles.volume}</p>
                     <p className="capitalize"><span></span>{articles.issue}</p>
                     <p>{articles.month}</p>

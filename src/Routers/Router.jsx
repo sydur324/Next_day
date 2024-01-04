@@ -440,6 +440,7 @@ import BusinessReviewsBoard from "../Journals/BusinessReviews/BusinessReviewsBoa
 import BusinessReviewsArcive from "../Journals/BusinessReviews/BusinessReviewsArcive/BusinessReviewsArcive";
 import EconomicsArcive from "../Journals/Economics/EconomicsArcive/EconomicsArcive";
 import JaesArcive from "../Journals/Agriculture/JaesArcive/JaesArcive";
+import SubmitForm from "../SubmitForm/SubmitForm";
 
 
 export const router = createBrowserRouter([
@@ -454,6 +455,10 @@ export const router = createBrowserRouter([
             {
                 path: "/subjects",
                 element: <Subjects></Subjects>
+            },
+            {
+                path:"/submit",
+                element:<SubmitForm></SubmitForm>
             },
             {
                 path: "/compltedlist",

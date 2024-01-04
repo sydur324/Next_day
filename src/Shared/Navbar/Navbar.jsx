@@ -9,7 +9,7 @@ import Dropdown from "../Dropdown/Dropdown";
 const Navbar = () => {
     const navLink = [
         { id: 1, name: "Home", to: "/" },
-        { id: 2, name: "Journals",},
+        { id: 2, name: "Journals", },
         { id: 3, name: "Research", to: "/research" },
 
         { id: 4, name: "About Us", to: "/about" },
@@ -72,10 +72,12 @@ const Navbar = () => {
 
                                 <Link to='/login'><button className='py-2 px-3 border border-[#04205A] hover:bg-[#950007]  hover:border-transparent hover:text-white duration-300 rounded'>Sign In / Sign Up</button></Link>
 
-                                <button className='py-2 px-4 bg-[#950007] text-white tracking-wider
+                                <Link to='/submit'>
+                                    <button className='py-2 px-4 bg-[#950007] text-white tracking-wider
                                     hover:bg-[#853336] duration-300 rounded'>
-                                    Submit
-                                </button>
+                                        Submit
+                                    </button>
+                                </Link>
                             </div>
                         </div>
 
