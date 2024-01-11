@@ -3,10 +3,10 @@ import IjatArticles from "../../../Articles/IjatArticles/IjatArticles";
 const PsychologyScope = () => {
     return (
         <div className="w-full">
-            <h2 className="text-xl font-bold text-[#91000D]">Aims & Scope</h2>
+            <h2 className="font-medium text-[#91000D]">Aims & Scope</h2>
 
-            <div className="flex items-center py-8 gap-24">
-                <div className="space-y-2 text-[#0a2158e4]">
+            <div className="flex items-center py-4 gap-24 text-[15px]">
+                <div className="space-y-2  text-[#0a2158e4]">
                     <p>Accounting Theory</p>
                     <p>Financial Accounting</p>
                     <p>Managerial Accounting</p>
@@ -42,7 +42,7 @@ const PsychologyScope = () => {
             </div>
 
             <div className='py-2'>
-                    <h2 className='font-medium text-[#91000D] py-2'>Current Issue:</h2>
+                    <h2 className='font-medium text-[#91000D] py-2'>Current Issue</h2>
                     <div>
                          <IjatArticles></IjatArticles>
                     </div>

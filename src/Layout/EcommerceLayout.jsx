@@ -1,19 +1,18 @@
 import { Outlet } from "react-router-dom";
 import EcommerceNav from "../Journals/Ecommerce/EcommerceNav/EcommerceNav";
-import ArticleRoutingTop from "../Utilities/ArticleRoutingTop/ArticleRoutingTop";
 import PageTitle from "../Utilities/PageTitle/PageTitle";
-import EcommerceDetails from "../Journals/Ecommerce/EcommerceDetails/EcommerceDetails";
+import RoutingTop from "../Utilities/PageTitle/RoutingTop/RoutingTop";
 
 const EcommerceLayout = () => {
     return (
-        <div className="">
+        <div className="mt-28">
             <PageTitle title={"Journal of Management Information System & E-commerce"}></PageTitle>
-            <EcommerceDetails></EcommerceDetails>
+
             <div className="flex px-20 my-8 gap-8">
-                <ArticleRoutingTop>
+                <RoutingTop>
                     <EcommerceNav></EcommerceNav>
                     <Outlet></Outlet>
-                </ArticleRoutingTop>
+                </RoutingTop>
             </div>
 
         </div>

@@ -6,7 +6,7 @@ const LifeScope = () => {
         <div className="w-full">
             <h2 className="text-xl font-bold text-[#91000D]">Aims & Scope</h2>
 
-            <div className="py-8 gap-24">
+            <div className="py-4 gap-24">
                 <p>
                     <span className='font-medium text-[#91000D]'>Journal of Agriculture & Life Sciences</span>  is an open access, peer-reviewed, and refereed journal published by The Brooklyn Research and Publishing Institute. The main objective of JALS is to provide a platform for the international scholars, academicians and researchers to share the contemporary thoughts and innovation in the fields of agriculture and biological sciences. JALS aims to promote interdisciplinary studies in agriculture and life science and thus become the leading international journal in agriculture and life sciences in the world.
                 </p>

@@ -1,10 +1,14 @@
 
 import PhilosophyArticles from '../../../Articles/PhilosophyArticles/PhilosophyArticles';
+import PhilosophyDetails from '../PhilosophyDetails/PhilosophyDetails';
 import './PhilosophyHome.css'
 const PhilosophyHome = () => {
     return (
         <div className='w-full'>
-            <div className='PhilosophyHome_bg text-white px-4 py-4'>
+
+            <PhilosophyDetails></PhilosophyDetails>
+
+            <div className='PhilosophyHome_bg text-white px-4 py-4 mt-8'>
                 <h2 className='font-bold text-lg py-2'>Journal of Philosophy and Theology</h2>
                 <div className='flex items-center space-x-2 text-sm'>
                     <p>ISSN:</p>
@@ -16,7 +20,7 @@ const PhilosophyHome = () => {
                 </div>
             </div>
 
-            <div className='py-6 '>
+            <div className='py-6 text-[15px]'>
                 <p>
                     <span className='font-medium text-[#91000D]'>Journal of Philosophy and Theology</span>  is an journal that addresses all areas of interest to both philosophy and theology. The Journal publishes original research and review articles. The journal strives to strengthen connections between research and practice, so enhancing professional development and improving practice within the field of philosophy and theology. Papers accepted for publication are double-blind refereed to ensure academic integrity.
 
@@ -54,7 +58,7 @@ const PhilosophyHome = () => {
                 </div>
 
                 <div className='py-2'>
-                    <h2 className='font-medium text-[#91000D] py-2'>Current Issue:</h2>
+                    <h2 className='font-medium text-[#91000D] py-2'>Current Issue</h2>
                     <div>
                         <PhilosophyArticles></PhilosophyArticles>
                     </div>

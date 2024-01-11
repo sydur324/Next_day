@@ -1,17 +1,17 @@
 const ResearchPaper = () => {
     return (
         <div className="my-8">
-            <h2 className=" text-lg font-bold text-[#0D2357] aimsscope">Writing Research Papers</h2>
+            <h2 className="font-medium text-[#0D2357] aimsscope">Writing Research Papers</h2>
 
-            <div className="my-8">
+            <div className="my-4">
                 <div className="text-[#262626ee]">
-                    <p>
+                    <p className="text-[15px]">
                         Writing is easy. All you do is stare at a blank
                         sheet of paper until drops of blood form on your forehead.
                     </p>
-                    <h2 className="text-[#0D2357] font-medium text-lg">--- Gene Fowler</h2>
+                    <h2 className="text-[#0D2357] font-medium">--- Gene Fowler</h2>
 
-                    <p className="py-2">
+                    <p className="py-2 text-[15px]">
                         A major goal of this course is the development of effective technical writing skills.
                         To help you become an accomplished writer, you will prepare several research papers based upon the studies
                         completed in lab. Our research papers are not typical "lab reports."
@@ -19,7 +19,7 @@ const ResearchPaper = () => {
                         assignment hardly represents the kind of writing you might be doing in your eventual career.
                     </p>
 
-                    <p className="py-2">
+                    <p className="py-2 text-[15px]">
                         Written and oral communications skills are probably the most universal qualities sought by
                         graduate and professional schools as well as by employers.
                         You alone are responsible for developing such skills to a high level.
@@ -27,13 +27,13 @@ const ResearchPaper = () => {
                 </div>
 
                 <div>
-                    <h2 className=" text-base font-semibold text-[#0D2357] aimsscope">Resources for learning technical writing</h2>
-                    <p className="my-6 text-[#262626ee]">
+                    <h2 className=" text-base font-medium text-[#0D2357]">Resources for learning technical writing</h2>
+                    <p className="my-4 text-[15px] text-[#262626ee]">
                         Before you begin your first writing assignment,
                         please consult all of the following resources, in order
                         to gain the most benefit from the experience.
                     </p>
-                    <div className="space-y-1 text-[#262626ee] px-4">
+                    <div className="space-y-1 text-[#262626ee] px-4 text-[15px]">
                         <p>1 . General form of a typical research article</p>
                         <p>2 . Specific guidelines (if any) for the assignment – see the writeups on individual lab studies</p>
                         <p>3 . McMillan, VE. "Writing Papers in the Biological Sciences, Third Ed."
@@ -44,13 +44,13 @@ const ResearchPaper = () => {
                     </div>
 
                     <h2 className="font-medium py-2 text-[#072159]">As you polish up your writing skills please make use of the following resources</h2>
-                    <div className="space-y-1 text-[#262626ee] px-4">
+                    <div className="space-y-1 text-[#262626ee] px-4 text-[15px]">
                         <p>1 . Instructor feedback on previous assignments</p>
                         <p>2 . Common errors in student research papers</p>
                         <p>3 . Selected writing rules (somewhat less serious than the other resources)</p>
                     </div>
 
-                    <p className="text-[#262626ee] py-2 ">
+                    <p className="text-[#262626ee] py-2 text-[15px]">
                         For Biosciences majors the general guidelines apply to future course work,
                         as can be seen by
                         examining the guidelines for the advanced
@@ -59,9 +59,9 @@ const ResearchPaper = () => {
                 </div>
 
                 <div className="my-2">
-                    <h2 className=" text-base font-semibold text-[#0D2357] aimsscope">General form of a research paper</h2>
+                    <h2 className=" text-base font-medium text-[#0D2357]">General form of a research paper</h2>
                     <div className="space-y-2 my-6 text-[#262626ee]">
-                        <p>
+                        <p className="text-[15px]">
                             An objective of organizing a research paper is to allow people to read your work selectively.
                             When I research a topic, I may be interested in just the methods, a specific result, the
                             interpretation, or perhaps I just want to see a summary of the paper to determine if it
@@ -73,7 +73,7 @@ const ResearchPaper = () => {
                             except for the abstract.
                         </p>
 
-                        <p>
+                        <p className="text-[15px]">
                             Your papers are to adhere to the form and style required for
                             the Journal of Biological Chemistry,
                             requirements that are shared by many journals in the life sciences.
@@ -82,15 +82,15 @@ const ResearchPaper = () => {
                 </div>
 
                 <div className="">
-                    <h2 className=" text-base font-semibold text-[#0D2357] aimsscope">General style</h2>
+                    <h2 className=" text-base font-medium text-[#0D2357] aimsscope">General style</h2>
                     <div className="text-[#262626ee] my-6">
-                        <p>
+                        <p className="text-[15px]">
                             Specific editorial requirements for submission of a
                             manuscript will always supercede instructions in these general guidelines.
                             To make a paper readable
                         </p>
 
-                        <div className="space-y-1 px-4 py-2">
+                        <div className="space-y-1 px-4 py-2 text-[15px]">
                             <p>1 . Print or type using a 12 point standard font, such as Times, Geneva, Bookman, Helvetica, etc.</p>
                             <p>2 . Text should be double spaced on 8 1/2" x 11" paper with 1 inch margins, single sided</p>
                             <p>3 . Number pages consecutively</p>
@@ -101,8 +101,8 @@ const ResearchPaper = () => {
                 </div>
 
                 <div className="">
-                    <h2 className=" text-base font-semibold text-[#0D2357] aimsscope">Mistakes to avoid</h2>
-                    <div className="text-[#262626ee] my-6">
+                    <h2 className=" text-base font-medium text-[#0D2357] aimsscope">Mistakes to avoid</h2>
+                    <div className="text-[#262626ee] my-4 text-[15px]">
                         <div className="space-y-1 px-4 py-2">
                             <p>1 . Placing a heading at the bottom of a page with the following text on the next page (insert a page break!)</p>
                             <p>2 . Dividing a table or figure - confine each figure/table to a single page</p>
@@ -112,9 +112,9 @@ const ResearchPaper = () => {
                 </div>
 
                 <div className="">
-                    <h2 className=" text-base font-semibold text-[#0D2357] aimsscope">In all sections of your paper</h2>
-                    <div className="text-[#262626ee] my-6">
-                        <div className="space-y-1 px-4 py-2">
+                    <h2 className=" text-base font-medium text-[#0D2357] aimsscope">In all sections of your paper</h2>
+                    <div className="text-[#262626ee] my-4">
+                        <div className="space-y-1 px-4 py-2 text-[15px]">
                             <p>1 . Use normal prose including articles ("a", "the," etc.)</p>
                             <p>2 . Stay focused on the research topic of the paper</p>
                             <p>3 . Use paragraphs to separate each important point (except for the abstract)</p>
@@ -129,9 +129,9 @@ const ResearchPaper = () => {
                 </div>
 
                 <div className="">
-                    <h2 className=" text-base font-semibold text-[#0D2357] aimsscope">Title Page</h2>
-                    <div className="text-[#262626ee] my-6">
-                        <p>
+                    <h2 className=" text-base font-medium text-[#0D2357]">Title Page</h2>
+                    <div className="text-[#262626ee] my-4">
+                        <p className="text-[15px]">
                             Select an informative title as illustrated in the examples in your writing portfolio example package.
                             Include the name(s) and address(es) of all authors, and date submitted.
                             "Biology lab #1" would not be an informative title, for example.
@@ -140,18 +140,18 @@ const ResearchPaper = () => {
                 </div>
 
                 <div className="">
-                    <h2 className=" text-base font-semibold text-[#0D2357] aimsscope">Abstract</h2>
-                    <div className="text-[#262626ee] my-6">
-                        <p>
+                    <h2 className=" text-base font-medium text-[#0D2357]">Abstract</h2>
+                    <div className="text-[#262626ee] my-4">
+                        <p className="text-[15px]">
                             The summary should be two hundred words or less. See the examples in the writing portfolio package.
                         </p>
                     </div>
                 </div>
 
                 <div className="">
-                    <h2 className=" text-base font-semibold text-[#0D2357] aimsscope">General intent</h2>
-                    <div className="text-[#262626ee] my-6">
-                        <p>
+                    <h2 className=" text-base font-medium text-[#0D2357]">General intent</h2>
+                    <div className="text-[#262626ee] my-4">
+                        <p className="text-[15px]">
                             An abstract is a concise single paragraph summary of completed work or work in progress.
                             In a minute or less a reader can learn the rationale behind the study, general approach
                             to the problem, pertinent results, and important conclusions or new questions.
@@ -160,9 +160,9 @@ const ResearchPaper = () => {
                 </div>
 
                 <div className="">
-                    <h2 className=" text-base font-semibold text-[#0D2357] aimsscope">Writing an abstract</h2>
-                    <div className="text-[#262626ee] my-6">
-                        <p>
+                    <h2 className=" text-base font-medium text-[#0D2357] aimsscope">Writing an abstract</h2>
+                    <div className="text-[#262626ee] my-4">
+                        <p className="text-[15px]">
                             Write your summary after the rest of the paper is completed. After all,
                             how can you summarize something that is not yet written? Economy of words is
                             important throughout any paper, but especially in an abstract. However,
@@ -176,12 +176,12 @@ const ResearchPaper = () => {
                             all in one sentence. The writer can now go directly to summarizing the results.
                         </p>
 
-                        <p className="py-2 text-[#072159]">
+                        <p className="py-2 text-[#072159] text-[15px]">
                             Summarize the study, including the following elements in any abstract.
                             Try to keep the first two items to no more than one sentence each.
                         </p>
 
-                        <div className="my-2 px-4 space-y-2">
+                        <div className="my-2 px-4 space-y-2 text-[15px]">
                             <p>1 . Purpose of the study - hypothesis, overall question, objective</p>
                             <p>2 . Model organism or system and brief description of the experiment</p>
                             <p>3 . Results, including specific data - if the results are quantitative in nature,
@@ -203,9 +203,9 @@ const ResearchPaper = () => {
 
 
                 <div className="">
-                    <h2 className=" text-base font-semibold text-[#0D2357] aimsscope">Introduction</h2>
-                    <div className="text-[#262626ee] my-6">
-                        <p>
+                    <h2 className=" text-base font-medium text-[#0D2357] aimsscope">Introduction</h2>
+                    <div className="text-[#262626ee] my-4">
+                        <p className="text-[15px]">
                             Your introductions should not exceed two pages (double spaced, typed).
                             See the examples in the writing portfolio package.
                         </p>
@@ -213,9 +213,9 @@ const ResearchPaper = () => {
                 </div>
 
                 <div className="">
-                    <h2 className=" text-base font-semibold text-[#0D2357] aimsscope">General intent</h2>
+                    <h2 className=" text-base font-medium text-[#0D2357] aimsscope">General intent</h2>
                     <div className="text-[#262626ee] my-6">
-                        <p>
+                        <p className="text-[15px]">
                             The purpose of an introduction is to aquaint the reader with the rationale behind the work,
                             with the intention of defending it. It places your work in a theoretical context,
                             and enables the reader to understand and appreciate your objectives.
@@ -224,15 +224,15 @@ const ResearchPaper = () => {
                 </div>
 
                 <div className="">
-                    <h2 className=" text-base font-semibold text-[#0D2357] aimsscope">Writing an introduction</h2>
-                    <div className="text-[#262626ee] my-6">
-                        <p>
+                    <h2 className=" text-base font-medium text-[#0D2357] aimsscope">Writing an introduction</h2>
+                    <div className="text-[#262626ee] my-4">
+                        <p className="text-[15px]">
                             The abstract is the only text in a research paper to be written without using paragraphs
                             in order to separate major points. Approaches vary widely,
                             however for our studies the following approach can produce an effective introduction.
                         </p>
 
-                        <div className="my-2 px-4 space-y-2">
+                        <div className="my-2 px-4 space-y-2 text-[15px]">
                             <p>1 . Describe the importance (significance) of the study -
                                 why was this worth doing in the first place? Provide a broad context.
                             </p>
@@ -262,9 +262,9 @@ const ResearchPaper = () => {
                 </div>
 
                 <div className="">
-                    <h2 className=" text-base font-semibold text-[#0D2357] aimsscope">Materials and Methods</h2>
-                    <div className="text-[#262626ee] my-6">
-                        <p>
+                    <h2 className=" text-base font-medium text-[#0D2357] aimsscope">Materials and Methods</h2>
+                    <div className="text-[#262626ee] my-4">
+                        <p className="text-[15px]">
                             There is no specific page limit, but a key concept is to keep this section as concise as you
                             possibly can. People will want to read this material selectively. The reader may only be
                             interested in one formula or part of a procedure. Materials and methods may be
@@ -274,9 +274,9 @@ const ResearchPaper = () => {
                 </div>
 
                 <div className="">
-                    <h2 className=" text-base font-semibold text-[#0D2357] aimsscope">General intent</h2>
-                    <div className="text-[#262626ee] my-6">
-                        <p>
+                    <h2 className=" text-base font-medium text-[#0D2357] aimsscope">General intent</h2>
+                    <div className="text-[#262626ee] my-4">
+                        <p className="text-[15px]">
                             This should be the easiest section to write, but many students misunderstand the purpose.
                             The objective is to document all specialized materials and general procedures, so that another
                             individual may use some or all of the methods in another study or judge the scientific merit of
@@ -288,11 +288,11 @@ const ResearchPaper = () => {
                 </div>
 
                 <div className="">
-                    <h2 className=" text-base font-semibold text-[#0D2357] aimsscope">Writing a materials and methods section</h2>
-                    <div className="text-[#262626ee] my-6">
+                    <h2 className=" text-base font-medium text-[#0D2357]">Writing a materials and methods section</h2>
+                    <div className="text-[#262626ee] my-4">
                         <p className="text-[#91000D] font-medium">Materials:</p>
 
-                        <div className="my-2 px-4 space-y-2">
+                        <div className="my-2 px-4 space-y-2 text-[15px]">
                             <p>1 . Describe materials separately only if the study
                                 is so complicated that it saves space this way.
                             </p>
@@ -317,7 +317,7 @@ const ResearchPaper = () => {
 
                         <p className="text-[#91000D] font-medium py-2">Methods:</p>
 
-                        <div className="my-2 px-4 space-y-2">
+                        <div className="my-2 px-4 space-y-2 text-[15px]">
                             <p>1 . See the examples in the writing portfolio package
                             </p>
                             <p>2 . Report the methodology (not details of each procedure that employed the same methodology)
@@ -339,7 +339,7 @@ const ResearchPaper = () => {
 
                         <p className="text-[#91000D] font-medium py-2">Style:</p>
 
-                        <div className="my-2 px-4 space-y-2">
+                        <div className="my-2 px-4 space-y-2 text-[15px]">
                             <p>1 . It is awkward or impossible to use active voice when documenting methods without
                                 using first person, which would focus the reader's attention on the investigator
                                 rather than the work. Therefore when writing up
@@ -352,16 +352,16 @@ const ResearchPaper = () => {
 
                         <p className="text-[#91000D] font-medium py-2">What to avoid:</p>
 
-                        <div className="my-2 px-4 space-y-2">
+                        <div className="my-2 px-4 space-y-2 text-[15px]">
                             <p>1 . Materials and methods are not a set of instructions. </p>
                             <p>2 . Omit all explanatory information and background - save it for the discussion.</p>
                             <p>3 . Omit information that is irrelevant to a third party, such as what color ice bucket you used, or which individual logged in the data.</p>
                         </div>
 
                         <div className="my-4">
-                            <h2 className=" text-base font-semibold text-[#0D2357] aimsscope">Results:</h2>
+                            <h2 className=" text-base font-medium text-[#0D2357] aimsscope">Results:</h2>
                             <div className="text-[#262626ee] my-6">
-                                <p>
+                                <p className="text-[15px]">
                                     The page length of this section is set by the amount and types of data to be reported.
                                     Continue to be concise, using figures and tables,
                                     if appropriate, to present results most effectively.
@@ -371,9 +371,9 @@ const ResearchPaper = () => {
                         </div>
 
                         <div className="my-4">
-                            <h2 className=" text-base font-semibold text-[#0D2357] aimsscope">General intent:</h2>
-                            <div className="text-[#262626ee] my-6">
-                                <p>
+                            <h2 className=" text-base font-medium text-[#0D2357] aimsscope">General intent:</h2>
+                            <div className="text-[#262626ee] my-4">
+                                <p className="text-[15px]">
                                     The purpose of a results section is to present and illustrate your findings.
                                     Make this section a completely objective report of the results,
                                     and save all interpretation for the discussion.
@@ -382,8 +382,8 @@ const ResearchPaper = () => {
                         </div>
 
                         <div className="my-4">
-                            <h2 className=" text-base font-semibold text-[#0D2357] aimsscope">Writing a results section</h2>
-                            <div className="text-[#262626ee] my-6">
+                            <h2 className=" text-base font-medium text-[#0D2357] aimsscope">Writing a results section</h2>
+                            <div className="text-[#262626ee] my-4 text-[15px]">
                                 <p>
                                     <span className="text-[#91000D]">IMPORTANT:</span> You must clearly distinguish material that would normally be included in a
                                     research article from any raw data or other appendix material that would not be published.
@@ -434,8 +434,8 @@ const ResearchPaper = () => {
                         </div>
 
                         <div className="my-4">
-                            <h2 className=" text-base font-semibold text-[#0D2357] aimsscope">Discussion:</h2>
-                            <div className="text-[#262626ee] my-6">
+                            <h2 className=" text-base font-medium text-[#0D2357] aimsscope">Discussion:</h2>
+                            <div className="text-[#262626ee] my-4 text-[15px]">
                                 <p>
                                     Journal guidelines vary. Space is so valuable in the Journal of Biological Chemistry,
                                     that authors are asked to restrict discussions to four pages or less, double spaced,
@@ -447,8 +447,8 @@ const ResearchPaper = () => {
                         </div>
 
                         <div className="my-4">
-                            <h2 className=" text-base font-semibold text-[#0D2357] aimsscope">General intent:</h2>
-                            <div className="text-[#262626ee] my-6">
+                            <h2 className=" text-base font-medium text-[#0D2357] aimsscope">General intent:</h2>
+                            <div className="text-[#262626ee] my-4 text-[15px]">
                                 <p>
                                     The objective here is to provide an interpretation of your results and
                                     support for all of your conclusions, using evidence from your experiment
@@ -460,8 +460,8 @@ const ResearchPaper = () => {
 
 
                         <div className="my-4">
-                            <h2 className=" text-base font-semibold text-[#0D2357] aimsscope">Writing a discussion:</h2>
-                            <div className="text-[#262626ee] my-6">
+                            <h2 className=" text-base font-medium text-[#0D2357] aimsscope">Writing a discussion:</h2>
+                            <div className="text-[#262626ee] my-4 text-[15px]">
                                 <p>
                                     Interpret your data in the discussion in appropriate depth.
                                     This means that when you explain a phenomenon you must describe mechanisms
@@ -473,7 +473,7 @@ const ResearchPaper = () => {
                                 </p>
                             </div>
 
-                            <div className="my-2 px-4 space-y-2">
+                            <div className="my-2 px-4 space-y-2 text-[15px]">
                                 <p>1 . Decide if each hypothesis is supported, rejected, or if you cannot make a decision with confidence. Do not simply dismiss a study or part of a study as "inconclusive."</p>
                                 <p>2 . Research papers are not accepted if the work is incomplete. Draw what conclusions you can based upon the results that you have, and treat the study as a finished work</p>
                                 <p>3 . You may suggest future directions, such as how the experiment might be modified to accomplish another objective.</p>
@@ -488,7 +488,7 @@ const ResearchPaper = () => {
 
                             </div>
 
-                            <p className="my-3 text-[#072159]">
+                            <p className="my-3 text-[#072159] text-[15px]">
                                 The biggest mistake that students make in discussions is to present a superficial
                                 interpretation that more or less re-states the results. It is necessary
                                 to suggest why results came out as they did, focusing on the mechanisms
@@ -497,8 +497,8 @@ const ResearchPaper = () => {
                         </div>
 
                         <div className="my-4">
-                            <h2 className=" text-base font-semibold text-[#0D2357] aimsscope">References:</h2>
-                            <div className="text-[#262626ee] my-6">
+                            <h2 className=" text-base font-medium text-[#0D2357] aimsscope">References:</h2>
+                            <div className="text-[#262626ee] my-4 text-[15px]">
                                 <p>
                                     Referencing lets you acknowledge where you got your information.
                                     When you write an essay you can use evidence such as quotes or ideas
@@ -511,8 +511,8 @@ const ResearchPaper = () => {
                         </div>
 
                         <div className="my-4">
-                            <h2 className=" text-base font-semibold text-[#0D2357] aimsscope">Courtesy:</h2>
-                            <div className="text-[#262626ee] my-6">
+                            <h2 className=" text-base font-medium text-[#0D2357] aimsscope">Courtesy:</h2>
+                            <div className="text-[#262626ee] my-4 text-[15px]">
                                 <p>Rice University</p>
                                 <p>6100 Main St Houston, TX 77251, United States</p>
                             </div>

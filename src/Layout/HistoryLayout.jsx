@@ -1,20 +1,17 @@
 import { Outlet } from "react-router-dom";
 import HistoryNav from "../Journals/History/HistoryNav/HistoryNav";
-import ArticleRoutingTop from "../Utilities/ArticleRoutingTop/ArticleRoutingTop";
 import PageTitle from "../Utilities/PageTitle/PageTitle";
-import HistoryDetails from "../Journals/History/HistoryDetails/HistoryDetails";
-
+import RoutingTop from "../Utilities/PageTitle/RoutingTop/RoutingTop";
 
 const HistoryLayout = () => {
     return (
-        <div className="">
+        <div className="mt-28">
             <PageTitle title={"Review of History and Political Science"}></PageTitle>
-            <HistoryDetails></HistoryDetails>
             <div className="flex px-20 my-8 gap-8">
-            <ArticleRoutingTop>
-               <HistoryNav></HistoryNav>
-                <Outlet></Outlet>
-                </ArticleRoutingTop>
+                <RoutingTop>
+                    <HistoryNav></HistoryNav>
+                    <Outlet></Outlet>
+                </RoutingTop>
             </div>
 
         </div>

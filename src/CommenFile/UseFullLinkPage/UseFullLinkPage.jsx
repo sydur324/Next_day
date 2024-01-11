@@ -15,9 +15,9 @@ const UseFullLinkPage = () => {
     }
     return (
         <div className="w-full">
-            <h2 className="text-xl font-bold text-[#91000D] aimsscope">Useful Links</h2>
+            <h2 className="font-medium text-[#91000D] aimsscope">Useful Links</h2>
 
-            <div className="my-8">
+            <div className="my-4">
                 <div className='flex items-center flex-wrap gap-2 cursor-pointer text-sm font-medium'>
                     <button
                         onClick={() => toggleTab(1)}

@@ -3,8 +3,8 @@ const PlagiarismPolicy = () => {
         <div className="my-8">
 
             <div>
-                <h2 className="font-bold text-[#0D2357] aimsscope">Plagiarism Policy</h2>
-                <p className="my-6 text-[#262626e2]">
+                <h2 className="font-medium text-[#0D2357] aimsscope">Plagiarism Policy</h2>
+                <p className="my-4 text-[15px] text-[#262626e2]">
                     The editorial board is very strict regarding plagiarism. The journal believes
                     that taking the ideas and work of others without giving them credit is unfair
                     and dishonest. Copying even one sentence from someone else's manuscript, or

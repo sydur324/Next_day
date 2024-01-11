@@ -1,10 +1,14 @@
 
 import EcommerceArticles from '../../../Articles/EcommerceArticles/EcommerceArticles';
+import EcommerceDetails from '../EcommerceDetails/EcommerceDetails';
 import './EcommerceHome.css'
 const EcommerceHome = () => {
     return (
         <div className='w-full'>
-            <div className='EcommerceHome_bg text-white px-4 py-4'>
+
+            <EcommerceDetails></EcommerceDetails>
+
+            <div className='EcommerceHome_bg text-white px-4 py-4 mt-8'>
                 <h2 className='font-bold text-lg py-2'>Journal of Management Information System & E-commerce</h2>
                 <div className='flex items-center space-x-2 text-sm'>
                     <p>ISSN:</p>
@@ -16,7 +20,7 @@ const EcommerceHome = () => {
                 </div>
             </div>
 
-            <div className='py-6 '>
+            <div className='py-6 text-[15px]'>
                 <p>
                     <span className='font-medium text-[#91000D]'>Journal of Management Information System & E-commerce</span> is an international journal that focuses on the core tasks of information systems management, the conceptual analysis, design, and deployment of information systems, as well as on all e-business related topics. The central aim of the journal is to publish original, well-written, self-contained contributions that elucidate novel research and innovation in information systems management and e-business which advance the field fundamentally and significantly. The journal provides a vibrant forum for both academicians and industry specialists to explore the information systems and e-business. The journal follows double-blind peer review process.
                 </p>
@@ -63,7 +67,7 @@ const EcommerceHome = () => {
                 </div>
 
                 <div className='py-2'>
-                    <h2 className='font-medium text-[#91000D] py-2'>Current Issue:</h2>
+                    <h2 className='font-medium text-[#91000D] py-2'>Current Issue</h2>
                     <div>
                         <EcommerceArticles></EcommerceArticles>
                     </div>

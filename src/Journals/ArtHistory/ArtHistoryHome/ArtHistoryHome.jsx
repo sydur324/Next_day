@@ -1,9 +1,13 @@
 import ArtHistoryArticle from '../../../Articles/ArtHistoryArticle/ArtHistoryArticle';
+import ArtHistoryDetails from '../ArtHistoryDetails/ArtHistoryDetails';
 import './ArtHistoryHome.css'
 const ArtHistoryHome = () => {
     return (
         <div className='w-full'>
-            <div className='ArtHome_bg text-white px-4 py-4'>
+
+            <ArtHistoryDetails></ArtHistoryDetails>
+
+            <div className='ArtHome_bg text-white px-4 py-4 mt-8'>
                 <h2 className='font-bold text-lg py-2'>International Journal of Art and Art History</h2>
                 <div className='flex items-center space-x-2 text-sm'>
                     <p>ISSN:</p>
@@ -16,7 +20,7 @@ const ArtHistoryHome = () => {
             </div>
 
             <div className='py-6 '>
-                <p>
+                <p className='text-[15px]'>
                     <span className='font-medium text-[#91000D]'>International Journal of Art and Art History</span>  is a
                     scholarly journal which supports and promotes the study of the art and practice of art historical
                     writing. The journal is committed to studying art historical scholarship, in its institutional and
@@ -31,7 +35,7 @@ const ArtHistoryHome = () => {
                     to articles.
                 </p>
 
-                <p className='py-4'>
+                <p className='py-4 text-[15px]'>
                     <span className='font-medium text-[#91000D]'>International Journal of Art and Art History</span>  is the first international
                     contemporary journal dedicated specifically to the study of art and art historiography and its ambition
                     is to make it the point of first call for scholars and students interested in that area. The journal
@@ -40,7 +44,7 @@ const ArtHistoryHome = () => {
 
                 <div>
                     <h2 className='font-medium text-[#91000D] py-2'>E-Publication First<sup>TM</sup></h2>
-                    <p>
+                    <p className='text-[15px]'>
                         E-Publication First<sup>TM</sup> is a feature offered through our journal platform. It allows PDF
                         version of manuscripts that have been peer reviewed and accepted, to be hosted online prior to their
                         inclusion in a final printed journal. Readers can freely access or cite the article. The accepted papers
@@ -50,7 +54,7 @@ const ArtHistoryHome = () => {
 
                 <div>
                     <h2 className='font-medium text-[#91000D] py-2'>DOI®number</h2>
-                    <p>
+                    <p className='text-[15px]'>
                         Each paper published in <span className='font-semibold'>International Journal of Art and Art History</span> is assigned a DOI®number,
                         which appears beneath the author's affiliation in the published paper. Click <a className='hover:text-[#072159] text-[#91000D] duration-300 cursor-pointer font-medium px-1' href='https://www.doi.org/' target='_blank'>https://www.doi.org/</a> to know what
                         is DOI (Digital Object Identifier)? Click <a className='hover:text-[#072159] text-[#91000D] duration-300 cursor-pointer font-medium px-1' href='https://www.crossref.org/' target='_blank'>https://www.crossref.org/</a> to retrieve Digital Object Identifiers
@@ -60,7 +64,7 @@ const ArtHistoryHome = () => {
 
                 <div className='py-2'>
                     <h2 className='font-medium text-[#91000D] py-2'>Abstracted/Indexed in:</h2>
-                    <p>
+                    <p className='text-[15px]'>
                         CrossRef, CrossCheck, Cabell's, Ulrich's, Griffith Research Online,
                         Google Scholar, Education.edu, Informatics, Universe Digital Library,
                         Standard Periodical Directory,Gale, Open J-Gate, EBSCO, Journal Seek, DRJI,
@@ -70,7 +74,7 @@ const ArtHistoryHome = () => {
                 </div>
 
                 <div className='py-2'>
-                    <h2 className='font-medium text-[#91000D] py-2'>Current Issue:</h2>
+                    <h2 className='font-medium text-[#91000D] py-2'>Current Issue</h2>
                     <div>
                         <ArtHistoryArticle></ArtHistoryArticle>
                     </div>

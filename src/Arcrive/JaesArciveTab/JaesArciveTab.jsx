@@ -10,7 +10,7 @@ const JaesArciveTab = () => {
         setToggle(index)
     }
     const [archives] = useArchives()
-    const accountingArcives = archives.filter((archive) => archive.category === 'Environmental Sciences')
+    const accountingArcives = archives.filter((archive) => archive.category === 'Environmental Sciencees')
     const accountingYeares1 = accountingArcives.filter((year) => year.year === '2023')
     const accountingYeares2 = accountingArcives.filter((year) => year.year === '2022')
     const accountingYeares3 = accountingArcives.filter((year) => year.year === '2021')
@@ -25,7 +25,7 @@ const JaesArciveTab = () => {
     return (
         <div className="w-full">
 
-            <div className="my-8">
+            <div className="my-4">
                 <div className='flex items-center flex-wrap gap-2 cursor-pointer text-sm font-medium'>
                     <button
                         onClick={() => toggleTab(1)}

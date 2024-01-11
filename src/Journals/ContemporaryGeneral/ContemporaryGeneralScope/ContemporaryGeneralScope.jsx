@@ -3,9 +3,9 @@ import ContemporaryGeneralArticles from "../../../Articles/ContemporaryGeneralAr
 const ContemporaryGeneralScope = () => {
     return (
         <div className="w-full">
-            <h2 className="text-xl font-bold text-[#91000D]">Aims & Scope</h2>
+            <h2 className="font-medium text-[#91000D]">Aims & Scope</h2>
 
-            <div className="py-8 gap-24">
+            <div className="py-4 text-[15px] gap-24">
                 <p>
                     <span className='font-medium text-[#91000D]'>American International Journal of Contemporary Research</span>  is an open access, peer-reviewed, and refereed journal published by The Brooklyn Research and Publishing Institute. The main objective of AIJCR is to provide an intellectual platform for the research community. AIJCR aims to promote contemporary research in business, humanities, social science, science and technology and become the leading journal in the world.
                 </p>
@@ -58,7 +58,7 @@ const ContemporaryGeneralScope = () => {
             </div>
 
             <div className='py-2'>
-                    <h2 className='font-medium text-[#91000D] py-2'>Current Issue:</h2>
+                    <h2 className='font-medium text-[#91000D] py-2'>Current Issue</h2>
                     <div>
                          <ContemporaryGeneralArticles></ContemporaryGeneralArticles>
                     </div>

@@ -4,10 +4,10 @@ import PhysicsArticles from "../../../Articles/PhysicsArticles/PhysicsArticles";
 const PhysicsScope = () => {
     return (
         <div className="w-full">
-            <h2 className="text-xl font-bold text-[#91000D]">Aims & Scope</h2>
+            <h2 className="font-medium text-[#91000D]">Aims & Scope</h2>
 
             <div className="flex items-center py-8 gap-24">
-                <p>
+                <p className="text-[15px]">
                     Relativity,
                     Quantum Physics,
                     Statistical Physics,
@@ -44,7 +44,7 @@ const PhysicsScope = () => {
             </div>
 
             <div className='py-2'>
-                <h2 className='font-medium text-[#91000D] py-2'>Current Issue:</h2>
+                <h2 className='font-medium text-[#91000D] py-2'>Current Issue</h2>
                 <div>
                     <PhysicsArticles></PhysicsArticles>
                 </div>

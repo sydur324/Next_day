@@ -3,10 +3,10 @@ import guildelines from '../../../../public/researchGuidelines.json'
 const ResearchGuidelines = () => {
     return (
         <div className="my-6">
-            <h2 className=" text-lg font-bold text-[#0D2357] aimsscope">15 Steps to Good Research</h2>
+            <h2 className=" font-medium text-[#0D2357] aimsscope">15 Steps to Good Research</h2>
 
-            <div className="my-8">
-                <div className='space-y-3'>
+            <div className="my-4">
+                <div className='space-y-3 text-[15px]'>
                     <div>
                         <div className=" px-14 py-2 border flex items-center group cursor-pointer  relative">
                             <p className="leading-10 group-hover:bg-[#0D2357] duration-300 px-4 font-semibold h-full text-center top-0 bg-[#8D0012] text-white absolute left-0">1</p>

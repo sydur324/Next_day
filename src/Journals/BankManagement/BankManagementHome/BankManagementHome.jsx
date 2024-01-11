@@ -1,10 +1,14 @@
 
 import BankManagementArticle from '../../../Articles/BankManagementArticle/BankManagementArticle';
+import BankManagementDetails from '../BankManagementDetails/BankManagementDetails';
 import './BankManagementHome.css'
 const BankManagementHome = () => {
     return (
         <div className='w-full'>
-            <div className='BankHome_bg text-white px-4 py-4'>
+
+            <BankManagementDetails></BankManagementDetails>
+
+            <div className='BankHome_bg text-white px-4 py-4 mt-8'>
                 <h2 className='font-bold text-lg py-2'>Journal of Finance and Bank Management</h2>
                 <div className='flex items-center space-x-2 text-sm'>
                     <p>ISSN:</p>
@@ -16,8 +20,8 @@ const BankManagementHome = () => {
                 </div>
             </div>
 
-            <div className='py-6 '>
-                <p>
+            <div className='py-6'>
+                <p className='text-[15px]'>
                     <span className='font-medium text-[#91000D]'>Journal of Finance and Bank Management</span>  serves both academics and
                     practitioners concerned with the financial management of nonfinancial businesses, financial
                     institutions, banks and public or private not-for-profit organizations. The journal publishes
@@ -31,7 +35,7 @@ const BankManagementHome = () => {
                     international, and their regulators.
                 </p>
 
-                <p className='py-4'>
+                <p className='py-4 text-[15px]'>
                     <span className='font-medium text-[#91000D]'>Journal of Finance and Bank Management</span>  actively encourages global
                     contributions from scholars across the broad domain of finance and banking.
                     It welcomes novel and ground-breaking contributions from a wide range of research
@@ -39,7 +43,7 @@ const BankManagementHome = () => {
                     blind peer review policy.
                 </p>
 
-                <div className='my-2'>
+                <div className='my-2 text-[15px]'>
                     <h2 className='font-medium text-[#91000D] py-2'>E-Publication First<sup>TM</sup></h2>
                     <p>
                         E-Publication First<sup>TM</sup> is a feature offered through our journal platform. It allows PDF
@@ -49,7 +53,7 @@ const BankManagementHome = () => {
                     </p>
                 </div>
 
-                <div>
+                <div className='text-[15px]'>
                     <h2 className='font-medium text-[#91000D] py-2'>DOI®number</h2>
                     <p>
                         Each paper published in <span className='font-semibold'>Journal of Finance and Bank Management</span> is assigned a DOI®number,
@@ -59,7 +63,7 @@ const BankManagementHome = () => {
                     </p>
                 </div>
 
-                <div className='py-2'>
+                <div className='py-2 text-[15px]'>
                     <h2 className='font-medium text-[#91000D] py-2'>Abstracted/Indexed in:</h2>
                     <p>
                         CrossRef, CrossCheck, Cabell's, Ulrich's, Griffith Research Online, Google Scholar, Education.edu,

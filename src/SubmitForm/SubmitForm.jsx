@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { useForm } from "react-hook-form";
+import Swal from "sweetalert2";
 
 const SubmitForm = () => {
     const [authorTwo, setAuthorTwo] = useState(false)
@@ -52,6 +53,28 @@ const SubmitForm = () => {
 
     const { register, handleSubmit, reset, formState: { errors } } = useForm();
     const onSubmit = (data) => {
+
+        fetch('http://localhost:5000/uploads', {
+            method: 'POST',
+            headers: {
+                'content-type': 'application/json'
+            },
+            body: JSON.stringify(data)
+        })
+            .then(res => res.json())
+            .then(data => {
+                console.log(data)
+                if (data.insertedId) {
+                    reset()
+                    Swal.fire({
+                        title: 'success!',
+                        text: 'Your Articles Are Submited',
+                        icon: 'success',
+                        confirmButtonText: 'Finised'
+                    })
+                }
+            })
+
         console.log(data)
     }
 
@@ -82,6 +105,7 @@ const SubmitForm = () => {
                         <input
                             {...register("author", { required: true })}
                             className="border py-2 px-2 outline-none rounded" type="text" placeholder="Enter Name..." />
+                            {errors.author && <span className='text-[#91000D] text-sm py-1'>please Enter author</span>}
                     </div>
 
                     <div className="flex flex-col">
@@ -89,6 +113,7 @@ const SubmitForm = () => {
                         <input
                             {...register("institute", { required: true })}
                             className="border py-2 px-2 outline-none rounded" type="text" placeholder="Institute or University Name..." />
+                            {errors.institute && <span className='text-[#91000D] text-sm py-1'>please Enter institute</span>}
                     </div>
 
                     <div className="flex flex-col">
@@ -96,6 +121,7 @@ const SubmitForm = () => {
                         <input
                             {...register("position", { required: true })}
                             className="border py-2 px-2 outline-none rounded" type="text" placeholder="Institutional Position..." />
+                            {errors.position && <span className='text-[#91000D] text-sm py-1'>please Enter institute position</span>}
                     </div>
 
                     <div className="relative">
@@ -105,12 +131,13 @@ const SubmitForm = () => {
                                 <input
                                     {...register("firstemail", { required: true })}
                                     className="border py-2 px-2 outline-none rounded w-full" type="email" placeholder="First Email..." />
+                                    {errors.firstemail && <span className='text-[#91000D] text-sm py-1'>please Enter firstemail</span>}
                             </div>
 
                             <div className="flex flex-col w-full">
                                 <label className="font-bold text-sm py-1 text-[#262626]">Add Second Email <span className="text-[#91000D]">(optional)</span></label>
                                 <input
-                                    {...register("secondemail", { required: true })}
+                                    {...register("secondemail")}
                                     className="border py-2 px-2 outline-none rounded w-full" type="email" placeholder="Second Email..." />
                             </div>
                         </div>
@@ -352,6 +379,7 @@ const SubmitForm = () => {
                             <input
                                 {...register("corrispondingauthor", { required: true })}
                                 className="border py-2 px-2 outline-none rounded" type="text" placeholder="Enter Name..." />
+                                {errors.corrispondingauthor && <span className='text-[#91000D] text-sm py-1'>please Enter author</span>}
                         </div>
 
                         <div className="flex flex-col">
@@ -359,6 +387,7 @@ const SubmitForm = () => {
                             <input
                                 {...register("corrispondinginstitute", { required: true })}
                                 className="border py-2 px-2 outline-none rounded" type="text" placeholder="Institute or University Name..." />
+                                {errors.corrispondinginstitute && <span className='text-[#91000D] text-sm py-1'>please Enter institute</span>}
                         </div>
 
                         <div className="flex flex-col">
@@ -366,6 +395,7 @@ const SubmitForm = () => {
                             <input
                                 {...register("corrispondingposition", { required: true })}
                                 className="border py-2 px-2 outline-none rounded" type="text" placeholder="Institutional Position..." />
+                                 {errors.corrispondingposition && <span className='text-[#91000D] text-sm py-1'>please Enter position</span>}
                         </div>
 
                         <div className="flex space-x-2">
@@ -374,12 +404,13 @@ const SubmitForm = () => {
                                 <input
                                     {...register("corrispondingfirstemail", { required: true })}
                                     className="border py-2 px-2 outline-none rounded w-full" type="email" placeholder="First Email..." />
+                                    {errors.corrispondingfirstemail && <span className='text-[#91000D] text-sm py-1'>please Enter email</span>}
                             </div>
 
                             <div className="flex flex-col w-full">
                                 <label className="font-bold text-sm py-1 text-[#262626]">Add Second Email <span className="text-[#91000D]">(optional)</span></label>
                                 <input
-                                    {...register("corrispondingsecondemail", { required: true })}
+                                    {...register("corrispondingsecondemail")}
                                     className="border py-2 px-2 outline-none rounded w-full" type="email" placeholder="Second Email..." />
                             </div>
 
@@ -389,8 +420,9 @@ const SubmitForm = () => {
                     <div className="flex flex-col">
                         <label className="font-bold text-sm py-1 text-[#262626]">Contact Number</label>
                         <input
-                        {...register("contact", { required: true })}
-                        className="border py-2 px-2 outline-none rounded" type="text" placeholder="Your Number..." />
+                            {...register("contact", { required: true })}
+                            className="border py-2 px-2 outline-none rounded" type="text" placeholder="Your Number..." />
+                             {errors.contact && <span className='text-[#91000D] text-sm py-1'>please Enter contact</span>}
                     </div>
 
 
@@ -467,14 +499,18 @@ const SubmitForm = () => {
 
                     <div className="flex flex-col">
                         <label className="font-bold text-sm py-1 text-[#262626]">Abstract</label>
-                        <textarea className="border py-2 space-y-2 px-2 outline-none rounded" cols="30" rows="6" placeholder="Write your abstract.."></textarea>
+                        <textarea
+                             
+                            className="border py-2 space-y-2 px-2 outline-none rounded" cols="30" rows="6" placeholder="Write your abstract.."></textarea>
+                            {errors.abstract && <span className='text-[#91000D] text-sm py-1'>please Enter abstract</span>}
                     </div>
 
                     <div className="flex flex-col">
                         <label className="font-bold text-sm py-1 text-[#262626]">Upload Paper <span className="text-[#072159]">(Ms Word/PDF)</span></label>
                         <input
-                        {...register("abstrak", { required: true })}
-                        className="border py-2 space-y-2 px-2 outline-none rounded " type="file" name="" id="" />
+                            {...register("pdf", { required: true })}
+                            className="border py-2 space-y-2 px-2 outline-none rounded " type="file" name="" id="" />
+                            
                     </div>
                     <div className="py-2">
                         <input className="py-2 px-8 bg-[#91000D] text-[#fff] rounded " type="submit" value="Submit" />

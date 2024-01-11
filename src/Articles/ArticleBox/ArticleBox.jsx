@@ -5,11 +5,11 @@ const ArticleBox = ({ articles }) => {
     return (
         <div className="w-full">
             <div>
-                <div className="flex items-center text-lg  space-x-1  font-medium text-center justify-center py-1">
+                <div className="flex items-center space-x-1  font-medium text-center justify-center py-1">
                     <p className="capitalize"><span></span>{articles.volume}</p>
                     <p className="capitalize"><span></span>{articles.issue}</p>
                     <p>{articles.month}</p>
-                    <p>{articles.years}</p>
+                    <p>{articles.year}</p>
                 </div>
                 <div className="my-4">
                     <h2 className="font-medium text-[#072159]">{articles.title}</h2>
@@ -31,12 +31,12 @@ const ArticleBox = ({ articles }) => {
 
                     </div>
 
-                    <div className="flex items-center space-x-8 my-4">
+                    <div className="flex items-center space-x-4 my-4">
                         <div>
-                            <button className="px-3 py-2 bg-[#91000D] text-[#fff] text-sm font-bold rounded"><ArticleModal articles={articles}></ArticleModal></button>
+                            <button className="px-2 py-2 bg-[#91000D] text-[#fff] text-sm font-medium rounded"><ArticleModal articles={articles}></ArticleModal></button>
                         </div>
                         <div>
-                            <a href={articles.pdf} target="_blank" className="px-3 py-2 bg-[#91000D] text-[#fff] text-sm font-bold rounded">PDF</a>
+                            <a href={articles.pdf} target="_blank" className="px-2 py-2 bg-[#91000D] text-[#fff] text-sm font-medium rounded">PDF</a>
                         </div>
                     </div>
                 </div>

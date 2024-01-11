@@ -1,19 +1,18 @@
 import { Outlet } from "react-router-dom";
 import HumanRightsNav from "../Journals/HumanRights/HumanRightsNav/HumanRightsNav";
-import ArticleRoutingTop from "../Utilities/ArticleRoutingTop/ArticleRoutingTop";
 import PageTitle from "../Utilities/PageTitle/PageTitle";
-import HumanRightsDetails from "../Journals/HumanRights/HumanRightsDetails/HumanRightsDetails";
+import RoutingTop from "../Utilities/PageTitle/RoutingTop/RoutingTop";
 
 const HumanRightsLayout = () => {
     return (
-        <div className="">
+        <div className="mt-28">
             <PageTitle title={"Journal of Social Welfare and Human Rights"}></PageTitle>
-            <HumanRightsDetails></HumanRightsDetails>
+
             <div className="flex px-20 my-8 gap-8">
-            <ArticleRoutingTop>
-               <HumanRightsNav></HumanRightsNav>
-                <Outlet></Outlet>
-                </ArticleRoutingTop>
+                <RoutingTop>
+                    <HumanRightsNav></HumanRightsNav>
+                    <Outlet></Outlet>
+                </RoutingTop>
             </div>
 
         </div>

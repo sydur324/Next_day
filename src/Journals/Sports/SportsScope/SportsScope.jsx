@@ -3,10 +3,10 @@ import SportsArticles from "../../../Articles/SportsArticles/SportsArticles";
 const SportsScope = () => {
     return (
         <div className="w-full">
-            <h2 className="text-xl font-bold text-[#91000D]">Aims & Scope</h2>
+            <h2 className="font-medium text-[#91000D]">Aims & Scope</h2>
 
-            <div className="flex items-center py-8 gap-24">
-                <p>
+            <div className="flex items-center py-4 gap-24">
+                <p className="text-[15px]">
                     Foundations of Physical Education, 
                     Individual and Dual Sports, 
                     Team and Recreational Sports, 

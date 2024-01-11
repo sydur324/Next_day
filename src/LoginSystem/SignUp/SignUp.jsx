@@ -5,8 +5,13 @@ import { HiOutlineDownload } from "react-icons/hi";
 import { IoMdEyeOff } from "react-icons/io";
 import logo from '../../assets/img/WEG_LOGO.jpg'
 import { Link } from "react-router-dom";
+import { useForm } from "react-hook-form";
 
 const SignUp = () => {
+    const { register, handleSubmit, reset, formState: { errors } } = useForm();
+    const onSubmit = (data) => {
+        console.log(data)
+    }
     return (
         <div>
             <div className="xl:px-20 lg:px-16 md:px-14 sm:px-12 px-12 py-6">
@@ -39,37 +44,44 @@ const SignUp = () => {
                             <form className="space-y-2">
                                 <div className="flex flex-col space-y-1">
                                     <label className="text-sm font-semibold">Your Full Name<sup className="text-[#91000D]">*</sup></label>
-                                    <input className="px-2 py-2 border outline-none rounded" type="text" placeholder="Your Name..." />
+                                    <input 
+                                    {...register("name", { required: true })}
+                                    className="px-2 py-2 border outline-none rounded" type="text" placeholder="Your Name..." />
                                 </div>
 
                                 <div className="flex flex-col space-y-1">
                                     <label className="text-sm font-semibold">Email<sup className="text-[#91000D]">*</sup></label>
-                                    <input className="px-2 py-2 border outline-none rounded" type="email" placeholder="Enter Email..." />
+                                    <input 
+                                    {...register("email", { required: true })}
+                                    className="px-2 py-2 border outline-none rounded" type="email" placeholder="Enter Email..." />
                                 </div>
 
                                 <div className="flex flex-col space-y-1">
                                     <label className="text-sm font-semibold">Password<sup className="text-[#91000D]">*</sup></label>
-                                    <input className="px-2 py-2 border outline-none rounded" type="password" placeholder="Password..." />
+                                    <input
+                                    {...register("password", { required: true })}
+                                    className="px-2 py-2 border outline-none rounded" type="password" placeholder="Password..." />
                                 </div>
 
                                 <div className="flex flex-col space-y-1">
                                     <label className="text-sm font-semibold">Name Of Your Institute<sup className="text-[#91000D]">*</sup></label>
-                                    <input className="px-2 py-2 border outline-none rounded" type="text" placeholder="Institute..." />
+                                    <input
+                                    {...register("institute")}
+                                    className="px-2 py-2 border outline-none rounded" type="text" placeholder="Institute..." />
                                 </div>
 
                                 <div className="flex flex-col space-y-1">
                                     <label className="text-sm font-semibold">Name Of Your Department<sup className="text-[#91000D]">*</sup></label>
-                                    <input className="px-2 py-2 border outline-none rounded" type="text" placeholder="Department..." />
+                                    <input
+                                    {...register("department")}
+                                    className="px-2 py-2 border outline-none rounded" type="text" placeholder="Department..." />
                                 </div>
 
                                 <div className="flex flex-col space-y-1">
                                     <label className="text-sm font-semibold">Name Of Your Position<sup className="text-[#91000D]">*</sup></label>
-                                    <input className="px-2 py-2 border outline-none rounded" type="text" placeholder="Position..." />
-                                </div>
-
-                                <div className="flex flex-col space-y-1">
-                                    <label className="text-sm font-semibold">Name Of Your Position<sup className="text-[#91000D]">*</sup></label>
-                                    <input className="px-2 py-2 border outline-none rounded" type="text" placeholder="Position..." />
+                                    <input
+                                    {...register("position")}
+                                     className="px-2 py-2 border outline-none rounded" type="text" placeholder="Position..." />
                                 </div>
 
                                 <div className="flex flex-col space-y-1">

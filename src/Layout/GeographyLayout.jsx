@@ -1,24 +1,19 @@
 import { Outlet } from "react-router-dom";
 import GeographyNav from "../Journals/Geography/GeographyNav/GeographyNav";
-import ArticleRoutingTop from "../Utilities/ArticleRoutingTop/ArticleRoutingTop";
 import PageTitle from "../Utilities/PageTitle/PageTitle";
-import GeographyDetails from "../Journals/Geography/GeographyDetails/GeographyDetails";
-
-
+import RoutingTop from "../Utilities/PageTitle/RoutingTop/RoutingTop";
 
 
 const GeographyLayout = () => {
     return (
-        <div className="">
+        <div className="mt-28">
             <PageTitle title={"Journal of Geography and Earth Sciences"}></PageTitle>
-            <GeographyDetails></GeographyDetails>
-            <div className="flex px-20 my-8 gap-8">
-            <ArticleRoutingTop>
-               <GeographyNav></GeographyNav>
-                <Outlet></Outlet>
-                </ArticleRoutingTop>
-            </div>
-
+            <RoutingTop>
+                <div className="flex px-20 my-8 gap-8">
+                    <GeographyNav></GeographyNav>
+                    <Outlet></Outlet>
+                </div>
+            </RoutingTop>
         </div>
     );
 };

@@ -45,26 +45,26 @@ const Navbar = () => {
                         <div className='lg:flex items-center xl:space-x-8 lg:space-x-6 hidden'>
                             <div className='flex items-center xl:space-x-8 lg:space-x-6 list-none text-[#393939] font-semibold'>
                                 <li className="hover:text-[#950007] duration-300">
-                                    <NavLink to="/"><a href="">Home</a></NavLink>
+                                    <Link to="/"><a href="">Home</a></Link>
                                 </li>
                                 <li className="hover:text-[#950007] duration-300 relative journals">
-                                    <NavLink to=""><a href="">Journals</a></NavLink>
+                                    <Link to=""><a href="">Journals</a></Link>
                                     <div className="subJournals">
                                         <Dropdown></Dropdown>
                                     </div>
                                 </li>
                                 <li className="hover:text-[#950007] duration-300">
-                                    <NavLink to='/research'>
+                                    <Link to='/research'>
                                         <a href="">Research</a>
-                                    </NavLink></li>
+                                    </Link></li>
                                 <li className="hover:text-[#950007] duration-300">
-                                    <NavLink to="/about"><a href="">About Us</a></NavLink>
+                                    <Link to="/about"><a href="">About Us</a></Link>
                                 </li>
                                 <li className="hover:text-[#950007] duration-300">
-                                    <NavLink to="/membership"><a href="">Membership</a></NavLink>
+                                    <Link to="/membership"><a href="">Membership</a></Link>
                                 </li>
                                 <li className="hover:text-[#950007] duration-300">
-                                    <NavLink to="/contact"><a href="">Contact</a></NavLink>
+                                    <Link to="/contact"><a href="">Contact</a></Link>
                                 </li>
 
                             </div>

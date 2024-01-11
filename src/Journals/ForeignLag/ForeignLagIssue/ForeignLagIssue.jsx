@@ -4,8 +4,8 @@ import ForeignLagArticles from "../../../Articles/ForeignLagArticles/ForeignLagA
 const ForeignLagIssue = () => {
     return (
         <div className="w-full">
-            <h2 className="text-xl font-bold text-[#91000D] aimsscope">Current Issue</h2>
-            <div className="my-8">
+            <h2 className="font-medium text-[#91000D] aimsscope">Current Issue</h2>
+            <div className="my-4">
                 <ForeignLagArticles></ForeignLagArticles>
             </div>
         </div>

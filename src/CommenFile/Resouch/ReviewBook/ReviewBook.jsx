@@ -4,12 +4,12 @@ import ConsiderationsTab from "./Considerations/ConsiderationsTab";
 const ReviewBook = () => {
     return (
         <div className="my-8">
-            <h2 className=" text-lg font-bold text-[#0D2357] aimsscope">How to Write a Book Review</h2>
+            <h2 className="font-medium text-[#0D2357]">How to Write a Book Review</h2>
 
-            <div className="my-8">
+            <div className="my-2">
                 <div className="space-y-3">
                     <div className="space-y-3">
-                        <p>
+                        <p className="text-[15px]">
                             A book review is a description, critical analysis, and an evaluation on the quality, meaning,
                             and significance of a book, not a retelling. It should focus on the book's purpose, content,
                             and authority. A critical book review is not a book report or a summary. It is a reaction paper
@@ -18,7 +18,7 @@ const ReviewBook = () => {
                             has succeeded, and presents evidence to support this evaluation.
                         </p>
 
-                        <p>
+                        <p className="text-[15px]">
                             There is no right way to write a book review. Book reviews are highly personal and
                             reflect the opinions of the reviewer.
                             A review can be as short as 50-100 words,
@@ -31,7 +31,7 @@ const ReviewBook = () => {
                         </p>
                     </div>
 
-                    <div className="space-y-3">
+                    <div className="space-y-3 text-[15px]">
                         <p>
                             <span className="text-[#91000D] font-semibold px-1">Step-1: </span>
                             Write a statement giving essential information about the book: title,
@@ -171,14 +171,14 @@ const ReviewBook = () => {
                     </div>
 
                     <div>
-                        <h2 className="font-medium text-[#0D2357] aimsscope">Subject headings used in the catalog:</h2>
+                        <h2 className="font-medium text-[#0D2357]">Subject headings used in the catalog:</h2>
 
-                        <div className="my-8">
+                        <div className="my-8 text-[15px]">
                             <p className="text-[#91000D] font-medium">Book reviewing </p>
                             <p>Criticism</p>
                             <p className="text-[#0D2357] font-medium py-2">Related books:</p>
 
-                            <div className="space-y-2 text-[#262626ee]">
+                            <div className="space-y-2 text-[#262626ee] text-[15px]">
                                 <p>Book reviewing: a guide to writing book reviews for newspapers, magazines, radio, and television.
                                     Boston. The Writer, 1978 PN98.B7 B6
                                 </p>
@@ -197,7 +197,7 @@ const ReviewBook = () => {
                             <div>
                                 <p className="text-[#0D2357] font-medium pt-4">Sources of Book Reviews:</p>
 
-                                <div className="space-y-2 py-2 text-[#262626ee]">
+                                <div className="space-y-2 py-2 text-[#262626ee] text-[15px]">
                                     <p>
                                         Book Review Digest 1985+ INDEX Z1219 .C96
                                     </p>
@@ -216,7 +216,7 @@ const ReviewBook = () => {
                             <div>
                                  <h2 className="text-[#0D2357] font-medium pt-4">Related Websites:</h2>
 
-                                 <div className="my-2 space-y-3 text-[#262626ee]">
+                                 <div className="my-2 space-y-3 text-[#262626ee] text-[15px]">
                                        <div className="space-y-1">
                                           <p>How to Write a Book Review. Stauffer Library.</p>
                                           <a className="text-[#91000D] hover:text-[#072159] duration-200" href="http://library.uwaterloo.ca/libguides/1-12.html" target="_blank">http://library.uwaterloo.ca/libguides/1-12.html</a>
@@ -236,7 +236,7 @@ const ReviewBook = () => {
 
                             <div className="my-2">
                                  <h2 className="text-[#072159] font-medium">Courtesy:</h2>
-                                 <div className="text-[#262626ee]">
+                                 <div className="text-[#262626ee] text-[15px]">
                                     <p>Los Angeles Valley College</p>
                                     <p>Library</p>
                                     <p>5800 Fulton Ave.</p>

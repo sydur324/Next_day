@@ -4,9 +4,9 @@ import JeaArticles from "../../../Articles/JeaArticles/JeaArticles";
 const JeaScope = () => {
     return (
         <div className="w-full">
-            <h2 className="text-xl font-bold text-[#91000D]">Aims & Scope</h2>
+            <h2 className="font-medium text-[#91000D]">Aims & Scope</h2>
 
-            <div className="flex items-center py-8 gap-24">
+            <div className="flex items-center py-8 gap-24 text-[15px]">
                 Aeronautics and Astronautics,
                 Chemical Engineering,
                 Nanoscience and Molecular Engineering,

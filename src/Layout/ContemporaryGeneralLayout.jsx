@@ -1,19 +1,17 @@
 import { Outlet } from "react-router-dom";
 import ContemporaryGeneralNav from "../Journals/ContemporaryGeneral/ContemporaryGeneralNav/ContemporaryGeneralNav";
-import ArticleRoutingTop from "../Utilities/ArticleRoutingTop/ArticleRoutingTop";
 import PageTitle from "../Utilities/PageTitle/PageTitle";
-import ContemporaryGeneralDetails from "../Journals/ContemporaryGeneral/ContemporaryGeneralDetails/ContemporaryGeneralDetails";
+import RoutingTop from "../Utilities/PageTitle/RoutingTop/RoutingTop";
 
 const ContemporaryGeneralLayout = () => {
     return (
-        <div className="">
+        <div className="mt-28">
             <PageTitle title={"American International Journal of Contemporary Research"}></PageTitle>
-            <ContemporaryGeneralDetails></ContemporaryGeneralDetails>
             <div className="flex px-20 my-8 gap-8">
-            <ArticleRoutingTop>
-               <ContemporaryGeneralNav></ContemporaryGeneralNav>
-                <Outlet></Outlet>
-                </ArticleRoutingTop>
+                <RoutingTop>
+                    <ContemporaryGeneralNav></ContemporaryGeneralNav>
+                    <Outlet></Outlet>
+                </RoutingTop>
             </div>
 
         </div>

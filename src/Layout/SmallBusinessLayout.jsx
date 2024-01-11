@@ -1,19 +1,17 @@
 import { Outlet } from "react-router-dom";
 import SmallBusinessNav from "../Journals/SmallBusiness/SmallBusinessNav/SmallBusinessNav";
-import ArticleRoutingTop from "../Utilities/ArticleRoutingTop/ArticleRoutingTop";
 import PageTitle from "../Utilities/PageTitle/PageTitle";
-import SmallBusinessDetaisls from "../Journals/SmallBusiness/SmallBusinessDetaisls/SmallBusinessDetaisls";
+import RoutingTop from "../Utilities/PageTitle/RoutingTop/RoutingTop";
 
 const SmallBusinessLayout = () => {
     return (
-        <div className="">
+        <div className="mt-28">
             <PageTitle title={"Journal of Small Business and Entrepreneurship Development"}></PageTitle>
-            <SmallBusinessDetaisls></SmallBusinessDetaisls>
             <div className="flex px-20 my-8 gap-8">
-            <ArticleRoutingTop>
-               <SmallBusinessNav></SmallBusinessNav>
-                <Outlet></Outlet>
-                </ArticleRoutingTop>
+                <RoutingTop>
+                    <SmallBusinessNav></SmallBusinessNav>
+                    <Outlet></Outlet>
+                </RoutingTop>
             </div>
 
         </div>

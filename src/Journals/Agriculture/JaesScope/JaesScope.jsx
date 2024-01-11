@@ -5,7 +5,7 @@ const JaesScope = () => {
         <div className="w-full">
             <h2 className="text-xl font-bold text-[#91000D]">Aims & Scope</h2>
 
-            <div className="flex items-center py-8 gap-24">
+            <div className="flex items-center py-2 gap-24">
                 <p>
                     Basic Agriculture,
                     Fruit Production,

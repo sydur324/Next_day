@@ -1,10 +1,14 @@
 
 import CriminalJusticeArticles from '../../../Articles/CriminalJusticeArticles/CriminalJusticeArticles';
+import CriminalJusticeDetails from '../CriminalJusticeDetails/CriminalJusticeDetails';
 import './CriminalJusticeHome.css'
 const CriminalJusticeHome = () => {
     return (
         <div className='w-full'>
-            <div className='CriminalJusticeHome_bg text-white px-4 py-4'>
+
+            <CriminalJusticeDetails></CriminalJusticeDetails>
+
+            <div className='CriminalJusticeHome_bg text-white px-4 py-4 mt-8'>
                 <h2 className='font-bold text-lg py-2'>Journal of Law and Criminal Justice</h2>
                 <div className='flex items-center space-x-2 text-sm'>
                     <p>ISSN:</p>
@@ -17,7 +21,7 @@ const CriminalJusticeHome = () => {
             </div>
 
             <div className='py-6 '>
-                <p>
+                <p className='text-[15px]'>
                     <span className='font-medium text-[#91000D]'>Journal of Law and Criminal Justice</span>   is a refereed international
                     journal that seeks to publish high quality research papers in the areas of socio-legal studies and
                     the psychology of law, criminology and social justice studies. The Journal invites papers based on
@@ -27,7 +31,7 @@ const CriminalJusticeHome = () => {
                     respect to crime and justice through innovative and advanced methodologies.
                 </p>
 
-                <p className='py-4'>
+                <p className='py-4 text-[15px]'>
                     <span className='font-medium text-[#91000D]'>Journal of Law and Criminal Justice</span>  provides a comparative
                     and international overview of law and crime and justice from a cross-cultural perspective.
                     As a peer-reviewed journal, the journal encourages the submission of articles, research notes,
@@ -40,7 +44,7 @@ const CriminalJusticeHome = () => {
 
                 <div className='my-2'>
                     <h2 className='font-medium text-[#91000D] py-2'>E-Publication First<sup>TM</sup></h2>
-                    <p>
+                    <p className='text-[15px]'>
                         E-Publication First<sup>TM</sup> is a feature offered through our journal platform. It allows PDF
                         version of manuscripts that have been peer reviewed and accepted, to be hosted online prior to their
                         inclusion in a final printed journal. Readers can freely access or cite the article. The accepted papers
@@ -50,7 +54,7 @@ const CriminalJusticeHome = () => {
 
                 <div>
                     <h2 className='font-medium text-[#91000D] py-2'>DOI®number</h2>
-                    <p>
+                    <p className='text-[15px]'>
                         Each paper published in <span className='font-semibold'>Journal of Law and Criminal Justice</span> is assigned a DOI®number,
                         which appears beneath the author's affiliation in the published paper. Click <a className='hover:text-[#072159] text-[#91000D] duration-300 cursor-pointer font-medium px-1' href='https://www.doi.org/' target='_blank'>https://www.doi.org/</a> to know what
                         is DOI (Digital Object Identifier)? Click <a className='hover:text-[#072159] text-[#91000D] duration-300 cursor-pointer font-medium px-1' href='https://www.crossref.org/' target='_blank'>https://www.crossref.org/</a> to retrieve Digital Object Identifiers
@@ -60,7 +64,7 @@ const CriminalJusticeHome = () => {
 
                 <div className='py-2'>
                     <h2 className='font-medium text-[#91000D] py-2'>Abstracted/Indexed in:</h2>
-                    <p>
+                    <p className='text-[15px]'>
                         CrossRef, CrossCheck, Cabell's, Ulrich's, Griffith Research Online, Google Scholar, Education.edu,
                         Informatics, Universe Digital Library, Standard Periodical Directory,Gale, Open J-Gate, EBSCO, Journal
                         Seek, DRJI, ProQuest, BASE, InfoBase Index, OCLC, IBSS, Academic Journal Databases, Scientific Index.
@@ -68,7 +72,7 @@ const CriminalJusticeHome = () => {
                 </div>
 
                 <div className='py-2'>
-                    <h2 className='font-medium text-[#91000D] py-2'>Current Issue:</h2>
+                    <h2 className='font-medium text-[#91000D] py-2'>Current Issue</h2>
                     <div>
                         <CriminalJusticeArticles></CriminalJusticeArticles>
                     </div>

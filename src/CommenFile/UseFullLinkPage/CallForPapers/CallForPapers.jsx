@@ -4,8 +4,8 @@ import completedListes from '../../../../public/completedList.json'
 const CallForPapers = () => {
     return (
         <div className="my-8">
-            <h2 className="font-bold text-[#0D2357] aimsscope">Call for Papers</h2>
-            <div className="my-6 text-[#262626e2] space-y-3">
+            <h2 className="font-medium text-[#0D2357]">Call for Papers</h2>
+            <div className="my-4 text-[15px] text-[#262626e2] space-y-3">
                 <p>
                     Founded in June 2011, the <Link>
                         <span className="text-[#91000D] hover:text-[#0D2357] duration-300 cursor-pointer">American Research Institute for Policy
@@ -51,7 +51,7 @@ const CallForPapers = () => {
                     editor@aripd.net , the executive editor will decide the journal for her/his paper.
                 </p>
 
-                {/* <h2 className="font-bold text-[#0D2357] aimsscope">The complete list of the journals</h2> */}
+                {/* <h2 className="font-medium text-[#0D2357] aimsscope">The complete list of the journals</h2> */}
             </div>
 
             {/* <div className="my-8">

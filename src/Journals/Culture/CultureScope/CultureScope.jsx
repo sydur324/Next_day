@@ -3,10 +3,10 @@ import CultureArticles from "../../../Articles/CultureArticles/CultureArticles";
 const CultureScope = () => {
     return (
         <div className="w-full">
-            <h2 className="text-xl font-bold text-[#91000D]">Aims & Scope</h2>
+            <h2 className="font-medium text-[#91000D]">Aims & Scope</h2>
 
             <div className="flex items-center py-8 gap-24">
-                <p>
+                <p className="text-[15px]">
                     Qur'anic Studies,
                     Hadith,
                     Sufi Literature,
@@ -45,7 +45,7 @@ const CultureScope = () => {
             </div>
 
             <div className='py-2'>
-                <h2 className='font-medium text-[#91000D] py-2'>Current Issue:</h2>
+                <h2 className='font-medium text-[#91000D] py-2'>Current Issue</h2>
                 <div>
                     <CultureArticles></CultureArticles>
                 </div>

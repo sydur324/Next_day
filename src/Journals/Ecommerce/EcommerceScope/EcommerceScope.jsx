@@ -4,10 +4,10 @@ import EcommerceArticles from "../../../Articles/EcommerceArticles/EcommerceArti
 const EcommerceScope = () => {
     return (
         <div className="w-full">
-            <h2 className="text-xl font-bold text-[#91000D]">Aims & Scope</h2>
+            <h2 className="font-medium text-[#91000D]">Aims & Scope</h2>
 
-            <div className="flex items-center py-8 gap-24">
-                <p>
+            <div className="flex items-center py-4 gap-24">
+                <p className="text-[15px]">
                     Basic principles of Information Technology,
                     Hardware and software components,
                     Database technology,
@@ -34,7 +34,7 @@ const EcommerceScope = () => {
             </div>
 
             <div className='py-2'>
-                <h2 className='font-medium text-[#91000D] py-2'>Current Issue:</h2>
+                <h2 className='font-medium text-[#91000D] py-2'>Current Issue</h2>
                 <div>
                     <EcommerceArticles></EcommerceArticles>
                 </div>

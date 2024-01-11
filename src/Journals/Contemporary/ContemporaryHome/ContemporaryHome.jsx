@@ -1,11 +1,13 @@
 
 import ContemporaryArticls from '../../../Articles/ContemporaryArticls/ContemporaryArticls';
-import CultureArticles from '../../../Articles/CultureArticles/CultureArticles';
+import ContemporaryDetails from '../ContemporaryDetails/ContemporaryDetails';
 import './ContemporaryHome.css'
 const ContemporaryHome = () => {
     return (
         <div className='w-full'>
-            <div className='ContemporaryHome_bg text-white px-4 py-4'>
+            <ContemporaryDetails></ContemporaryDetails>
+
+            <div className='ContemporaryHome_bg text-white px-4 py-4 mt-8'>
                 <h2 className='font-bold text-lg py-2'>Review of Contemporary Business Research</h2>
                 <div className='flex items-center space-x-2 text-sm'>
                     <p>ISSN:</p>
@@ -17,7 +19,7 @@ const ContemporaryHome = () => {
                 </div>
             </div>
 
-            <div className='py-6 '>
+            <div className='py-6 text-[15px]'>
                 <p>
                     <span className='font-medium text-[#91000D]'>Review of Contemporary Business Research</span>  is an international journal concerned with the contemporary operation of business systems and enterprises. Its primary purpose is to make available the findings of advanced research, empirical and conceptual, into matters of global significance, such as corporate organization and growth, multinational enterprise, business efficiency, entrepreneurship, technological change, finance, marketing, human resource management, professionalization and business culture.
                 </p>

@@ -1,10 +1,14 @@
 
 import TourismArticles from '../../../Articles/TourismArticles/TourismArticles';
+import TourismDetails from '../TourismDetails/TourismDetails';
 import './TourismHome.css'
 const TourismHome = () => {
     return (
         <div className='w-full'>
-            <div className='TourismHome_bg text-white px-4 py-4'>
+
+            <TourismDetails></TourismDetails>
+
+            <div className='TourismHome_bg text-white px-4 py-4 mt-8'>
                 <h2 className='font-bold text-lg py-2'>Journal of Tourism and Hospitality Management</h2>
                 <div className='flex items-center space-x-2 text-sm'>
                     <p>ISSN:</p>
@@ -16,7 +20,7 @@ const TourismHome = () => {
                 </div>
             </div>
 
-            <div className='py-6 '>
+            <div className='py-6 text-[15px]'>
                 <p>
                     <span className='font-medium text-[#91000D]'>Journal of Tourism and Hospitality Management</span>  is the leading international journal in the field of travel and tourism. The journal comprises a multitude of activities which together form one of the world's fastest growing international sectors. The journal takes an interdisciplinary approach and includes planning and policy aspects of international, national and regional tourism as well as specific hospitality management studies. The journal's contents reflect its integrative approach - including primary research articles, discussion of current issues, case studies, reports, book reviews and forthcoming meetings.
                 </p>
@@ -57,7 +61,7 @@ const TourismHome = () => {
                 <div className='py-2'>
                     <h2 className='font-medium text-[#91000D] py-2'>Current Issue:</h2>
                     <div>
-                         <TourismArticles></TourismArticles>
+                        <TourismArticles></TourismArticles>
                     </div>
                 </div>
             </div>

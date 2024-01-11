@@ -1,9 +1,13 @@
 import BiologyArticles from '../../../Articles/BiologyArticles/BiologyArticles';
+import BiologyDetails from '../BiologyDetails/BiologyDetails';
 import './BiologyHome.css'
 const BiologyHome = () => {
     return (
         <div className='w-full'>
-            <div className='BiologyHome_bg text-white px-4 py-4'>
+
+            <BiologyDetails></BiologyDetails>
+
+            <div className='BiologyHome_bg text-white px-4 py-4 mt-8'>
                 <h2 className='font-bold text-lg py-2'>American International Journal of Biology</h2>
                 <div className='flex items-center space-x-2 text-sm'>
                     <p>ISSN:</p>
@@ -15,7 +19,7 @@ const BiologyHome = () => {
                 </div>
             </div>
 
-            <div className='py-6 '>
+            <div className='py-6 text-[15px]'>
                 <p>
                     <span className='font-medium text-[#91000D]'>American International Journal of Biology</span>  is an international journal devoted to rapid publication of original research and review articles in all biology fields. The aim of this journal is to become the premier source of high quality research. Contributions are welcome from all over the world. The journal is published bimonthly. The aim of the editors is to publish timely, useful and informative results that will be of value to a general biological audience. Every article published in our journal is promoted to researchers working in the respective field. All research articles published in the journal have undergone rigorous peer review, based on initial editor screening and anonymized refereeing by at least two anonymous referees.
                 </p>
@@ -62,7 +66,7 @@ const BiologyHome = () => {
                 <div className='py-2'>
                     <h2 className='font-medium text-[#91000D] py-2'>Current Issue:</h2>
                     <div>
-                         <BiologyArticles></BiologyArticles>
+                        <BiologyArticles></BiologyArticles>
                     </div>
                 </div>
             </div>

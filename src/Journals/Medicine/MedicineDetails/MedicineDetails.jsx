@@ -2,16 +2,16 @@ import img from '../../../assets/img/MedicineandPharmacy.png'
 
 const MedicineDetails = () => {
     return (
-        <div className=" mt-28 page_width">
+        <div className="">
             <div className="border-2 rounded p-8">
                 <div className='flex flex-wrap lg:gap-12 gap-6'>
-                    <div>
+                    <div className='w-1/4'>
                         <img src={img} alt="" />
                     </div>
 
-                    <div>
-                        <h2 className='journal_box_title'>International Journal of Medicine and Pharmacy</h2>
-                        <div className='py-2'>
+                    <div className='text-[15px]'>
+                        <h2 className='text-lg font-medium text-[#072159]'>International Journal of Medicine and Pharmacy</h2>
+                        <div className='py-2 text-[15px]'>
                             <p className='font-medium text-[#91000cae]'>Editor-in-Chief:</p>
                             <p>Dr. Yanxia Ning, Virginia Commonwealth University, USA.</p>
                         </div>

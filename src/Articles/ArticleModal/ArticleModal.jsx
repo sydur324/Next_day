@@ -53,10 +53,10 @@ const ArticleModal = ({ articles }) => {
                                 <Dialog.Panel className="w-full max-w-3xl rounded transform overflow-hidden  bg-white px-6 py-8 text-left align-middle shadow-xl transition-all">
 
                                     <div>
-                                        <h2 className="font-medium text-[#072159]">{articles.title}</h2>
-                                        <p>{articles.author}</p>
-                                        <h2 className='text-xl font-bold py-4'>Abstract</h2>
-                                        <p className='pb-4'>{articles.abstract}</p>
+                                        <h2 className="font-medium text-[15px] text-[#072159]">{articles.title}</h2>
+                                        <p className='text-[15px]'>{articles.author}</p>
+                                        <h2 className='font-medium py-4'>Abstract</h2>
+                                        <p className='pb-4 text-[15px]'>{articles.abstract}</p>
                                     </div>
 
                                     <div className="top-0 right-0 absolute mx-2">

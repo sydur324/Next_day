@@ -1,10 +1,14 @@
 
 import PhysicsArticles from '../../../Articles/PhysicsArticles/PhysicsArticles';
+import PhysicsDetails from '../PhysicsDetails/PhysicsDetails';
 import './PhysicsHome.css'
 const PhysicsHome = () => {
     return (
         <div className='w-full'>
-            <div className='PhysicsHome_bg text-white px-4 py-4'>
+
+            <PhysicsDetails></PhysicsDetails>
+
+            <div className='PhysicsHome_bg text-white px-4 py-4 mt-8'>
                 <h2 className='font-bold text-lg py-2'>International Journal of Physics and Astronomy</h2>
                 <div className='flex items-center space-x-2 text-sm'>
                     <p>ISSN:</p>
@@ -16,7 +20,7 @@ const PhysicsHome = () => {
                 </div>
             </div>
 
-            <div className='py-6 '>
+            <div className='py-6 text-[15px]'>
                 <p>
                     <span className='font-medium text-[#91000D]'>International Journal of Physics and Astronomy</span>  is an international journal devoted to the promotion of the recent progresses in all fields of physics and astronomy. The aim of the editors is to publish timely, useful and informative results that will be of value to a general audience. Every article published in our journal is promoted to researchers working in the respective fields. All research articles published in the journal have undergone rigorous peer review, based on initial editor screening and anonymized refereeing by at least two anonymous referees.
                 </p>
@@ -61,9 +65,9 @@ const PhysicsHome = () => {
                 </div>
 
                 <div className='py-2'>
-                    <h2 className='font-medium text-[#91000D] py-2'>Current Issue:</h2>
+                    <h2 className='font-medium text-[#91000D] py-2'>Current Issue</h2>
                     <div>
-                         <PhysicsArticles></PhysicsArticles>
+                        <PhysicsArticles></PhysicsArticles>
                     </div>
                 </div>
             </div>

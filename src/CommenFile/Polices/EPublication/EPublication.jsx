@@ -3,8 +3,8 @@ const EPublication = () => {
         <div className="my-8">
 
             <div>
-                <h2 className="font-bold text-[#0D2357] aimsscope">E-Publication First<sup>TM</sup></h2>
-                <p className="my-6 text-[#262626e2]">
+                <h2 className="font-medium text-[#0D2357] aimsscope">E-Publication First<sup>TM</sup></h2>
+                <p className="my-4 text-[15px] text-[#262626e2]">
                     E-Publication First<sup>TM</sup> is a feature offered through our journal platform.
                     It allows PDF version of manuscripts that have been peer reviewed and accepted,
                     to be hosted online prior to their inclusion in a final printed journal. Readers can freely access or cite the article.
@@ -14,8 +14,8 @@ const EPublication = () => {
             </div>
 
             <div>
-                <h2 className="font-bold text-[#0D2357] aimsscope">Review Policy</h2>
-                <p className="my-6 text-[#262626e2]">
+                <h2 className="font-medium text-[#0D2357] aimsscope">Review Policy</h2>
+                <p className="my-4 text-[15px] text-[#262626e2]">
                     The journal follows double blind peer review policy. The paper is sent to two reviewers
                     (the experts in respective field) to review the paper in the light of journal's
                     guidelines and features of a quality research paper. For papers which require changes,
@@ -24,8 +24,8 @@ const EPublication = () => {
             </div>
 
             <div>
-                <h2 className="font-bold text-[#0D2357] aimsscope">Copyright</h2>
-                <p className="my-6 text-[#262626e2]">
+                <h2 className="font-medium text-[#0D2357] aimsscope">Copyright</h2>
+                <p className="my-4 text-[15px] text-[#262626e2]">
                     Copyrights for articles published in the journal are retained by the authors, with first
                     publication rights granted to the journal. The journal/publisher is not responsible for
                     subsequent uses of the work.
@@ -34,8 +34,8 @@ const EPublication = () => {
             </div>
 
             <div>
-                <h2 className="font-bold text-[#0D2357] aimsscope">Plagiarism Policy</h2>
-                <p className="my-6 text-[#262626e2]">
+                <h2 className="font-medium text-[#0D2357] aimsscope">Plagiarism Policy</h2>
+                <p className="my-4 text-[15px] text-[#262626e2]">
                     The editorial board is very strict regarding plagiarism. The journal believes
                     that taking the ideas and work of others without giving them credit is unfair
                     and dishonest. Copying even one sentence from someone else's manuscript, or

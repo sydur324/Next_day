@@ -1,10 +1,14 @@
 
 import SociologyArtics from '../../../Articles/SociologyArtics/SociologyArtics';
+import SociologyDetails from '../SociologyDetails/SociologyDetails';
 import './SociologyHome.css'
 const SociologyHome = () => {
     return (
         <div className='w-full'>
-            <div className='SociologyHome_bg text-white px-4 py-4'>
+
+            <SociologyDetails></SociologyDetails>
+
+            <div className='SociologyHome_bg text-white px-4 py-4 mt-8'>
                 <h2 className='font-bold text-lg py-2'>Journal of Sociology and Social Work</h2>
                 <div className='flex items-center space-x-2 text-sm'>
                     <p>ISSN:</p>
@@ -16,7 +20,7 @@ const SociologyHome = () => {
                 </div>
             </div>
 
-            <div className='py-6 '>
+            <div className='py-6 text-[15px]'>
                 <p>
                     <span className='font-medium text-[#91000D]'>Journal of Sociology and Social Work</span>  is a scholarly international journal in its fields. The journal remains a leading voice for analysis and research in the social sciences. The journal welcomes research papers from all areas of sociology, with an emphasis on theory building and innovative methods. AJS strives to speak to the general sociological reader and is open to sociologically informed contributions from anthropologists, statisticians, economists, educators, historians, and political scientists. The journal also publishes articles that promote, debate and analyze current themes and issues in social work theory, research, policy and practice. The journal follows double-blind peer review process.
                 </p>
@@ -48,7 +52,7 @@ const SociologyHome = () => {
                 </div>
 
                 <div className='py-2'>
-                    <h2 className='font-medium text-[#91000D] py-2'>Current Issue:</h2>
+                    <h2 className='font-medium text-[#91000D] py-2'>Current Issue</h2>
                     <div>
                         <SociologyArtics></SociologyArtics>
                     </div>

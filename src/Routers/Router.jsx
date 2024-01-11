@@ -441,6 +441,311 @@ import BusinessReviewsArcive from "../Journals/BusinessReviews/BusinessReviewsAr
 import EconomicsArcive from "../Journals/Economics/EconomicsArcive/EconomicsArcive";
 import JaesArcive from "../Journals/Agriculture/JaesArcive/JaesArcive";
 import SubmitForm from "../SubmitForm/SubmitForm";
+import JaesInformation from "../Journals/Agriculture/JaesInformation/JaesInformation";
+import JaesIndex from "../Journals/Agriculture/JaesIndex/JaesIndex";
+import LifeSubmisition from "../Journals/Life/LifeSubmisition/LifeSubmisition";
+import Liferesources from "../Journals/Life/Liferesources/Liferesources";
+import LifePolicy from "../Journals/Life/LifePolicy/LifePolicy";
+import LifeUseLink from "../Journals/Life/LifeUseLink/LifeUseLink";
+import LifeActivites from "../Journals/Life/LifeActivites/LifeActivites";
+import LifeSubcription from "../Journals/Life/LifeSubcription/LifeSubcription";
+import LifeInformation from "../Journals/Life/LifeInformation/LifeInformation";
+import LifeIndex from "../Journals/Life/LifeIndex/LifeIndex";
+import ArchaeologySubmition from "../Journals/Archaeology/ArchaeologySubmition/ArchaeologySubmition";
+import ArchaeologyResources from "../Journals/Archaeology/ArchaeologyResources/ArchaeologyResources";
+import ArchaeologyPolicy from "../Journals/Archaeology/ArchaeologyPolicy/ArchaeologyPolicy";
+import ArchaeologyLink from "../Journals/Archaeology/ArchaeologyLink/ArchaeologyLink";
+import ArchaeologyActivites from "../Journals/Archaeology/ArchaeologyActivites/ArchaeologyActivites";
+import ArchaeologySubcripton from "../Journals/Archaeology/ArchaeologySubcripton/ArchaeologySubcripton";
+import ArchaeologyInformation from "../Journals/Archaeology/ArchaeologyInformation/ArchaeologyInformation";
+import ArchaeologyIndex from "../Journals/Archaeology/ArchaeologyIndex/ArchaeologyIndex";
+import BankManagementSubmision from "../Journals/BankManagement/BankManagementSubmision/BankManagementSubmision";
+import BankManagementResources from "../Journals/BankManagement/BankManagementResources/BankManagementResources";
+import BankManagementPolicy from "../Journals/BankManagement/BankManagementPolicy/BankManagementPolicy";
+import BankManagementLink from "../Journals/BankManagement/BankManagementLink/BankManagementLink";
+import BankManagementActivites from "../Journals/BankManagement/BankManagementActivites/BankManagementActivites";
+import BankManagementSubcrip from "../Journals/BankManagement/BankManagementSubcrip/BankManagementSubcrip";
+import BankManagementInformation from "../Journals/BankManagement/BankManagementInformation/BankManagementInformation";
+import BankManagementIndex from "../Journals/BankManagement/BankManagementIndex/BankManagementIndex";
+import BiochemistrySubmission from "../Journals/Biochemistry/BiochemistrySubmission/BiochemistrySubmission";
+import BiochemistryResourch from "../Journals/Biochemistry/BiochemistryResourch/BiochemistryResourch";
+import BiochemistryPolices from "../Journals/Biochemistry/BiochemistryPolices/BiochemistryPolices";
+import BiochemistryLink from "../Journals/Biochemistry/BiochemistryLink/BiochemistryLink";
+import BiochemistryActivites from "../Journals/Biochemistry/BiochemistryActivites/BiochemistryActivites";
+import BiochemistrySubcription from "../Journals/Biochemistry/BiochemistrySubcription/BiochemistrySubcription";
+import BiochemistryInformation from "../Journals/Biochemistry/BiochemistryInformation/BiochemistryInformation";
+import BiochemistryIndex from "../Journals/Biochemistry/BiochemistryIndex/BiochemistryIndex";
+import BusinessEthicsSubmision from "../Journals/BusinessEthics/BusinessEthicsSubmision/BusinessEthicsSubmision";
+import BusinessEthicsResearch from "../Journals/BusinessEthics/BusinessEthicsResearch/BusinessEthicsResearch";
+import BusinessEthicsPolice from "../Journals/BusinessEthics/BusinessEthicsPolice/BusinessEthicsPolice";
+import BusinessEthicsLink from "../Journals/BusinessEthics/BusinessEthicsLink/BusinessEthicsLink";
+import BusinessEthicsActivites from "../Journals/BusinessEthics/BusinessEthicsActivites/BusinessEthicsActivites";
+import BusinessEthicsSubcription from "../Journals/BusinessEthics/BusinessEthicsSubcription/BusinessEthicsSubcription";
+import BusinessEthicsInfo from "../Journals/BusinessEthics/BusinessEthicsInfo/BusinessEthicsInfo";
+import BusinessEthicsIndex from "../Journals/BusinessEthics/BusinessEthicsIndex/BusinessEthicsIndex";
+import ComputerScienceSubmission from "../Journals/ComputerScience/ComputerScienceSubmission/ComputerScienceSubmission";
+import ComputerSciencePolicy from "../Journals/ComputerScience/ComputerSciencePolicy/ComputerSciencePolicy";
+import ComputerScienceResourch from "../Journals/ComputerScience/ComputerScienceResourch/ComputerScienceResourch";
+import ComputerScienceLink from "../Journals/ComputerScience/ComputerScienceLink/ComputerScienceLink";
+import ComputerScienceActivites from "../Journals/ComputerScience/ComputerScienceActivites/ComputerScienceActivites";
+import ComputerScienceInfo from "../Journals/ComputerScience/ComputerScienceInfo/ComputerScienceInfo";
+import ComputerScienceSubcription from "../Journals/ComputerScience/ComputerScienceSubcription/ComputerScienceSubcription";
+import ComputerScienceIndex from "../Journals/ComputerScience/ComputerScienceIndex/ComputerScienceIndex";
+import CriminalJusticeSubmission from "../Journals/CriminalJustice/CriminalJusticeSubmission/CriminalJusticeSubmission";
+import CriminalJusticeResourch from "../Journals/CriminalJustice/CriminalJusticeResourch/CriminalJusticeResourch";
+import CriminalJusticePolicy from "../Journals/CriminalJustice/CriminalJusticePolicy/CriminalJusticePolicy";
+import CriminalJusticeLink from "../Journals/CriminalJustice/CriminalJusticeLink/CriminalJusticeLink";
+import CriminalJusticeActivites from "../Journals/CriminalJustice/CriminalJusticeActivites/CriminalJusticeActivites";
+import CriminalJusticeSubcription from "../Journals/CriminalJustice/CriminalJusticeSubcription/CriminalJusticeSubcription";
+import CriminalJusticeInfo from "../Journals/CriminalJustice/CriminalJusticeInfo/CriminalJusticeInfo";
+import CriminalJusticeIndex from "../Journals/CriminalJustice/CriminalJusticeIndex/CriminalJusticeIndex";
+import EconomicsSubmission from "../Journals/Economics/EconomicsSubmission/EconomicsSubmission";
+import EconomicsResourch from "../Journals/Economics/EconomicsResourch/EconomicsResourch";
+import EconomicsPolicy from "../Journals/Economics/EconomicsPolicy/EconomicsPolicy";
+import EconomicsLink from "../Journals/Economics/EconomicsLink/EconomicsLink";
+import EconomicsActivites from "../Journals/Economics/EconomicsActivites/EconomicsActivites";
+import EconomicsSubcription from "../Journals/Economics/EconomicsSubcription/EconomicsSubcription";
+import EconomicsInfo from "../Journals/Economics/EconomicsInfo/EconomicsInfo";
+import EconomicsIndex from "../Journals/Economics/EconomicsIndex/EconomicsIndex";
+import GeographySubmision from "../Journals/Geography/GeographySubmision/GeographySubmision";
+import GeographyResourches from "../Journals/Geography/GeographyResourches/GeographyResourches";
+import GeographyPolicy from "../Journals/Geography/GeographyPolicy/GeographyPolicy";
+import GeographyLink from "../Journals/Geography/GeographyLink/GeographyLink";
+import GeographyActivites from "../Journals/Geography/GeographyActivites/GeographyActivites";
+import GeographySubcrip from "../Journals/Geography/GeographySubcrip/GeographySubcrip";
+import GeographyInfo from "../Journals/Geography/GeographyInfo/GeographyInfo";
+import GeographyIndex from "../Journals/Geography/GeographyIndex/GeographyIndex";
+import EducationSubmition from "../Journals/Education/EducationSubmition/EducationSubmition";
+import EducationResourch from "../Journals/Education/EducationResourch/EducationResourch";
+import EducationPolicy from "../Journals/Education/EducationPolicy/EducationPolicy";
+import EducationLink from "../Journals/Education/EducationLink/EducationLink";
+import EducationActivites from "../Journals/Education/EducationActivites/EducationActivites";
+import EducationSubcrib from "../Journals/Education/EducationSubcrib/EducationSubcrib";
+import EducationInfo from "../Journals/Education/EducationInfo/EducationInfo";
+import EducationIndex from "../Journals/Education/EducationIndex/EducationIndex";
+import SmallBusinessSubmition from "../Journals/SmallBusiness/SmallBusinessSubmition/SmallBusinessSubmition";
+import SmallBusinessResourch from "../Journals/SmallBusiness/SmallBusinessResourch/SmallBusinessResourch";
+import SmallBusinessPolicy from "../Journals/SmallBusiness/SmallBusinessPolicy/SmallBusinessPolicy";
+import SmallBusinessLink from "../Journals/SmallBusiness/SmallBusinessLink/SmallBusinessLink";
+import SmallBusinessActivities from "../Journals/SmallBusiness/SmallBusinessActivities/SmallBusinessActivities";
+import SmallBusinessSubcrip from "../Journals/SmallBusiness/SmallBusinessSubcrip/SmallBusinessSubcrip";
+import SmallBusinessInfo from "../Journals/SmallBusiness/SmallBusinessInfo/SmallBusinessInfo";
+import SmallBusinessIndex from "../Journals/SmallBusiness/SmallBusinessIndex/SmallBusinessIndex";
+import ForeignSubmission from "../Journals/Foreign/ForeignSubmission/ForeignSubmission";
+import ForeignResourch from "../Journals/Foreign/ForeignResourch/ForeignResourch";
+import ForeignPolicy from "../Journals/Foreign/ForeignPolicy/ForeignPolicy";
+import ForeignLink from "../Journals/Foreign/ForeignLink/ForeignLink";
+import ForeignActivites from "../Journals/Foreign/ForeignActivites/ForeignActivites";
+import ForeignSubcription from "../Journals/Foreign/ForeignSubcription/ForeignSubcription";
+import ForeignInfo from "../Journals/Foreign/ForeignInfo/ForeignInfo";
+import ForeignIndex from "../Journals/Foreign/ForeignIndex/ForeignIndex";
+import HRMSubmission from "../Journals/HRM/HRMSubmission/HRMSubmission";
+import HRMResourch from "../Journals/HRM/HRMResourch/HRMResourch";
+import HRMPolicy from "../Journals/HRM/HRMPolicy/HRMPolicy";
+import HRMLink from "../Journals/HRM/HRMLink/HRMLink";
+import HRMActivites from "../Journals/HRM/HRMActivites/HRMActivites";
+import HRMSubcrip from "../Journals/HRM/HRMSubcrip/HRMSubcrip";
+import HRMInfo from "../Journals/HRM/HRMInfo/HRMInfo";
+import HRMIndex from "../Journals/HRM/HRMIndex/HRMIndex";
+import HistorySubmission from "../Journals/History/HistorySubmission/HistorySubmission";
+import HistoryResourch from "../Journals/History/HistoryResourch/HistoryResourch";
+import HistoryPolicy from "../Journals/History/HistoryPolicy/HistoryPolicy";
+import HistoryLink from "../Journals/History/HistoryLink/HistoryLink";
+import HistoryActivites from "../Journals/History/HistoryActivites/HistoryActivites";
+import HistorySubcrip from "../Journals/History/HistorySubcrip/HistorySubcrip";
+import HistoryInfo from "../Journals/History/HistoryInfo/HistoryInfo";
+import HistoryIndex from "../Journals/History/HistoryIndex/HistoryIndex";
+import HumanRightsSubmition from "../Journals/HumanRights/HumanRightsSubmition/HumanRightsSubmition";
+import HumanRightsResourch from "../Journals/HumanRights/HumanRightsResourch/HumanRightsResourch";
+import HumanRightsPolicy from "../Journals/HumanRights/HumanRightsPolicy/HumanRightsPolicy";
+import HumanRightsLink from "../Journals/HumanRights/HumanRightsLink/HumanRightsLink";
+import HumanRightsSubcrip from "../Journals/HumanRights/HumanRightsSubcrip/HumanRightsSubcrip";
+import HumanRightsInfo from "../Journals/HumanRights/HumanRightsInfo/HumanRightsInfo";
+import HumanRightsIndex from "../Journals/HumanRights/HumanRightsIndex/HumanRightsIndex";
+import HumanRightsActivites from "../Journals/HumanRights/HumanRightsActivites/HumanRightsActivites";
+import CultureSubmision from "../Journals/Culture/CultureSubmision/CultureSubmision";
+import CultureReasourch from "../Journals/Culture/CultureReasourch/CultureReasourch";
+import CulturePolicy from "../Journals/Culture/CulturePolicy/CulturePolicy";
+import CultureLink from "../Journals/Culture/CultureLink/CultureLink";
+import CultureActivites from "../Journals/Culture/CultureActivites/CultureActivites";
+import CultureSubcrip from "../Journals/Culture/CultureSubcrip/CultureSubcrip";
+import CultureInfo from "../Journals/Culture/CultureInfo/CultureInfo";
+import CultureIndex from "../Journals/Culture/CultureIndex/CultureIndex";
+import LinguisticsSubmission from "../Journals/Linguistics/LinguisticsSubmission/LinguisticsSubmission";
+import LinguisticsResourch from "../Journals/Linguistics/LinguisticsResourch/LinguisticsResourch";
+import LinguisticsPolicy from "../Journals/Linguistics/LinguisticsPolicy/LinguisticsPolicy";
+import LinguisticsLink from "../Journals/Linguistics/LinguisticsLink/LinguisticsLink";
+import LinguisticsActivites from "../Journals/Linguistics/LinguisticsActivites/LinguisticsActivites";
+import LinguisticsSubcrip from "../Journals/Linguistics/LinguisticsSubcrip/LinguisticsSubcrip";
+import LinguisticsInfo from "../Journals/Linguistics/LinguisticsInfo/LinguisticsInfo";
+import LinguisticsIndex from "../Journals/Linguistics/LinguisticsIndex/LinguisticsIndex";
+import ManagementSubmission from "../Journals/Management/ManagementSubmission/ManagementSubmission";
+import ManagementResourch from "../Journals/Management/ManagementResourch/ManagementResourch";
+import ManagementPolicy from "../Journals/Management/ManagementPolicy/ManagementPolicy";
+import ManagementLink from "../Journals/Management/ManagementLink/ManagementLink";
+import ManagementActivites from "../Journals/Management/ManagementActivites/ManagementActivites";
+import ManagementSubcrip from "../Journals/Management/ManagementSubcrip/ManagementSubcrip";
+import ManagementInfo from "../Journals/Management/ManagementInfo/ManagementInfo";
+import ManagementIndex from "../Journals/Management/ManagementIndex/ManagementIndex";
+import MarketingSubmission from "../Journals/Marketing/MarketingSubmission/MarketingSubmission";
+import MarketingResourch from "../Journals/Marketing/MarketingResourch/MarketingResourch";
+import MarketingPolicy from "../Journals/Marketing/MarketingPolicy/MarketingPolicy";
+import MarketingLink from "../Journals/Marketing/MarketingLink/MarketingLink";
+import MarketingSubcrip from "../Journals/Marketing/MarketingSubcrip/MarketingSubcrip";
+import MarketingInfo from "../Journals/Marketing/MarketingInfo/MarketingInfo";
+import MarketingIndex from "../Journals/Marketing/MarketingIndex/MarketingIndex";
+import MarketingActivites from "../Journals/Marketing/MarketingActivites/MarketingActivites";
+import ContemporaryGeneralSub from "../Journals/ContemporaryGeneral/ContemporaryGeneralSub/ContemporaryGeneralSub";
+import ContemporaryGeneralRes from "../Journals/ContemporaryGeneral/ContemporaryGeneralRes/ContemporaryGeneralRes";
+import ContemporaryGeneralPolicy from "../Journals/ContemporaryGeneral/ContemporaryGeneralPolicy/ContemporaryGeneralPolicy";
+import ContemporaryGeneralLink from "../Journals/ContemporaryGeneral/ContemporaryGeneralLink/ContemporaryGeneralLink";
+import ContemporaryGeneralAct from "../Journals/ContemporaryGeneral/ContemporaryGeneralAct/ContemporaryGeneralAct";
+import ContemporaryGeneralSubcrip from "../Journals/ContemporaryGeneral/ContemporaryGeneralSubcrip/ContemporaryGeneralSubcrip";
+import ContemporaryGeneralInfo from "../Journals/ContemporaryGeneral/ContemporaryGeneralInfo/ContemporaryGeneralInfo";
+import ContemporaryGeneralIndex from "../Journals/ContemporaryGeneral/ContemporaryGeneralIndex/ContemporaryGeneralIndex";
+import MedicineSubmision from "../Journals/Medicine/MedicineSubmision/MedicineSubmision";
+import MedicineResouch from "../Journals/Medicine/MedicineResouch/MedicineResouch";
+import MedicinePolicy from "../Journals/Medicine/MedicinePolicy/MedicinePolicy";
+import MedicineLink from "../Journals/Medicine/MedicineLink/MedicineLink";
+import MedicineActivites from "../Journals/Medicine/MedicineActivites/MedicineActivites";
+import MedicineSubcrip from "../Journals/Medicine/MedicineSubcrip/MedicineSubcrip";
+import MedicineInfo from "../Journals/Medicine/MedicineInfo/MedicineInfo";
+import MedicineIndex from "../Journals/Medicine/MedicineIndex/MedicineIndex";
+import MusicSubmision from "../Journals/Music/MusicSubmision/MusicSubmision";
+import MusicResourch from "../Journals/Music/MusicResourch/MusicResourch";
+import MusicPolicy from "../Journals/Music/MusicPolicy/MusicPolicy";
+import MusicLink from "../Journals/Music/MusicLink/MusicLink";
+import MusicActivites from "../Journals/Music/MusicActivites/MusicActivites";
+import MusicSubcrip from "../Journals/Music/MusicSubcrip/MusicSubcrip";
+import MusicInfo from "../Journals/Music/MusicInfo/MusicInfo";
+import MusicIndex from "../Journals/Music/MusicIndex/MusicIndex";
+import NursingSubmission from "../Journals/Nursing/NursingSubmission/NursingSubmission";
+import NursingResourch from "../Journals/Natural/NursingResourch/NursingResourch";
+import NursingPolicy from "../Journals/Nursing/NursingPolicy/NursingPolicy";
+import NursingLink from "../Journals/Nursing/NursingLink/NursingLink";
+import NursingActivites from "../Journals/Nursing/NursingActivites/NursingActivites";
+import NursingSubcrip from "../Journals/Nursing/NursingSubcrip/NursingSubcrip";
+import NursingInfo from "../Journals/Nursing/NursingInfo/NursingInfo";
+import NursingIndex from "../Journals/Nursing/NursingIndex/NursingIndex";
+import SportsSubmission from "../Journals/Sports/SportsSubmission/SportsSubmission";
+import SportsResourch from "../Journals/Sports/SportsResourch/SportsResourch";
+import SportsPolicy from "../Journals/Sports/SportsPolicy/SportsPolicy";
+import SportsLink from "../Journals/Sports/SportsLink/SportsLink";
+import SportsActivites from "../Journals/Sports/SportsActivites/SportsActivites";
+import SportsSubcription from "../Journals/Sports/SportsSubcription/SportsSubcription";
+import SportsInfo from "../Journals/Sports/SportsInfo/SportsInfo";
+import SportsIndex from "../Journals/Sports/SportsIndex/SportsIndex";
+import PolicyStudiesSubmisition from "../Journals/PolicyStudies/PolicyStudiesSubmisition/PolicyStudiesSubmisition";
+import PolicyStudiesResourch from "../Journals/PolicyStudies/PolicyStudiesResourch/PolicyStudiesResourch";
+import PolicyStudiesPolicy from "../Journals/PolicyStudies/PolicyStudiesPolicy/PolicyStudiesPolicy";
+import PolicyStudiesLink from "../Journals/PolicyStudies/PolicyStudiesLink/PolicyStudiesLink";
+import PolicyStudiesActivites from "../Journals/PolicyStudies/PolicyStudiesActivites/PolicyStudiesActivites";
+import PolicyStudiesSubcrip from "../Journals/PolicyStudies/PolicyStudiesSubcrip/PolicyStudiesSubcrip";
+import PolicyStudiesInfo from "../Journals/PolicyStudies/PolicyStudiesInfo/PolicyStudiesInfo";
+import PolicyStudiesIndex from "../Journals/PolicyStudies/PolicyStudiesIndex/PolicyStudiesIndex";
+import PoliticsSubmision from "../Journals/Politics/PoliticsSubmision/PoliticsSubmision";
+import PoliticsResourch from "../Journals/Politics/PoliticsResourch/PoliticsResourch";
+import PoliticsPolicy from "../Journals/Politics/PoliticsPolicy/PoliticsPolicy";
+import PoliticsLink from "../Journals/Politics/PoliticsLink/PoliticsLink";
+import PoliticsActivites from "../Journals/Politics/PoliticsActivites/PoliticsActivites";
+import PoliticsSubcrip from "../Journals/Politics/PoliticsSubcrip/PoliticsSubcrip";
+import PoliticsInfo from "../Journals/Politics/PoliticsInfo/PoliticsInfo";
+import PoliticsIndex from "../Journals/Politics/PoliticsIndex/PoliticsIndex";
+import PublicPolicySubmission from "../Journals/PublicPolicy/PublicPolicySubmission/PublicPolicySubmission";
+import PublicPolicyResourch from "../Journals/PublicPolicy/PublicPolicyResourch/PublicPolicyResourch";
+import PublicPolicyPolices from "../Journals/PublicPolicy/PublicPolicyPolices/PublicPolicyPolices";
+import PublicPolicyLink from "../Journals/PublicPolicy/PublicPolicyLink/PublicPolicyLink";
+import PublicPolicyActivites from "../Journals/PublicPolicy/PublicPolicyActivites/PublicPolicyActivites";
+import PublicPolicySubcrip from "../Journals/PublicPolicy/PublicPolicySubcrip/PublicPolicySubcrip";
+import PublicPolicyInfo from "../Journals/PublicPolicy/PublicPolicyInfo/PublicPolicyInfo";
+import PublicPolicyIndex from "../Journals/PublicPolicy/PublicPolicyIndex/PublicPolicyIndex";
+import MathematicsSubmisition from "../Journals/Mathematics/MathematicsSubmisition/MathematicsSubmisition";
+import MathematicsResourch from "../Journals/Mathematics/MathematicsResourch/MathematicsResourch";
+import MathematicsPolicy from "../Journals/Mathematics/MathematicsPolicy/MathematicsPolicy";
+import MathematicsLink from "../Journals/Mathematics/MathematicsLink/MathematicsLink";
+import MathematicsActivites from "../Journals/Mathematics/MathematicsActivites/MathematicsActivites";
+import MathematicsSubcrip from "../Journals/Mathematics/MathematicsSubcrip/MathematicsSubcrip";
+import MathematicsInfo from "../Journals/Mathematics/MathematicsInfo/MathematicsInfo";
+import MathematicsIndex from "../Journals/Mathematics/MathematicsIndex/MathematicsIndex";
+import SociologySubmision from "../Journals/Sociology/SociologySubmision/SociologySubmision";
+import SociologyResourch from "../Journals/Sociology/SociologyResourch/SociologyResourch";
+import SociologyPolicy from "../Journals/Sociology/SociologyPolicy/SociologyPolicy";
+import SociologyLink from "../Journals/Sociology/SociologyLink/SociologyLink";
+import SociologyActivites from "../Journals/Sociology/SociologyActivites/SociologyActivites";
+import SociologySubcrip from "../Journals/Sociology/SociologySubcrip/SociologySubcrip";
+import SociologyInfo from "../Journals/Sociology/SociologyInfo/SociologyInfo";
+import SociologyIndex from "../Journals/Sociology/SociologyIndex/SociologyIndex";
+import TourismSubmision from "../Journals/Tourism/TourismSubmision/TourismSubmision";
+import TourismResourch from "../Journals/Tourism/TourismResourch/TourismResourch";
+import TourismPolicy from "../Journals/Tourism/TourismPolicy/TourismPolicy";
+import TourismLink from "../Journals/Tourism/TourismLink/TourismLink";
+import TourismActivites from "../Journals/Tourism/TourismActivites/TourismActivites";
+import TourismSubcrip from "../Journals/Tourism/TourismSubcrip/TourismSubcrip";
+import TourismInfo from "../Journals/Tourism/TourismInfo/TourismInfo";
+import TourismIndex from "../Journals/Tourism/TourismIndex/TourismIndex";
+import PhysicsSubmission from "../Journals/Physics/PhysicsSubmission/PhysicsSubmission";
+import PhysicsResourch from "../Journals/Physics/PhysicsResourch/PhysicsResourch";
+import PhysicsPolicy from "../Journals/Physics/PhysicsPolicy/PhysicsPolicy";
+import PhysicsLink from "../Journals/Physics/PhysicsLink/PhysicsLink";
+import PhysicsActivites from "../Journals/Physics/PhysicsActivites/PhysicsActivites";
+import PhysicsSubcrip from "../Journals/Physics/PhysicsSubcrip/PhysicsSubcrip";
+import PhysicsInfo from "../Journals/Physics/PhysicsInfo/PhysicsInfo";
+import PhysicsIndex from "../Journals/Physics/PhysicsIndex/PhysicsIndex";
+import PsychologySubmission from "../Journals/Psychology/PsychologySubmission/PsychologySubmission";
+import PsychologyResourch from "../Journals/Psychology/PsychologyResourch/PsychologyResourch";
+import PsychologyPolicy from "../Journals/Psychology/PsychologyPolicy/PsychologyPolicy";
+import PsychologyLink from "../Journals/Psychology/PsychologyLink/PsychologyLink";
+import PsychologyActivites from "../Journals/Psychology/PsychologyActivites/PsychologyActivites";
+import PsychologySubcrip from "../Journals/Psychology/PsychologySubcrip/PsychologySubcrip";
+import PsychologyInfo from "../Journals/Psychology/PsychologyInfo/PsychologyInfo";
+import PsychologyIndex from "../Journals/Politics/PsychologyIndex/PsychologyIndex";
+import BiologySubmission from "../Journals/Biology/BiologySubmission/BiologySubmission";
+import BiologyResourch from "../Journals/Biology/BiologyResourch/BiologyResourch";
+import BiologyPolicy from "../Journals/Biology/BiologyPolicy/BiologyPolicy";
+import BiologyLink from "../Journals/Biology/BiologyLink/BiologyLink";
+import BiologyActivites from "../Journals/Biology/BiologyActivites/BiologyActivites";
+import BiologySubcrip from "../Journals/Biology/BiologySubcrip/BiologySubcrip";
+import BiologyInfo from "../Journals/Biology/BiologyInfo/BiologyInfo";
+import BiologyIndex from "../Journals/Biology/BiologyIndex/BiologyIndex";
+import ContemporarySubmission from "../Journals/Contemporary/ContemporarySubmission/ContemporarySubmission";
+import ContemporaryResourch from "../Journals/Contemporary/ContemporaryResourch/ContemporaryResourch";
+import ContemporaryPolicy from "../Journals/Contemporary/ContemporaryPolicy/ContemporaryPolicy";
+import ContemporaryLink from "../Journals/Contemporary/ContemporaryLink/ContemporaryLink";
+import ContemporaryActivites from "../Journals/Contemporary/ContemporaryActivites/ContemporaryActivites";
+import ContemporarySubcrip from "../Journals/Contemporary/ContemporarySubcrip/ContemporarySubcrip";
+import ContemporaryIndex from "../Journals/Contemporary/ContemporaryIndex/ContemporaryIndex";
+import ForeignLagSub from "../Journals/ForeignLag/ForeignLagSub/ForeignLagSub";
+import ForeignLagResourch from "../Journals/ForeignLag/ForeignLagResourch/ForeignLagResourch";
+import ForeignLagPolicy from "../Journals/ForeignLag/ForeignLagPolicy/ForeignLagPolicy";
+import ForeignLagLink from "../Journals/ForeignLag/ForeignLagLink/ForeignLagLink";
+import ForeignLagActivites from "../Journals/ForeignLag/ForeignLagActivites/ForeignLagActivites";
+import ForeignLagSucrip from "../Journals/ForeignLag/ForeignLagSucrip/ForeignLagSucrip";
+import ForeignLagInfo from "../Journals/ForeignLag/ForeignLagInfo/ForeignLagInfo";
+import ForeignLagIndex from "../Journals/ForeignLag/ForeignLagIndex/ForeignLagIndex";
+import EcommerceSubmission from "../Journals/Ecommerce/EcommerceSubmission/EcommerceSubmission";
+import EcommerceResourch from "../Journals/Ecommerce/EcommerceResourch/EcommerceResourch";
+import EcommercePolicy from "../Journals/Ecommerce/EcommercePolicy/EcommercePolicy";
+import EcommerceLink from "../Journals/Ecommerce/EcommerceLink/EcommerceLink";
+import EcommerceActivites from "../Journals/Ecommerce/EcommerceActivites/EcommerceActivites";
+import EcommerceSubcrip from "../Journals/Ecommerce/EcommerceSubcrip/EcommerceSubcrip";
+import EcommerceInfo from "../Journals/Ecommerce/EcommerceInfo/EcommerceInfo";
+import EcommerceIndex from "../Journals/Ecommerce/EcommerceIndex/EcommerceIndex";
+import GenderSubmissiom from "../Journals/Gender/GenderSubmissiom/GenderSubmissiom";
+import GenderResourch from "../Journals/Gender/GenderResourch/GenderResourch";
+import GenderPolicy from "../Journals/Gender/GenderPolicy/GenderPolicy";
+import GenderLink from "../Journals/Gender/GenderLink/GenderLink";
+import GenderActivites from "../Journals/Gender/GenderActivites/GenderActivites";
+import GenderSubcrip from "../Journals/Gender/GenderSubcrip/GenderSubcrip";
+import GenderInfo from "../Journals/Gender/GenderInfo/GenderInfo";
+import GenderIndex from "../Journals/Gender/GenderIndex/GenderIndex";
+import PhilosophySubmission from "../Journals/Philosophy/PhilosophySubmission/PhilosophySubmission";
+import PhilosophyResourch from "../Journals/Philosophy/PhilosophyResourch/PhilosophyResourch";
+import PhilosophyPolicy from "../Journals/Philosophy/PhilosophyPolicy/PhilosophyPolicy";
+import PhilosophyLink from "../Journals/Philosophy/PhilosophyLink/PhilosophyLink";
+import PhilosophySubcrip from "../Journals/Philosophy/PhilosophySubcrip/PhilosophySubcrip";
+import PhilosophyInfo from "../Journals/Philosophy/PhilosophyInfo/PhilosophyInfo";
+import PhilosophyIndex from "../Journals/Philosophy/PhilosophyIndex/PhilosophyIndex";
+import PhilosophyActivites from "../Journals/Philosophy/PhilosophyActivites/PhilosophyActivites";
 
 
 export const router = createBrowserRouter([
@@ -651,6 +956,14 @@ export const router = createBrowserRouter([
                         element:<JaesSubmission></JaesSubmission>
                     },
                     {
+                        path:"/jaes/information",
+                        element:<JaesInformation></JaesInformation>
+                    },
+                    {
+                        path:"/jaes/Index",
+                        element:<JaesIndex></JaesIndex>
+                    },
+                    {
                         path:"/jaes/archive-ijat",
                         element:<JaesArcive></JaesArcive>
                     },
@@ -735,6 +1048,38 @@ export const router = createBrowserRouter([
                     {
                         path:"/jaa/editorial-board",
                         element:<ArchaeologyBoard></ArchaeologyBoard>
+                    },
+                    {
+                        path:"/jaa/submission",
+                        element:<ArchaeologySubmition></ArchaeologySubmition>
+                    },
+                    {
+                        path:"/jaa/resources",
+                        element:<ArchaeologyResources></ArchaeologyResources>
+                    },
+                    {
+                        path:"/jaa/policies",
+                        element:<ArchaeologyPolicy></ArchaeologyPolicy>
+                    },
+                    {
+                        path:"/jaa/usefull_link",
+                        element:<ArchaeologyLink></ArchaeologyLink>
+                    },
+                    {
+                        path:"/jaa/latest_activities",
+                        element:<ArchaeologyActivites></ArchaeologyActivites>
+                    },
+                    {
+                        path:"/jaa/subcription",
+                        element:<ArchaeologySubcripton></ArchaeologySubcripton>
+                    },
+                    {
+                        path:"/jaa/information",
+                        element:<ArchaeologyInformation></ArchaeologyInformation>
+                    },
+                    {
+                        path:"/jaa/index",
+                        element:<ArchaeologyIndex></ArchaeologyIndex>
                     },
                     {
                         path:"/jaa/archive-jaa",
@@ -823,6 +1168,38 @@ export const router = createBrowserRouter([
                         element:<BankManagementBoard></BankManagementBoard>
                     },
                     {
+                        path:"/jfbm/submission",
+                        element:<BankManagementSubmision></BankManagementSubmision>
+                    },
+                    {
+                        path:"/jfbm/resources",
+                        element:<BankManagementResources></BankManagementResources>
+                    },
+                    {
+                        path:"/jfbm/policies",
+                        element:<BankManagementPolicy></BankManagementPolicy>
+                    },
+                    {
+                        path:"/jfbm/usefull_link",
+                        element:<BankManagementLink></BankManagementLink>
+                    },
+                    {
+                        path:"/jfbm/latest_activities",
+                        element:<BankManagementActivites></BankManagementActivites>
+                    },
+                    {
+                        path:"/jfbm/subcription",
+                        element:<BankManagementSubcrip></BankManagementSubcrip>
+                    },
+                    {
+                        path:"/jfbm/information",
+                        element:<BankManagementInformation></BankManagementInformation>
+                    },
+                    {
+                        path:"/jfbm/index",
+                        element:<BankManagementIndex></BankManagementIndex>
+                    },
+                    {
                         path:"/jfbm/archive-jfbm",
                         element:<BankManagementArcive></BankManagementArcive>
                     },
@@ -848,6 +1225,38 @@ export const router = createBrowserRouter([
                     {
                         path:"/jcb/editorial-board",
                         element:<BiochemistryBoard></BiochemistryBoard>
+                    },
+                    {
+                        path:"/jcb/submission",
+                        element:<BiochemistrySubmission></BiochemistrySubmission>
+                    },
+                    {
+                        path:"/jcb/resources",
+                        element:<BiochemistryResourch></BiochemistryResourch>
+                    },
+                    {
+                        path:"/jcb/policies",
+                        element:<BiochemistryPolices></BiochemistryPolices>
+                    },
+                    {
+                        path:"/jcb/usefull_link",
+                        element:<BiochemistryLink></BiochemistryLink>
+                    },
+                    {
+                        path:"/jcb/latest_activities",
+                        element:<BiochemistryActivites></BiochemistryActivites>
+                    },
+                    {
+                        path:"/jcb/subcription",
+                        element:<BiochemistrySubcription></BiochemistrySubcription>
+                    },
+                    {
+                        path:"/jcb/information",
+                        element:<BiochemistryInformation></BiochemistryInformation>
+                    },
+                    {
+                        path:"/jcb/index",
+                        element:<BiochemistryIndex></BiochemistryIndex>
                     },
                     {
                         path:"/jcb/archive-jcb",
@@ -877,6 +1286,38 @@ export const router = createBrowserRouter([
                         element:<BusinessEthicsBoard></BusinessEthicsBoard>
                     },
                     {
+                        path:"/jble/submission",
+                        element:<BusinessEthicsSubmision></BusinessEthicsSubmision>
+                    },
+                    {
+                        path:"/jble/resources",
+                        element:<BusinessEthicsResearch></BusinessEthicsResearch>
+                    },
+                    {
+                        path:"/jble/policies",
+                        element:<BusinessEthicsPolice></BusinessEthicsPolice>
+                    },
+                    {
+                        path:"/jble/usefull_link",
+                        element:<BusinessEthicsLink></BusinessEthicsLink>
+                    },
+                    {
+                        path:"/jble/latest_activities",
+                        element:<BusinessEthicsActivites></BusinessEthicsActivites>
+                    },
+                    {
+                        path:"/jble/subcription",
+                        element:<BusinessEthicsSubcription></BusinessEthicsSubcription>
+                    },
+                    {
+                        path:"/jble/information",
+                        element:<BusinessEthicsInfo></BusinessEthicsInfo>
+                    },
+                    {
+                        path:"/jble/index",
+                        element:<BusinessEthicsIndex></BusinessEthicsIndex>
+                    },
+                    {
                         path:"/jble/archive-jble",
                         element:<BusinessEthicsArcive></BusinessEthicsArcive>
                     },
@@ -902,6 +1343,38 @@ export const router = createBrowserRouter([
                     {
                         path:"/jcsit/editorial-board",
                         element:<ComputerScienceBoard></ComputerScienceBoard>
+                    },
+                    {
+                        path:"/jcsit/submission",
+                        element:<ComputerScienceSubmission></ComputerScienceSubmission>
+                    },
+                    {
+                        path:"/jcsit/resources",
+                        element:<ComputerScienceResourch></ComputerScienceResourch>
+                    },
+                    {
+                        path:"/jcsit/usefull_link",
+                        element:<ComputerScienceLink></ComputerScienceLink>
+                    },
+                    {
+                        path:"/jcsit/policies",
+                        element:<ComputerSciencePolicy></ComputerSciencePolicy>
+                    },
+                    {
+                        path:"/jcsit/latest_activities",
+                        element:<ComputerScienceActivites></ComputerScienceActivites>
+                    },
+                    {
+                        path:"/jcsit/information",
+                        element:<ComputerScienceInfo></ComputerScienceInfo>
+                    },
+                    {
+                        path:"/jcsit/index",
+                        element:<ComputerScienceIndex></ComputerScienceIndex>
+                    },
+                    {
+                        path:"/jcsit/subcription",
+                        element:<ComputerScienceSubcription></ComputerScienceSubcription>
                     },
                     {
                         path:"/jcsit/archive-jcsit",
@@ -931,6 +1404,38 @@ export const router = createBrowserRouter([
                         element:<EconomicsBoard></EconomicsBoard>
                     },
                     {
+                        path:"/jeds/submission",
+                        element:<EconomicsSubmission></EconomicsSubmission>
+                    },
+                    {
+                        path:"/jeds/resources",
+                        element:<EconomicsResourch></EconomicsResourch>
+                    },
+                    {
+                        path:"/jeds/policies",
+                        element:<EconomicsPolicy></EconomicsPolicy>
+                    },
+                    {
+                        path:"/jeds/usefull_link",
+                        element:<EconomicsLink></EconomicsLink>
+                    },
+                    {
+                        path:"/jeds/latest_activities",
+                        element:<EconomicsActivites></EconomicsActivites>
+                    },
+                    {
+                        path:"/jeds/subcription",
+                        element:<EconomicsSubcription></EconomicsSubcription>
+                    },
+                    {
+                        path:"/jeds/information",
+                        element:<EconomicsInfo></EconomicsInfo>
+                    },
+                    {
+                        path:"/jeds/index",
+                        element:<EconomicsIndex></EconomicsIndex>
+                    },
+                    {
                         path:"/jeds/archive-jeds",
                         element:<EconomicsArcive></EconomicsArcive>
                     },
@@ -956,6 +1461,38 @@ export const router = createBrowserRouter([
                     {
                         path:"/jehd/editorial-board",
                         element:<EducationBoard></EducationBoard>
+                    },
+                    {
+                        path:"/jehd/submission",
+                        element:<EducationSubmition></EducationSubmition>
+                    },
+                    {
+                        path:"/jehd/resources",
+                        element:<EducationResourch></EducationResourch>
+                    },
+                    {
+                        path:"/jehd/policies",
+                        element:<EducationPolicy></EducationPolicy>
+                    },
+                    {
+                        path:"/jehd/usefull_link",
+                        element:<EducationLink></EducationLink>
+                    },
+                    {
+                        path:"/jehd/latest_activities",
+                        element:<EducationActivites></EducationActivites>
+                    },
+                    {
+                        path:"/jehd/subcription",
+                        element:<EducationSubcrib></EducationSubcrib>
+                    },
+                    {
+                        path:"/jehd/information",
+                        element:<EducationInfo></EducationInfo>
+                    },
+                    {
+                        path:"/jehd/index",
+                        element:<EducationIndex></EducationIndex>
                     },
                     {
                         path:"/jehd/archive-jed",
@@ -985,6 +1522,38 @@ export const router = createBrowserRouter([
                         element:<CriminalJusticeBoard></CriminalJusticeBoard>
                     },
                     {
+                        path:"/jlcj/submission",
+                        element:<CriminalJusticeSubmission></CriminalJusticeSubmission>
+                    },
+                    {
+                        path:"/jlcj/resources",
+                        element:<CriminalJusticeResourch></CriminalJusticeResourch>
+                    },
+                    {
+                        path:"/jlcj/policies",
+                        element:<CriminalJusticePolicy></CriminalJusticePolicy>
+                    },
+                    {
+                        path:"/jlcj/usefull_link",
+                        element:<CriminalJusticeLink></CriminalJusticeLink>
+                    },
+                    {
+                        path:"/jlcj/latest_activities",
+                        element:<CriminalJusticeActivites></CriminalJusticeActivites>
+                    },
+                    {
+                        path:"/jlcj/subcription",
+                        element:<CriminalJusticeSubcription></CriminalJusticeSubcription>
+                    },
+                    {
+                        path:"/jlcj/information",
+                        element:<CriminalJusticeInfo></CriminalJusticeInfo>
+                    },
+                    {
+                        path:"/jlcj/index",
+                        element:<CriminalJusticeIndex></CriminalJusticeIndex>
+                    },
+                    {
                         path:"/jlcj/archive-jlcj",
                         element:<CriminalJusticeArcive></CriminalJusticeArcive>
                     },
@@ -1010,6 +1579,38 @@ export const router = createBrowserRouter([
                     {
                         path:"/jges/editorial-board",
                         element:<GeographyBoard></GeographyBoard>
+                    },
+                    {
+                        path:"/jges/submission",
+                        element:<GeographySubmision></GeographySubmision>
+                    },
+                    {
+                        path:"/jges/resources",
+                        element:<GeographyResourches></GeographyResourches>
+                    },
+                    {
+                        path:"/jges/policies",
+                        element:<GeographyPolicy></GeographyPolicy>
+                    },
+                    {
+                        path:"/jges/usefull_link",
+                        element:<GeographyLink></GeographyLink>
+                    },
+                    {
+                        path:"/jges/latest_activities",
+                        element:<GeographyActivites></GeographyActivites>
+                    },
+                    {
+                        path:"/jges/subcription",
+                        element:<GeographySubcrip></GeographySubcrip>
+                    },
+                    {
+                        path:"/jges/information",
+                        element:<GeographyInfo></GeographyInfo>
+                    },
+                    {
+                        path:"/jges/index",
+                        element:<GeographyIndex></GeographyIndex>
                     },
                     {
                         path:"/jges/archive-jges",
@@ -1039,6 +1640,38 @@ export const router = createBrowserRouter([
                         element:<SmallBusinessBoard></SmallBusinessBoard>
                     },
                     {
+                        path:"/jsbed/submission",
+                        element:<SmallBusinessSubmition></SmallBusinessSubmition>
+                    },
+                    {
+                        path:"/jsbed/resources",
+                        element:<SmallBusinessResourch></SmallBusinessResourch>
+                    },
+                    {
+                        path:"/jsbed/policies",
+                        element:<SmallBusinessPolicy></SmallBusinessPolicy>
+                    },
+                    {
+                        path:"/jsbed/usefull_link",
+                        element:<SmallBusinessLink></SmallBusinessLink>
+                    },
+                    {
+                        path:"/jsbed/latest_activities",
+                        element:<SmallBusinessActivities></SmallBusinessActivities>
+                    },
+                    {
+                        path:"/jsbed/subcription",
+                        element:<SmallBusinessSubcrip></SmallBusinessSubcrip>
+                    },
+                    {
+                        path:"/jsbed/information",
+                        element:<SmallBusinessInfo></SmallBusinessInfo>
+                    },
+                    {
+                        path:"/jsbed/index",
+                        element:<SmallBusinessIndex></SmallBusinessIndex>
+                    },
+                    {
                         path:"/jsbed/archive-jsbed",
                         element:<SmallBusinessArcive></SmallBusinessArcive>
                     },
@@ -1064,6 +1697,38 @@ export const router = createBrowserRouter([
                     {
                         path:"/jirfp/editorial-board",
                         element:<ForeignBoard></ForeignBoard>
+                    },
+                    {
+                        path:"/jirfp/submission",
+                        element:<ForeignSubmission></ForeignSubmission>
+                    },
+                    {
+                        path:"/jirfp/resources",
+                        element:<ForeignResourch></ForeignResourch>
+                    },
+                    {
+                        path:"/jirfp/policies",
+                        element:<ForeignPolicy></ForeignPolicy>
+                    },
+                    {
+                        path:"/jirfp/usefull_link",
+                        element:<ForeignLink></ForeignLink>
+                    },
+                    {
+                        path:"/jirfp/latest_activities",
+                        element:<ForeignActivites></ForeignActivites>
+                    },
+                    {
+                        path:"/jirfp/subcription",
+                        element:<ForeignSubcription></ForeignSubcription>
+                    },
+                    {
+                        path:"/jirfp/information",
+                        element:<ForeignInfo></ForeignInfo>
+                    },
+                    {
+                        path:"/jirfp/index",
+                        element:<ForeignIndex></ForeignIndex>
                     },
                     {
                         path:"/jirfp/archive-jirfp",
@@ -1093,6 +1758,38 @@ export const router = createBrowserRouter([
                         element:<HRMBoard></HRMBoard>
                     },
                     {
+                        path:"/jhrmls/submission",
+                        element:<HRMSubmission></HRMSubmission>
+                    },
+                    {
+                        path:"/jhrmls/resources",
+                        element:<HRMResourch></HRMResourch>
+                    },
+                    {
+                        path:"/jhrmls/policies",
+                        element:<HRMPolicy></HRMPolicy>
+                    },
+                    {
+                        path:"/jhrmls/usefull_link",
+                        element:<HRMLink></HRMLink>
+                    },
+                    {
+                        path:"/jhrmls/latest_activities",
+                        element:<HRMActivites></HRMActivites>
+                    },
+                    {
+                        path:"/jhrmls/subcription",
+                        element:<HRMSubcrip></HRMSubcrip>
+                    },
+                    {
+                        path:"/jhrmls/information",
+                        element:<HRMInfo></HRMInfo>
+                    },
+                    {
+                        path:"/jhrmls/index",
+                        element:<HRMIndex></HRMIndex>
+                    },
+                    {
                         path:"/jhrmls/archive-jhrmls",
                         element:<HRMArcive></HRMArcive>
                     },
@@ -1118,6 +1815,38 @@ export const router = createBrowserRouter([
                     {
                         path:"/rhps/editorial-board",
                         element:<HistoryBoard></HistoryBoard>
+                    },
+                    {
+                        path:"/rhps/submission",
+                        element:<HistorySubmission></HistorySubmission>
+                    },
+                    {
+                        path:"/rhps/resources",
+                        element:<HistoryResourch></HistoryResourch>
+                    },
+                    {
+                        path:"/rhps/policies",
+                        element:<HistoryPolicy></HistoryPolicy>
+                    },
+                    {
+                        path:"/rhps/usefull_link",
+                        element:<HistoryLink></HistoryLink>
+                    },
+                    {
+                        path:"/rhps/latest_activities",
+                        element:<HistoryActivites></HistoryActivites>
+                    },
+                    {
+                        path:"/rhps/subcription",
+                        element:<HistorySubcrip></HistorySubcrip>
+                    },
+                    {
+                        path:"/rhps/information",
+                        element:<HistoryInfo></HistoryInfo>
+                    },
+                    {
+                        path:"/rhps/index",
+                        element:<HistoryIndex></HistoryIndex>
                     },
                     {
                         path:"/rhps/archive-rhps",
@@ -1147,6 +1876,38 @@ export const router = createBrowserRouter([
                         element:<HumanRightsBoard></HumanRightsBoard>
                     },
                     {
+                        path:"/jswhr/submission",
+                        element:<HumanRightsSubmition></HumanRightsSubmition>
+                    },
+                    {
+                        path:"/jswhr/resources",
+                        element:<HumanRightsResourch></HumanRightsResourch>
+                    },
+                    {
+                        path:"/jswhr/policies",
+                        element:<HumanRightsPolicy></HumanRightsPolicy>
+                    },
+                    {
+                        path:"/jswhr/latest_activities",
+                        element:<HumanRightsActivites></HumanRightsActivites>
+                    },
+                    {
+                        path:"/jswhr/usefull_link",
+                        element:<HumanRightsLink></HumanRightsLink>
+                    },
+                    {
+                        path:"/jswhr/subcription",
+                        element:<HumanRightsSubcrip></HumanRightsSubcrip>
+                    },
+                    {
+                        path:"/jswhr/information",
+                        element:<HumanRightsInfo></HumanRightsInfo>
+                    },
+                    {
+                        path:"/jswhr/index",
+                        element:<HumanRightsIndex></HumanRightsIndex>
+                    },
+                    {
                         path:"/jswhr/archive-jswhr",
                         element:<HumanRightsArcive></HumanRightsArcive>
                     },
@@ -1174,8 +1935,36 @@ export const router = createBrowserRouter([
                         element:<LinguisticsBoard></LinguisticsBoard>
                     },
                     {
-                        path:"/ijlc/editorial-board",
-                        element:<LinguisticsBoard></LinguisticsBoard>
+                        path:"/ijlc/submission",
+                        element:<LinguisticsSubmission></LinguisticsSubmission>
+                    },
+                    {
+                        path:"/ijlc/resources",
+                        element:<LinguisticsResourch></LinguisticsResourch>
+                    },
+                    {
+                        path:"/ijlc/policies",
+                        element:<LinguisticsPolicy></LinguisticsPolicy>
+                    },
+                    {
+                        path:"/ijlc/usefull_link",
+                        element:<LinguisticsLink></LinguisticsLink>
+                    },
+                    {
+                        path:"/ijlc/latest_activities",
+                        element:<LinguisticsActivites></LinguisticsActivites>
+                    },
+                    {
+                        path:"/ijlc/subcription",
+                        element:<LinguisticsSubcrip></LinguisticsSubcrip>
+                    },
+                    {
+                        path:"/ijlc/information",
+                        element:<LinguisticsInfo></LinguisticsInfo>
+                    },
+                    {
+                        path:"/ijlc/index",
+                        element:<LinguisticsIndex></LinguisticsIndex>
                     },
                     {
                         path:"/ijlc/archive-ijlc",
@@ -1205,6 +1994,38 @@ export const router = createBrowserRouter([
                         element:<GenderBoard></GenderBoard>
                     },
                     {
+                        path:"/ijgws/submission",
+                        element:<GenderSubmissiom></GenderSubmissiom>
+                    },
+                    {
+                        path:"/ijgws/resources",
+                        element:<GenderResourch></GenderResourch>
+                    },
+                    {
+                        path:"/ijgws/policies",
+                        element:<GenderPolicy></GenderPolicy>
+                    },
+                    {
+                        path:"/ijgws/usefull_link",
+                        element:<GenderLink></GenderLink>
+                    },
+                    {
+                        path:"/ijgws/latest_activities",
+                        element:<GenderActivites></GenderActivites>
+                    },
+                    {
+                        path:"/ijgws/subcription",
+                        element:<GenderSubcrip></GenderSubcrip>
+                    },
+                    {
+                        path:"/ijgws/information",
+                        element:<GenderInfo></GenderInfo>
+                    },
+                    {
+                        path:"/ijgws/index",
+                        element:<GenderIndex></GenderIndex>
+                    },
+                    {
                         path:"/ijgws/archive-ijgws",
                         element:<GenderArcive></GenderArcive>
                     },
@@ -1230,6 +2051,38 @@ export const router = createBrowserRouter([
                     {
                         path:"/ppar/editorial-board",
                         element:<PublicPolicyBoard></PublicPolicyBoard>
+                    },
+                    {
+                        path:"/ppar/submission",
+                        element:<PublicPolicySubmission></PublicPolicySubmission>
+                    },
+                    {
+                        path:"/ppar/resources",
+                        element:<PublicPolicyResourch></PublicPolicyResourch>
+                    },
+                    {
+                        path:"/ppar/policies",
+                        element:<PublicPolicyPolices></PublicPolicyPolices>
+                    },
+                    {
+                        path:"/ppar/usefull_link",
+                        element:<PublicPolicyLink></PublicPolicyLink>
+                    },
+                    {
+                        path:"/ppar/latest_activities",
+                        element:<PublicPolicyActivites></PublicPolicyActivites>
+                    },
+                    {
+                        path:"/ppar/subcription",
+                        element:<PublicPolicySubcrip></PublicPolicySubcrip>
+                    },
+                    {
+                        path:"/ppar/information",
+                        element:<PublicPolicyInfo></PublicPolicyInfo>
+                    },
+                    {
+                        path:"/ppar/index",
+                        element:<PublicPolicyIndex></PublicPolicyIndex>
                     },
                     {
                         path:"/ppar/archive-ppar",
@@ -1259,6 +2112,38 @@ export const router = createBrowserRouter([
                         element:<MusicBoard></MusicBoard>
                     },
                     {
+                        path:"/ijmpa/submission",
+                        element:<MusicSubmision></MusicSubmision>
+                    },
+                    {
+                        path:"/ijmpa/resources",
+                        element:<MusicResourch></MusicResourch>
+                    },
+                    {
+                        path:"/ijmpa/policies",
+                        element:<MusicPolicy></MusicPolicy>
+                    },
+                    {
+                        path:"/ijmpa/usefull_link",
+                        element:<MusicLink></MusicLink>
+                    },
+                    {
+                        path:"/ijmpa/latest_activities",
+                        element:<MusicActivites></MusicActivites>
+                    },
+                    {
+                        path:"/ijmpa/subcription",
+                        element:<MusicSubcrip></MusicSubcrip>
+                    },
+                    {
+                        path:"/ijmpa/information",
+                        element:<MusicInfo></MusicInfo>
+                    },
+                    {
+                        path:"/ijmpa/index",
+                        element:<MusicIndex></MusicIndex>
+                    },
+                    {
                         path:"/ijmpa/archive-ijmpa",
                         element:<MusicArcive></MusicArcive>
                     },
@@ -1284,6 +2169,38 @@ export const router = createBrowserRouter([
                     {
                         path:"/ijn/editorial-board",
                         element:<NursingBoard></NursingBoard>
+                    },
+                    {
+                        path:"/ijn/submission",
+                        element:<NursingSubmission></NursingSubmission>
+                    },
+                    {
+                        path:"/ijn/resources",
+                        element:<NursingResourch></NursingResourch>
+                    },
+                    {
+                        path:"/ijn/policies",
+                        element:<NursingPolicy></NursingPolicy>
+                    },
+                    {
+                        path:"/ijn/usefull_link",
+                        element:<NursingLink></NursingLink>
+                    },
+                    {
+                        path:"/ijn/latest_activities",
+                        element:<NursingActivites></NursingActivites>
+                    },
+                    {
+                        path:"/ijn/subcription",
+                        element:<NursingSubcrip></NursingSubcrip>
+                    },
+                    {
+                        path:"/ijn/information",
+                        element:<NursingInfo></NursingInfo>
+                    },
+                    {
+                        path:"/ijn/index",
+                        element:<NursingIndex></NursingIndex>
                     },
                     {
                         path:"/ijn/archive-ijn",
@@ -1313,6 +2230,38 @@ export const router = createBrowserRouter([
                         element:<SportsBoard></SportsBoard>
                     },
                     {
+                        path:"/jpesm/submission",
+                        element:<SportsSubmission></SportsSubmission>
+                    },
+                    {
+                        path:"/jpesm/resources",
+                        element:<SportsResourch></SportsResourch>
+                    },
+                    {
+                        path:"/jpesm/policies",
+                        element:<SportsPolicy></SportsPolicy>
+                    },
+                    {
+                        path:"/jpesm/usefull_link",
+                        element:<SportsLink></SportsLink>
+                    },
+                    {
+                        path:"/jpesm/latest_activities",
+                        element:<SportsActivites></SportsActivites>
+                    },
+                    {
+                        path:"/jpesm/subcription",
+                        element:<SportsSubcription></SportsSubcription>
+                    },
+                    {
+                        path:"/jpesm/information",
+                        element:<SportsInfo></SportsInfo>
+                    },
+                    {
+                        path:"/jpesm/index",
+                        element:<SportsIndex></SportsIndex>
+                    },
+                    {
                         path:"/jpesm/archive-jpesm",
                         element:<SportsArcive></SportsArcive>
                     },
@@ -1340,6 +2289,38 @@ export const router = createBrowserRouter([
                         element:<PoliticsBoard></PoliticsBoard>
                     },
                     {
+                        path:"/jppg/submission",
+                        element:<PoliticsSubmision></PoliticsSubmision>
+                    },
+                    {
+                        path:"/jppg/resources",
+                        element:<PoliticsResourch></PoliticsResourch>
+                    },
+                    {
+                        path:"/jppg/policies",
+                        element:<PoliticsPolicy></PoliticsPolicy>
+                    },
+                    {
+                        path:"/jppg/usefull_link",
+                        element:<PoliticsLink></PoliticsLink>
+                    },
+                    {
+                        path:"/jppg/latest_activities",
+                        element:<PoliticsActivites></PoliticsActivites>
+                    },
+                    {
+                        path:"/jppg/subcription",
+                        element:<PoliticsSubcrip></PoliticsSubcrip>
+                    },
+                    {
+                        path:"/jppg/information",
+                        element:<PoliticsInfo></PoliticsInfo>
+                    },
+                    {
+                        path:"/jppg/index",
+                        element:<PoliticsIndex></PoliticsIndex>
+                    },
+                    {
                         path:"/jppg/archive-jppg",
                         element:<PoliticsArcive></PoliticsArcive>
                     },
@@ -1365,6 +2346,38 @@ export const router = createBrowserRouter([
                     {
                         path:"/jisc/editorial-board",
                         element:<CultureBoard></CultureBoard>
+                    },
+                    {
+                        path:"/jisc/submission",
+                        element:<CultureSubmision></CultureSubmision>
+                    },
+                    {
+                        path:"/jisc/resources",
+                        element:<CultureReasourch></CultureReasourch>
+                    },
+                    {
+                        path:"/jisc/policies",
+                        element:<CulturePolicy></CulturePolicy>
+                    },
+                    {
+                        path:"/jisc/usefull_link",
+                        element:<CultureLink></CultureLink>
+                    },
+                    {
+                        path:"/jisc/latest_activities",
+                        element:<CultureActivites></CultureActivites>
+                    },
+                    {
+                        path:"/jisc/subcription",
+                        element:<CultureSubcrip></CultureSubcrip>
+                    },
+                    {
+                        path:"/jisc/information",
+                        element:<CultureInfo></CultureInfo>
+                    },
+                    {
+                        path:"/jisc/index",
+                        element:<CultureIndex></CultureIndex>
                     },
                     {
                         path:"/jisc/archive-jisc",
@@ -1448,6 +2461,38 @@ export const router = createBrowserRouter([
                         element:<ManagementBoard></ManagementBoard>
                     },
                     {
+                        path:"/jmpp/submission",
+                        element:<ManagementSubmission></ManagementSubmission>
+                    },
+                    {
+                        path:"/jmpp/resources",
+                        element:<ManagementResourch></ManagementResourch>
+                    },
+                    {
+                        path:"/jmpp/policies",
+                        element:<ManagementPolicy></ManagementPolicy>
+                    },
+                    {
+                        path:"/jmpp/usefull_link",
+                        element:<ManagementLink></ManagementLink>
+                    },
+                    {
+                        path:"/jmpp/latest_activities",
+                        element:<ManagementActivites></ManagementActivites>
+                    },
+                    {
+                        path:"/jmpp/subcription",
+                        element:<ManagementSubcrip></ManagementSubcrip>
+                    },
+                    {
+                        path:"/jmpp/information",
+                        element:<ManagementInfo></ManagementInfo>
+                    },
+                    {
+                        path:"/jmpp/index",
+                        element:<ManagementIndex></ManagementIndex>
+                    },
+                    {
                         path:"/jmpp/archive-jmpp",
                         element:<ManagementArcive></ManagementArcive>
                     },
@@ -1473,6 +2518,38 @@ export const router = createBrowserRouter([
                     {
                         path:"/jmm/editorial-board",
                         element:<MarketingBoard></MarketingBoard>
+                    },
+                    {
+                        path:"/jmm/submission",
+                        element:<MarketingSubmission></MarketingSubmission>
+                    },
+                    {
+                        path:"/jmm/resources",
+                        element:<MarketingResourch></MarketingResourch>
+                    },
+                    {
+                        path:"/jmm/policies",
+                        element:<MarketingPolicy></MarketingPolicy>
+                    },
+                    {
+                        path:"/jmm/usefull_link",
+                        element:<MarketingLink></MarketingLink>
+                    },
+                    {
+                        path:"/jmm/latest_activities",
+                        element:<MarketingActivites></MarketingActivites>
+                    },
+                    {
+                        path:"/jmm/subcription",
+                        element:<MarketingSubcrip></MarketingSubcrip>
+                    },
+                    {
+                        path:"/jmm/information",
+                        element:<MarketingInfo></MarketingInfo>
+                    },
+                    {
+                        path:"/jmm/index",
+                        element:<MarketingIndex></MarketingIndex>
                     },
                     {
                         path:"/jmm/archive-jmm",
@@ -1502,6 +2579,38 @@ export const router = createBrowserRouter([
                         element:<MedicineBoard></MedicineBoard>
                     },
                     {
+                        path:"/ijmp/submission",
+                        element:<MedicineSubmision></MedicineSubmision>
+                    },
+                    {
+                        path:"/ijmp/resources",
+                        element:<MedicineResouch></MedicineResouch>
+                    },
+                    {
+                        path:"/ijmp/policies",
+                        element:<MedicinePolicy></MedicinePolicy>
+                    },
+                    {
+                        path:"/ijmp/usefull_link",
+                        element:<MedicineLink></MedicineLink>
+                    },
+                    {
+                        path:"/ijmp/latest_activities",
+                        element:<MedicineActivites></MedicineActivites>
+                    },
+                    {
+                        path:"/ijmp/subcription",
+                        element:<MedicineSubcrip></MedicineSubcrip>
+                    },
+                    {
+                        path:"/ijmp/information",
+                        element:<MedicineInfo></MedicineInfo>
+                    },
+                    {
+                        path:"/ijmp/index",
+                        element:<MedicineIndex></MedicineIndex>
+                    },
+                    {
                         path:"/ijmp/archive-ijmp",
                         element:<MedicineArcive></MedicineArcive>
                     },
@@ -1527,6 +2636,38 @@ export const router = createBrowserRouter([
                     {
                         path:"/jasps/editorial-board",
                         element:<PolicyStudiesBoard></PolicyStudiesBoard>
+                    },
+                    {
+                        path:"/jasps/submission",
+                        element:<PolicyStudiesSubmisition></PolicyStudiesSubmisition>
+                    },
+                    {
+                        path:"/jasps/resources",
+                        element:<PolicyStudiesResourch></PolicyStudiesResourch>
+                    },
+                    {
+                        path:"/jasps/policies",
+                        element:<PolicyStudiesPolicy></PolicyStudiesPolicy>
+                    },
+                    {
+                        path:"/jasps/usefull_link",
+                        element:<PolicyStudiesLink></PolicyStudiesLink>
+                    },
+                    {
+                        path:"/jasps/latest_activities",
+                        element:<PolicyStudiesActivites></PolicyStudiesActivites>
+                    },
+                    {
+                        path:"/jasps/subcription",
+                        element:<PolicyStudiesSubcrip></PolicyStudiesSubcrip>
+                    },
+                    {
+                        path:"/jasps/information",
+                        element:<PolicyStudiesInfo></PolicyStudiesInfo>
+                    },
+                    {
+                        path:"/jasps/index",
+                        element:<PolicyStudiesIndex></PolicyStudiesIndex>
                     },
                     {
                         path:"/jasps/archive-jasps",
@@ -1556,6 +2697,38 @@ export const router = createBrowserRouter([
                         element:<SociologyBoard></SociologyBoard>
                     },
                     {
+                        path:"/jssw/submission",
+                        element:<SociologySubmision></SociologySubmision>
+                    },
+                    {
+                        path:"/jssw/resources",
+                        element:<SociologyResourch></SociologyResourch>
+                    },
+                    {
+                        path:"/jssw/policies",
+                        element:<SociologyPolicy></SociologyPolicy>
+                    },
+                    {
+                        path:"/jssw/usefull_link",
+                        element:<SociologyLink></SociologyLink>
+                    },
+                    {
+                        path:"/jssw/latest_activities",
+                        element:<SociologyActivites></SociologyActivites>
+                    },
+                    {
+                        path:"/jssw/subcription",
+                        element:<SociologySubcrip></SociologySubcrip>
+                    },
+                    {
+                        path:"/jssw/information",
+                        element:<SociologyInfo></SociologyInfo>
+                    },
+                    {
+                        path:"/jssw/index",
+                        element:<SociologyIndex></SociologyIndex>
+                    },
+                    {
                         path:"/jssw/archive-jssw",
                         element:<SociologyArcive></SociologyArcive>
                     },
@@ -1581,6 +2754,38 @@ export const router = createBrowserRouter([
                     {
                         path:"/arms/editorial-board",
                         element:<MathematicsBoard></MathematicsBoard>
+                    },
+                    {
+                        path:"/arms/submission",
+                        element:<MathematicsSubmisition></MathematicsSubmisition>
+                    },
+                    {
+                        path:"/arms/resources",
+                        element:<MathematicsResourch></MathematicsResourch>
+                    },
+                    {
+                        path:"/arms/policies",
+                        element:<MathematicsPolicy></MathematicsPolicy>
+                    },
+                    {
+                        path:"/arms/usefull_link",
+                        element:<MathematicsLink></MathematicsLink>
+                    },
+                    {
+                        path:"/arms/latest_activities",
+                        element:<MathematicsActivites></MathematicsActivites>
+                    },
+                    {
+                        path:"/arms/subcription",
+                        element:<MathematicsSubcrip></MathematicsSubcrip>
+                    },
+                    {
+                        path:"/arms/information",
+                        element:<MathematicsInfo></MathematicsInfo>
+                    },
+                    {
+                        path:"/arms/index",
+                        element:<MathematicsIndex></MathematicsIndex>
                     },
                     {
                         path:"/arms/archive-arms",
@@ -1610,6 +2815,38 @@ export const router = createBrowserRouter([
                         element:<TourismBoard></TourismBoard>
                     },
                     {
+                        path:"/jthm/submission",
+                        element:<TourismSubmision></TourismSubmision>
+                    },
+                    {
+                        path:"/jthm/resources",
+                        element:<TourismResourch></TourismResourch>
+                    },
+                    {
+                        path:"/jthm/policies",
+                        element:<TourismPolicy></TourismPolicy>
+                    },
+                    {
+                        path:"/jthm/usefull_link",
+                        element:<TourismLink></TourismLink>
+                    },
+                    {
+                        path:"/jthm/latest_activities",
+                        element:<TourismActivites></TourismActivites>
+                    },
+                    {
+                        path:"/jthm/subcription",
+                        element:<TourismSubcrip></TourismSubcrip>
+                    },
+                    {
+                        path:"/jthm/information",
+                        element:<TourismInfo></TourismInfo>
+                    },
+                    {
+                        path:"/jthm/index",
+                        element:<TourismIndex></TourismIndex>
+                    },
+                    {
                         path:"/jthm/archive-jthm",
                         element:<TourismArcive></TourismArcive>
                     },
@@ -1635,6 +2872,38 @@ export const router = createBrowserRouter([
                     {
                         path:"/ijpa/editorial-board",
                         element:<PhysicsBoard></PhysicsBoard>
+                    },
+                    {
+                        path:"/ijpa/submission",
+                        element:<PhysicsSubmission></PhysicsSubmission>
+                    },
+                    {
+                        path:"/ijpa/resources",
+                        element:<PhysicsResourch></PhysicsResourch>
+                    },
+                    {
+                        path:"/ijpa/policies",
+                        element:<PhysicsPolicy></PhysicsPolicy>
+                    },
+                    {
+                        path:"/ijpa/usefull_link",
+                        element:<PhysicsLink></PhysicsLink>
+                    },
+                    {
+                        path:"/ijpa/latest_activities",
+                        element:<PhysicsActivites></PhysicsActivites>
+                    },
+                    {
+                        path:"/ijpa/subcription",
+                        element:<PhysicsSubcrip></PhysicsSubcrip>
+                    },
+                    {
+                        path:"/ijpa/information",
+                        element:<PhysicsInfo></PhysicsInfo>
+                    },
+                    {
+                        path:"/ijpa/index",
+                        element:<PhysicsIndex></PhysicsIndex>
                     },
                     {
                         path:"/ijpa/archive-ijpa",
@@ -1664,6 +2933,38 @@ export const router = createBrowserRouter([
                         element:<PsychologyBoard></PsychologyBoard>
                     },
                     {
+                        path:"/jpbs/submission",
+                        element:<PsychologySubmission></PsychologySubmission>
+                    },
+                    {
+                        path:"/jpbs/resources",
+                        element:<PsychologyResourch></PsychologyResourch>
+                    },
+                    {
+                        path:"/jpbs/policies",
+                        element:<PsychologyPolicy></PsychologyPolicy>
+                    },
+                    {
+                        path:"/jpbs/usefull_link",
+                        element:<PsychologyLink></PsychologyLink>
+                    },
+                    {
+                        path:"/jpbs/latest_activities",
+                        element:<PsychologyActivites></PsychologyActivites>
+                    },
+                    {
+                        path:"/jpbs/subcription",
+                        element:<PsychologySubcrip></PsychologySubcrip>
+                    },
+                    {
+                        path:"/jpbs/information",
+                        element:<PsychologyInfo></PsychologyInfo>
+                    },
+                    {
+                        path:"/jpbs/index",
+                        element:<PsychologyIndex></PsychologyIndex>
+                    },
+                    {
                         path:"/jpbs/archive-jpbs",
                         element:<PsychologyArcive></PsychologyArcive>
                     },
@@ -1689,6 +2990,38 @@ export const router = createBrowserRouter([
                     {
                         path:"/aijb/editorial-board",
                         element:<BiologyBoard></BiologyBoard>
+                    },
+                    {
+                        path:"/aijb/submission",
+                        element:<BiologySubmission></BiologySubmission>
+                    },
+                    {
+                        path:"/aijb/resources",
+                        element:<BiologyResourch></BiologyResourch>
+                    },
+                    {
+                        path:"/aijb/policies",
+                        element:<BiologyPolicy></BiologyPolicy>
+                    },
+                    {
+                        path:"/aijb/usefull_link",
+                        element:<BiologyLink></BiologyLink>
+                    },
+                    {
+                        path:"/aijb/latest_activities",
+                        element:<BiologyActivites></BiologyActivites>
+                    },
+                    {
+                        path:"/aijb/subcription",
+                        element:<BiologySubcrip></BiologySubcrip>
+                    },
+                    {
+                        path:"/aijb/information",
+                        element:<BiologyInfo></BiologyInfo>
+                    },
+                    {
+                        path:"/aijb/index",
+                        element:<BiologyIndex></BiologyIndex>
                     },
                     {
                         path:"/aijb/archive-aijb",
@@ -1718,6 +3051,38 @@ export const router = createBrowserRouter([
                         element:<ForeignLagBoard></ForeignLagBoard>
                     },
                     {
+                        path:"/jflcc/submission",
+                        element:<ForeignLagSub></ForeignLagSub>
+                    },
+                    {
+                        path:"/jflcc/policies",
+                        element:<ForeignLagPolicy></ForeignLagPolicy>
+                    },
+                    {
+                        path:"/jflcc/usefull_link",
+                        element:<ForeignLagLink></ForeignLagLink>
+                    },
+                    {
+                        path:"/jflcc/latest_activities",
+                        element:<ForeignLagActivites></ForeignLagActivites>
+                    },
+                    {
+                        path:"/jflcc/subcription",
+                        element:<ForeignLagSucrip></ForeignLagSucrip>
+                    },
+                    {
+                        path:"/jflcc/information",
+                        element:<ForeignLagInfo></ForeignLagInfo>
+                    },
+                    {
+                        path:"/jflcc/index",
+                        element:<ForeignLagIndex></ForeignLagIndex>
+                    },
+                    {
+                        path:"/jflcc/resources",
+                        element:<ForeignLagResourch></ForeignLagResourch>
+                    },
+                    {
                         path:"/jflcc/archive-jflcc",
                         element:<ForeignLagArcive></ForeignLagArcive>
                     },
@@ -1745,6 +3110,38 @@ export const router = createBrowserRouter([
                         element:<EcommerceBoard></EcommerceBoard>
                     },
                     {
+                        path:"/jmise/submission",
+                        element:<EcommerceSubmission></EcommerceSubmission>
+                    },
+                    {
+                        path:"/jmise/resources",
+                        element:<EcommerceResourch></EcommerceResourch>
+                    },
+                    {
+                        path:"/jmise/policies",
+                        element:<EcommercePolicy></EcommercePolicy>
+                    },
+                    {
+                        path:"/jmise/usefull_link",
+                        element:<EcommerceLink></EcommerceLink>
+                    },
+                    {
+                        path:"/jmise/latest_activities",
+                        element:<EcommerceActivites></EcommerceActivites>
+                    },
+                    {
+                        path:"/jmise/subcription",
+                        element:<EcommerceSubcrip></EcommerceSubcrip>
+                    },
+                    {
+                        path:"/jmise/information",
+                        element:<EcommerceInfo></EcommerceInfo>
+                    },
+                    {
+                        path:"/jmise/index",
+                        element:<EcommerceIndex></EcommerceIndex>
+                    },
+                    {
                         path:"/jmise/archive-jmise",
                         element:<EcommerceArcive></EcommerceArcive>
                     },
@@ -1770,6 +3167,38 @@ export const router = createBrowserRouter([
                     {
                         path:"/rcbr/editorial-board",
                         element:<ContemporaryBoard></ContemporaryBoard>
+                    },
+                    {
+                        path:"/rcbr/submission",
+                        element:<ContemporarySubmission></ContemporarySubmission>
+                    },
+                    {
+                        path:"/rcbr/resources",
+                        element:<ContemporaryResourch></ContemporaryResourch>
+                    },
+                    {
+                        path:"/rcbr/policies",
+                        element:<ContemporaryPolicy></ContemporaryPolicy>
+                    },
+                    {
+                        path:"/rcbr/usefull_link",
+                        element:<ContemporaryLink></ContemporaryLink>
+                    },
+                    {
+                        path:"/rcbr/latest_activities",
+                        element:<ContemporaryActivites></ContemporaryActivites>
+                    },
+                    {
+                        path:"/rcbr/subcription",
+                        element:<ContemporarySubcrip></ContemporarySubcrip>
+                    },
+                    {
+                        path:"/rcbr/information",
+                        element:<ContemporarySubcrip></ContemporarySubcrip>
+                    },
+                    {
+                        path:"/rcbr/index",
+                        element:<ContemporaryIndex></ContemporaryIndex>
                     },
                     {
                         path:"/rcbr/archive-rcbr",
@@ -1988,6 +3417,38 @@ export const router = createBrowserRouter([
                         element:<PhilosophyBoard></PhilosophyBoard>
                     },
                     {
+                        path:"/ijpt/submission",
+                        element:<PhilosophySubmission></PhilosophySubmission>
+                    },
+                    {
+                        path:"/ijpt/resources",
+                        element:<PhilosophyResourch></PhilosophyResourch>
+                    },
+                    {
+                        path:"/ijpt/policies",
+                        element:<PhilosophyPolicy></PhilosophyPolicy>
+                    },
+                    {
+                        path:"/ijpt/usefull_link",
+                        element:<PhilosophyLink></PhilosophyLink>
+                    },
+                    {
+                        path:"/ijpt/latest_activities",
+                        element:<PhilosophyActivites></PhilosophyActivites>
+                    },
+                    {
+                        path:"/ijpt/subcription",
+                        element:<PhilosophySubcrip></PhilosophySubcrip>
+                    },
+                    {
+                        path:"/ijpt/information",
+                        element:<PhilosophyInfo></PhilosophyInfo>
+                    },
+                    {
+                        path:"/ijpt/index",
+                        element:<PhilosophyIndex></PhilosophyIndex>
+                    },
+                    {
                         path:"/ijpt/archive-ijpt",
                         element:<PhilosophyArcive></PhilosophyArcive>
                     },
@@ -2094,6 +3555,38 @@ export const router = createBrowserRouter([
                     {
                         path:"/aijcr/editorial-board",
                         element:<ContemporaryGeneralBoard></ContemporaryGeneralBoard>
+                    },
+                    {
+                        path:"/aijcr/submission",
+                        element:<ContemporaryGeneralSub></ContemporaryGeneralSub>
+                    },
+                    {
+                        path:"/aijcr/resources",
+                        element:<ContemporaryGeneralRes></ContemporaryGeneralRes>
+                    },
+                    {
+                        path:"/aijcr/policies",
+                        element:<ContemporaryGeneralPolicy></ContemporaryGeneralPolicy>
+                    },
+                    {
+                        path:"/aijcr/usefull_link",
+                        element:<ContemporaryGeneralLink></ContemporaryGeneralLink>
+                    },
+                    {
+                        path:"/aijcr/latest_activities",
+                        element:<ContemporaryGeneralAct></ContemporaryGeneralAct>
+                    },
+                    {
+                        path:"/aijcr/subcription",
+                        element:<ContemporaryGeneralSubcrip></ContemporaryGeneralSubcrip>
+                    },
+                    {
+                        path:"/aijcr/information",
+                        element:<ContemporaryGeneralInfo></ContemporaryGeneralInfo>
+                    },
+                    {
+                        path:"/aijcr/index",
+                        element:<ContemporaryGeneralIndex></ContemporaryGeneralIndex>
                     },
                     {
                         path:"/aijcr/archive-aijcr",
@@ -2229,6 +3722,38 @@ export const router = createBrowserRouter([
                     {
                         path:"/jals/editorial-board",
                         element:<LifeBoard></LifeBoard>
+                    },
+                    {
+                        path:"/jals/submisition",
+                        element:<LifeSubmisition></LifeSubmisition>
+                    },
+                    {
+                        path:"/jals/resources",
+                        element:<Liferesources></Liferesources>
+                    },
+                    {
+                        path:"/jals/policies",
+                        element:<LifePolicy></LifePolicy>
+                    },
+                    {
+                        path:"/jals/usefull_link",
+                        element:<LifeUseLink></LifeUseLink>
+                    },
+                    {
+                        path:"/jals/latest_activities",
+                        element:<LifeActivites></LifeActivites>
+                    },
+                    {
+                        path:"/jals/subcription",
+                        element:<LifeSubcription></LifeSubcription>
+                    },
+                    {
+                        path:"/jals/information",
+                        element:<LifeInformation></LifeInformation>
+                    },
+                    {
+                        path:"/jals/index",
+                        element:<LifeIndex></LifeIndex>
                     },
                     {
                         path:"/jals/archive-jals",

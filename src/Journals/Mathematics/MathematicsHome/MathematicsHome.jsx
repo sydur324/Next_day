@@ -1,10 +1,14 @@
 
 import MathematicsArticles from '../../../Articles/MathematicsArticles/MathematicsArticles';
+import MathematicsDetails from '../MathematicsDetails/MathematicsDetails';
 import './MathematicsHome.css'
 const MathematicsHome = () => {
     return (
         <div className='w-full'>
-            <div className='MathematicsHome_bg text-white px-4 py-4'>
+
+            <MathematicsDetails></MathematicsDetails>
+
+            <div className='MathematicsHome_bg text-white px-4 py-4 mt-8'>
                 <h2 className='font-bold text-lg py-2'>American Review of Mathematics and Statistics</h2>
                 <div className='flex items-center space-x-2 text-sm'>
                     <p>ISSN:</p>
@@ -16,7 +20,7 @@ const MathematicsHome = () => {
                 </div>
             </div>
 
-            <div className='py-6 '>
+            <div className='py-6 text-[15px]'>
                 <p>
                     <span className='font-medium text-[#91000D]'>American Review of Mathematics and Statistics</span>  is a peer reviewed international scientific journal that publishes original and valuable research in all areas of applied and theoretical mathematics and statistics. The journal strives to strengthen connections between research and practice, so enhancing professional development and improving practice within the field of mathematics and statistics. Papers accepted for publication are double-blind refereed to ensure academic integrity.
                 </p>

@@ -1,10 +1,14 @@
 
 import JeaArticles from '../../../Articles/JeaArticles/JeaArticles';
+import JeaDetails from '../JeaDetails/JeaDetails';
 import './JeaHome.css'
 const JeaHome = () => {
     return (
         <div className='w-full'>
-            <div className='JeaHome_bg text-white px-4 py-4'>
+
+            <JeaDetails></JeaDetails>
+
+            <div className='JeaHome_bg text-white px-4 py-4 mt-8'>
                 <h2 className='font-bold text-lg py-2'>Journal of Engineering and Architecture</h2>
                 <div className='flex items-center space-x-2 text-sm'>
                     <p>ISSN:</p>
@@ -16,7 +20,7 @@ const JeaHome = () => {
                 </div>
             </div>
 
-            <div className='py-6 '>
+            <div className='py-6 text-[15px]'>
                 <p>
                     <span className='font-medium text-[#91000D] '>Journal of Engineering and Architecture</span>  is an international peer-reviewed journal
                     published by The Brooklyn Research and Publishing Institute. The journal is not limited to a specific

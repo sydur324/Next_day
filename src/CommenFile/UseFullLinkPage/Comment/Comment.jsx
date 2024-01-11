@@ -1,21 +1,21 @@
 const Comment = () => {
     return (
         <div className="w-full my-8">
-            <h2 className="text-xl font-bold text-[#072159] aimsscope">Comments to the Journal</h2>
+            <h2 className="font-medium text-[#072159] aimsscope">Comments to the Journal</h2>
 
-            <div className="my-8">
-                <p className="text-[#0D2357]">Your comments & suggestions are valuable to us and inspire us to improve our work systems and research methods.</p>
-                <h2 className=" text-[#91000D] font-semibold py-1">Please make your valuable comments by completing the following steps.</h2>
+            <div className="my-4">
+                <p className="text-[#0D2357] text-[15px]">Your comments & suggestions are valuable to us and inspire us to improve our work systems and research methods.</p>
+                <h2 className=" text-[#91000D] font-medium py-1">Please make your valuable comments by completing the following steps.</h2>
 
-                <div className="bg-[#0d235616] my-6 px-8 py-4">
-                    <form className="space-y-3">
+                <div className="bg-[#0d235616] my-4 px-8 py-4">
+                    <form className="space-y-3 text-[15px]">
                         <div className="flex flex-col space-y-1">
-                            <label className="text-sm font-semibold">Your Name <sup className="text-[#8D0012] font-bold">*</sup></label>
+                            <label className="text-sm font-medium">Your Name <sup className="text-[#8D0012] font-medium">*</sup></label>
                             <input className="px-4 py-2 border border-[#0d235761] outline-none" type="text" placeholder="Name.." />
                         </div>
 
                         <div className="flex flex-col space-y-1">
-                            <label className="text-sm font-semibold">You are a/an  <sup className="text-[#8D0012] font-bold">*</sup></label>
+                            <label className="text-sm font-medium">You are a/an  <sup className="text-[#8D0012] font-medium">*</sup></label>
                             <select className="px-4 py-2 border border-[#0d235761] outline-none">
                                 <option value="">Select</option>
                                 <option value="">Potential Contributor of the journal</option>
@@ -29,17 +29,17 @@ const Comment = () => {
                         </div>
 
                         <div className="flex flex-col space-y-1">
-                            <label className="text-sm font-semibold">Your Affiliation <sup className="text-[#8D0012] font-bold">*</sup></label>
+                            <label className="text-sm font-medium">Your Affiliation <sup className="text-[#8D0012] font-medium">*</sup></label>
                             <input className="px-4 py-2 border border-[#0d235761] outline-none" type="text" placeholder="Exp: Assistant Professor,California State University, USA" />
                         </div>
 
                         <div className="flex flex-col space-y-1">
-                            <label className="text-sm font-semibold">Your e-mail <sup className="text-[#8D0012] font-bold">*</sup></label>
+                            <label className="text-sm font-medium">Your e-mail <sup className="text-[#8D0012] font-medium">*</sup></label>
                             <input className="px-4 py-2 border border-[#0d235761] outline-none" type="email" placeholder="Enter Email..." />
                         </div>
 
                         <div className="flex flex-col space-y-1">
-                            <label className="text-sm font-semibold">Select Journal  <sup className="text-[#8D0012] font-bold">*</sup></label>
+                            <label className="text-sm font-medium">Select Journal  <sup className="text-[#8D0012] font-medium">*</sup></label>
                             <select className="px-4 py-2 border border-[#0d235761] outline-none">
                                 <option value="International Journal of Accounting and Taxation">Select</option>
                                 <option value="International Journal of Accounting and Taxation">International Journal of Accounting and Taxation</option>
@@ -130,12 +130,12 @@ const Comment = () => {
                         </div>
 
                         <div className="flex flex-col space-y-1">
-                            <label className="text-sm font-semibold">Your Comments <sup className="text-[#8D0012] font-bold">*</sup></label>
+                            <label className="text-sm font-medium">Your Comments <sup className="text-[#8D0012] font-medium">*</sup></label>
                             <textarea className="px-4 py-2 border border-[#0d235761] outline-none" cols="30" rows="4" placeholder="Write Your Comment..."></textarea>
                         </div>
 
                         <div>
-                            <input className="px-12 py-2 bg-[#072159] text-[#fff] font-bold rounded hover:bg-[#91000D] duration-300 cursor-pointer" type="submit" value="Submit" />
+                            <input className="px-12 py-2 bg-[#072159] text-[#fff] font-medium rounded hover:bg-[#91000D] duration-300 cursor-pointer" type="submit" value="Submit" />
                         </div>
 
                     </form>

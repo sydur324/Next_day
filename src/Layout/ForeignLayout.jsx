@@ -1,20 +1,20 @@
 import { Outlet } from "react-router-dom";
 import ForeignNav from "../Journals/Foreign/ForeignNav/ForeignNav";
-import ArticleRoutingTop from "../Utilities/ArticleRoutingTop/ArticleRoutingTop";
 import PageTitle from "../Utilities/PageTitle/PageTitle";
-import ForeignDetails from "../Journals/Foreign/ForeignDetails/ForeignDetails";
+import RoutingTop from "../Utilities/PageTitle/RoutingTop/RoutingTop";
+
 
 
 const ForeignLayout = () => {
     return (
-        <div className="">
+        <div className="mt-28">
             <PageTitle title={"Journal of International Relations & Foreign Policy"}></PageTitle>
-            <ForeignDetails></ForeignDetails>
+
             <div className="flex px-20 my-8 gap-8">
-                <ArticleRoutingTop>
+                <RoutingTop>
                     <ForeignNav></ForeignNav>
                     <Outlet></Outlet>
-                </ArticleRoutingTop>
+                </RoutingTop>
             </div>
 
         </div>

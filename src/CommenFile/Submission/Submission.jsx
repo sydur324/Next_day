@@ -3,15 +3,16 @@ import { Link } from "react-router-dom";
 const Submission = () => {
     return (
         <div className="">
-            <h2 className="text-xl font-bold text-[#91000D] aimsscope">Submission</h2>
+            <h2 className="font-bold text-[#91000D]">Submission</h2>
 
-            <div className="my-8">
+            <div>
                 <div>
-                    <h2 className="font-medium text-[#0A2258] text-lg py-2">How to submit the paper</h2>
-                    <p>
-                        The author should submit the paper via e-mail to the executive editor at <span className="text-[#91000D] hover:text-[#0A2258] duration-300 cursor-pointer">editor@aripd.net</span> or you can send your paper by this <span>--link--</span>
+                    <h2 className="font-medium text-[#0A2258] py-2">How to submit the paper</h2>
+                    <p className="text-[15px]">
+                        The author should submit the paper via e-mail to the executive editor at <span className="text-[#91000D] hover:text-[#7497e8] duration-300 cursor-pointer">editor@aripd.net</span> or you can send your paper by this 
+                        <Link to='/submit'><span className="font-medium text-[#91000D] cursor-pointer px-2">Submit</span></Link>
                     </p>
-                    <p className="py-2">
+                    <p className="py-2 text-[15px]">
                         Mention the name of the journal in which you are interested to publish
                         your paper as ARIPD follows central
                         submission policy for all journals i.e. same e-mail <span className="text-[#91000D] hover:text-[#0A2258] duration-300 cursor-pointer">(editor@aripd.net)</span> for submission in any ARIPD journal.
@@ -19,15 +20,15 @@ const Submission = () => {
                 </div>
 
                 <div>
-                    <h2 className="font-medium text-[#0A2258] text-lg py-2">Manuscript Preparation Guidelines</h2>
-                    <p>
+                    <h2 className="font-medium text-[#0A2258] py-2">Manuscript Preparation Guidelines</h2>
+                    <p className="text-[15px]">
                         The authors(s) must follow the <span className="text-[#91000D] hover:text-[#0A2258] duration-300 cursor-pointer"><Link to='/information/resources'>Manuscript Preparation Guidelines</Link></span> in preparing the manuscript before submission.
                     </p>
                 </div>
 
                 <div>
-                    <h2 className="font-medium text-[#0A2258] text-lg py-2">Review Policy</h2>
-                    <p>
+                    <h2 className="font-medium text-[#0A2258]  py-2">Review Policy</h2>
+                    <p className="text-[15px]">
                         The journal follows double blind peer review policy.
                         The paper is sent to two reviewers (the experts in respective field)
                         to review the paper in the light of journal's guidelines and features of a
@@ -37,10 +38,10 @@ const Submission = () => {
                 </div>
 
                 <div>
-                    <h2 className="font-medium text-[#0A2258] text-lg py-2">Review and Publication Process</h2>
-                    <p className="text-[#91000D]">The journal follows a systematic review and publication policy.</p>
+                    <h2 className="font-medium text-[#0A2258]  py-2">Review and Publication Process</h2>
+                    <p className="text-[#91000D] text-[15px]">The journal follows a systematic review and publication policy.</p>
 
-                    <div className="space-y-2 my-2">
+                    <div className="space-y-2 my-2 text-[15px]">
                         <div className="flex items-center space-x-1">
                             <p className="text-[#91000D] font-semibold">Step-1: </p>
                             <p>The submitted manuscript is acknowledged within 24 hours upon receipt.</p>

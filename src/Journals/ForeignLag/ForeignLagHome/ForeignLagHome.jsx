@@ -1,10 +1,14 @@
 
 import ForeignLagArticles from '../../../Articles/ForeignLagArticles/ForeignLagArticles';
+import ForeignLagDetails from '../ForeignLagDetails/ForeignLagDetails';
 import './ForeignLagHome.css'
 const ForeignLagHome = () => {
     return (
         <div className='w-full'>
-            <div className='CultureHome_bg text-white px-4 py-4'>
+
+            <ForeignLagDetails></ForeignLagDetails>
+
+            <div className='CultureHome_bg text-white px-4 py-4 mt-8'>
                 <h2 className='font-bold text-lg py-2'>Journal of Foreign Languages, Cultures & Civilizations</h2>
                 <div className='flex items-center space-x-2 text-sm'>
                     <p>ISSN:</p>
@@ -16,7 +20,7 @@ const ForeignLagHome = () => {
                 </div>
             </div>
 
-            <div className='py-6 '>
+            <div className='py-6 text-[15px]'>
                 <p>
                     <span className='font-medium text-[#91000D]'>Journal of Foreign Languages, Cultures & Civilizations</span>  an international peer-reviewed journal published by The Brooklyn Research and Publishing Institute. The journal aims at publishing the most innovative peer-reviewed articles from the discipline of international studies, as well as original thinking from elsewhere in the social sciences with an international dimension. Interdisciplinary and wide-ranging in scope, the journal provides a forum for discussion on the latest developments in the theory of international relations, welcoming innovative and critical approaches.
                 </p>

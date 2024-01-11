@@ -1,10 +1,14 @@
 
 import PsychologyArticles from '../../../Articles/PsychologyArticles/PsychologyArticles';
+import PsychologyDetails from '../PsychologyDetails/PsychologyDetails';
 import './PsychologyHome.css'
 const PsychologyHome = () => {
     return (
         <div className='w-full'>
-            <div className='PsychologyHome_bg text-white px-4 py-4'>
+
+            <PsychologyDetails></PsychologyDetails>
+
+            <div className='PsychologyHome_bg text-white px-4 py-4 mt-8'>
                 <h2 className='font-bold text-lg py-2'>Journal of Psychology & Behavioral Science</h2>
                 <div className='flex items-center space-x-2 text-sm'>
                     <p>ISSN:</p>
@@ -16,11 +20,11 @@ const PsychologyHome = () => {
                 </div>
             </div>
 
-            <div className='py-6 '>
+            <div className='py-6 text-[15px]'>
                 <p>
                     <span className='font-medium text-[#91000D]'>Journal of Psychology & Behavioral Science</span>  is an interdisciplinary international journal that publishes empirical research and theoretical articles in applied areas of psychology and behavioral science. In addition, interdisciplinary research that integrates psychology and other fields is also solicited (e.g., psychology and law, psychology and consumer behavior, psychology and religion). It contains articles pertaining to theoretical integration of ideas, epistemology of social and biological sciences, and original empirical research articles of general scientific value. All research articles in this journal have undergone initial editorial screen and rigorous peer review.
                 </p>
-                
+
                 <div className='my-2'>
                     <h2 className='font-medium text-[#91000D] py-2'>E-Publication First<sup>TM</sup></h2>
                     <p>
@@ -53,7 +57,7 @@ const PsychologyHome = () => {
                 <div className='py-2'>
                     <h2 className='font-medium text-[#91000D] py-2'>Current Issue:</h2>
                     <div>
-                         <PsychologyArticles></PsychologyArticles>
+                        <PsychologyArticles></PsychologyArticles>
                     </div>
                 </div>
             </div>

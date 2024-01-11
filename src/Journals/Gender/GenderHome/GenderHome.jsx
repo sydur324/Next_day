@@ -1,10 +1,12 @@
 import GenderArticles from '../../../Articles/GenderArticles/GenderArticles';
 import IjatArticles from '../../../Articles/IjatArticles/IjatArticles';
+import GenderDetails from '../GenderDetails/GenderDetails';
 import './GenderHome.css'
 const GenderHome = () => {
     return (
         <div className='w-full'>
-            <div className='GenderHome_bg text-white px-4 py-4'>
+            <GenderDetails></GenderDetails>
+            <div className='GenderHome_bg text-white px-4 py-4 mt-8'>
                 <h2 className='font-bold text-lg py-2'>International Journal of Gender & Women's Studies</h2>
                 <div className='flex items-center space-x-2 text-sm'>
                     <p>ISSN:</p>
@@ -16,7 +18,7 @@ const GenderHome = () => {
                 </div>
             </div>
 
-            <div className='py-6 '>
+            <div className='py-6 text-[15px]'>
                 <p>
                     <span className='font-medium text-[#91000D]'>International Journal of Gender and Women's Studies</span>  is an interdisciplinary
                     international journal which publishes articles relating to gender

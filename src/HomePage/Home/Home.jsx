@@ -13,7 +13,7 @@ const Home = () => {
             <RoutingTop>
                 <Banner></Banner>
                 <HomeJournal></HomeJournal>
-                <HomeAbout></HomeAbout>
+                <HomeAbout></HomeAbout> 
                 <HomeResearch></HomeResearch>
             </RoutingTop>
         </div>

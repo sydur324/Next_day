@@ -1,21 +1,22 @@
 import { Outlet } from "react-router-dom";
 import ContemporaryNav from "../Journals/Contemporary/ContemporaryNav/ContemporaryNav";
-import ArticleRoutingTop from "../Utilities/ArticleRoutingTop/ArticleRoutingTop";
 import PageTitle from "../Utilities/PageTitle/PageTitle";
-import ContemporaryDetails from "../Journals/Contemporary/ContemporaryDetails/ContemporaryDetails";
+import RoutingTop from "../Utilities/PageTitle/RoutingTop/RoutingTop";
 
 
 const ContemporaryLayout = () => {
     return (
-        <div className="">
+        <div className="mt-28">
             <PageTitle title={"Review of Contemporary Business Research"}></PageTitle>
-            <ContemporaryDetails></ContemporaryDetails>
-            <ArticleRoutingTop>
-                <div className="flex px-20 my-8 gap-8">
+
+
+            <div className="flex px-20 my-8 gap-8">
+                <RoutingTop>
                     <ContemporaryNav></ContemporaryNav>
                     <Outlet></Outlet>
-                </div>
-                </ArticleRoutingTop>
+                </RoutingTop>
+            </div>
+
         </div>
     );
 };

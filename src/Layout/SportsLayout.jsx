@@ -1,19 +1,17 @@
 import { Outlet } from "react-router-dom";
 import SportsNav from "../Journals/Sports/SportsNav/SportsNav";
-import ArticleRoutingTop from "../Utilities/ArticleRoutingTop/ArticleRoutingTop";
 import PageTitle from "../Utilities/PageTitle/PageTitle";
-import SportsDetails from "../Journals/Sports/SportsDetails/SportsDetails";
+import RoutingTop from "../Utilities/PageTitle/RoutingTop/RoutingTop";
 
 const SportsLayout = () => {
     return (
-        <div className="">
+        <div className="mt-28">
             <PageTitle title={"Journal of Physical Education and Sports Management"}></PageTitle>
-            <SportsDetails></SportsDetails>
             <div className="flex px-20 my-8 gap-8">
-            <ArticleRoutingTop>
-               <SportsNav></SportsNav>
-                <Outlet></Outlet>
-                </ArticleRoutingTop>
+                <RoutingTop>
+                    <SportsNav></SportsNav>
+                    <Outlet></Outlet>
+                </RoutingTop>
             </div>
 
         </div>

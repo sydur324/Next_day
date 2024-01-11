@@ -1,16 +1,16 @@
 const Subscribe = () => {
     return (
         <div className="w-full">
-            <h2 className="text-xl font-bold text-[#91000D] aimsscope">Subscription</h2>
-            <div className="my-8">
-                <div className="space-y-2">
+            <h2 className="font-medium text-[#91000D]">Subscription</h2>
+            <div className="my-2">
+                <div className="space-y-2 text-[15px]">
                     <p>There is no subscription fee for online access of the journal. The journal follows open access policy.</p>
                     <p>For subscription details (print copy only), please write to the executive editor at <span>editor@aripd.net</span></p>
                 </div>
 
                 <div className="my-2">
-                    <h2 className="font-bold text-[#91000D] aimsscope">Type of Subscription</h2>
-                    <div className="grid  lg:grid-cols-1 md:grid-cols-2  gap-4 my-8 cursor-pointer">
+                    <h2 className="font-medium text-[#91000D] aimsscope">Type of Subscription</h2>
+                    <div className="grid text-[15px] lg:grid-cols-1 md:grid-cols-2  gap-4 my-8 cursor-pointer">
 
                         <div className="py-2 px-4 border relative group">
                             <p className="bg-[#91000D] group-hover:bg-[#072159] duration-300 text-[#fff] px-2 py-2 font-semibold inline-block absolute top-0 left-0">$ 60</p>

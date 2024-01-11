@@ -5,7 +5,7 @@ const ManagementBoard = () => {
     const accountingEditoris = editorials.filter((editorial) => editorial.category === 'Managements')
     return (
         <div className="w-full">
-            <h2 className="text-xl font-bold text-[#91000D] aimsscope">Editorial Boad</h2>
+            <h2 className="font-medium text-[#91000D] aimsscope">Editorial Boad</h2>
 
             <div className="my-8 space-y-3">
                 {

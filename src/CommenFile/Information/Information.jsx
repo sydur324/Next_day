@@ -1,13 +1,13 @@
 const Information = () => {
     return (
         <div>
-            <h2 className="text-xl font-bold text-[#91000D] aimsscope">Information</h2>
+            <h2 className="font-medium text-[#91000D] aimsscope">Information</h2>
 
-            <div className="my-8">
+            <div className="my-4">
                 <div>
-                    <h2 className="text-[#0A2258] text-lg font-medium">Information for Reviewers</h2>
-                    <p className="text-[#91000D] pt-2">Don't forget about the purpose of Peer Review</p>
-                    <p className="py-1 text-[#262626e2]">
+                    <h2 className="text-[#0A2258] font-medium">Information for Reviewers</h2>
+                    <p className="text-[#91000D] pt-2 text-[15px]">Don't forget about the purpose of Peer Review</p>
+                    <p className="py-1 text-[#262626e2] text-[15px]">
                         Thank you for the effort and expertise that you contribute to reviewing,
                         without which it would be impossible to maintain the high standards of
                         peer-reviewed journals.
@@ -15,8 +15,8 @@ const Information = () => {
                 </div>
 
                 <div>
-                    <h2 className="text-[#0A2258] text-lg font-medium py-2">Conduct the Review with utmost sincerity</h2>
-                    <div className="text-[#262626e2] space-y-3">
+                    <h2 className="text-[#0A2258] font-medium py-2">Conduct the Review with utmost sincerity</h2>
+                    <div className="text-[#262626e2] space-y-3 text-[15px]">
                         <p>
                             Reviewing needs to be conducted confidentially,
                             the article you have been asked to review should not be disclosed to a third party.
@@ -40,8 +40,8 @@ const Information = () => {
                 </div>
 
                 <div className="my-3">
-                    <h2 className="text-[#91000D] text-lg font-medium py-2">Don't miss the report submission deadline</h2>
-                    <div className="text-[#262626e2]">
+                    <h2 className="text-[#91000D] font-medium py-2">Don't miss the report submission deadline</h2>
+                    <div className="text-[#262626e2] text-[15px]">
                         <p>
                             Since the journal follows quick review process and shows respect to the editors eagerness,
                             your timely submission of report is highly appreciated.
@@ -51,8 +51,8 @@ const Information = () => {
 
 
                 <div>
-                    <h2 className="text-[#0A2258] text-lg font-medium py-2">Communicate your report to the editor</h2>
-                    <div className="text-[#262626e2] space-y-3">
+                    <h2 className="text-[#0A2258] font-medium py-2">Communicate your report to the editor</h2>
+                    <div className="text-[#262626e2] space-y-3 text-[15px]">
                         <p>
                             Once you have completed your evaluation of the article the next step is to write up your report.
                             The report should contain the key elements of your review, addressing the points outlined in the preceding
@@ -85,8 +85,8 @@ const Information = () => {
 
 
                 <div>
-                    <h2 className="text-[#0A2258] text-lg font-medium py-2">Information for Authors</h2>
-                    <div className="text-[#262626e2]">
+                    <h2 className="text-[#0A2258] font-medium py-2">Information for Authors</h2>
+                    <div className="text-[#262626e2] text-[15px]">
                         <p>
                             Are you interested in submitting your paper to this journal?
                             It is better if you review the aims and scope, submission policy and author guidelines
@@ -98,8 +98,8 @@ const Information = () => {
 
 
                 <div>
-                    <h2 className="text-[#0A2258] text-lg font-medium py-2">Information for Librarians</h2>
-                    <div className="text-[#262626e2]">
+                    <h2 className="text-[#0A2258] font-medium py-2">Information for Librarians</h2>
+                    <div className="text-[#262626e2] text-[15px]">
                         <p>
                             The journal believes that it is librarian who can promote a journal better than anyone else.
                             The journal encourages research librarians to list this journal among their library's electronic
@@ -112,8 +112,8 @@ const Information = () => {
                 </div>
 
                 <div>
-                    <h2 className="text-[#0A2258] text-lg font-medium py-2">Information for Readers</h2>
-                    <div className="text-[#262626e2]">
+                    <h2 className="text-[#0A2258]font-medium py-2">Information for Readers</h2>
+                    <div className="text-[#262626e2] text-[15px]">
                         <p>
                             Readers are the heart of American Research Institute for Policy Development,
                             American Association of International Researchers, & Journals.

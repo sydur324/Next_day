@@ -1,21 +1,17 @@
 import { Outlet } from "react-router-dom";
 import GenderNav from "../Journals/Gender/GenderNav/GenderNav";
-import ArticleRoutingTop from "../Utilities/ArticleRoutingTop/ArticleRoutingTop";
 import PageTitle from "../Utilities/PageTitle/PageTitle";
-import GenderDetails from "../Journals/Gender/GenderDetails/GenderDetails";
-
-
+import RoutingTop from "../Utilities/PageTitle/RoutingTop/RoutingTop";
 
 const GenderLayout = () => {
     return (
-        <div className="">
+        <div className="mt-28">
             <PageTitle title={"International Journal of Gender & Women's Studies"}></PageTitle>
-            <GenderDetails></GenderDetails>
             <div className="flex px-20 my-8 gap-8">
-            <ArticleRoutingTop>
-               <GenderNav></GenderNav>
-                <Outlet></Outlet>
-                </ArticleRoutingTop>
+                <RoutingTop>
+                    <GenderNav></GenderNav>
+                    <Outlet></Outlet>
+                </RoutingTop>
             </div>
 
         </div>
